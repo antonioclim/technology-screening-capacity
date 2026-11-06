@@ -10,8 +10,8 @@
   },
   {
     "path": "CITATION.cff",
-    "sha256": "810f15ce7081d34be231e086a0ae228131f570c13c5939d0b9caf74e121b72ee",
-    "bytes": 658,
+    "sha256": "c70854c9f4c3c9077cc15012392cb450ff45dad7ad75f202f2f84eaa4643b12b",
+    "bytes": 686,
     "role": "protocol or metadata",
     "baseline": "H9 software, 2026-11-05",
     "baseline_sha256": "53c1ccc0dd33e42f6c86271ec585fabe515e42da6d9788ca22c1f54671701b7b",

@@ -3,6 +3,7 @@ message: "Please cite the accompanying study and this software version. Componen
 title: "Which Firms Make the List? Technology Measurement under Fixed Screening Capacity — analysis software"
 type: software
 version: "1.0.0"
+date-released: "2026-11-06"
 doi: "10.5281/zenodo.24000396"
 repository-code: "https://github.com/antonioclim/technology-screening-capacity"
 authors:
