@@ -1,17 +1,21 @@
 {
   "project": "Paper E",
   "repository_url": "https://github.com/antonioclim/technology-screening-capacity",
+  "software_version": "1.0.0",
+  "git_release_tag": "v1.0.0",
   "scientific_baseline": "H9 final, 2026-11-05",
-  "revision": "repository preparation, 2026-11-06",
-  "status": "prepared for author review and browser upload",
-  "verified_remote_state": {
-    "head": "48af93afcd379cc859d93d4b6d043ae2ac8f8152",
-    "visibility": "public",
-    "release_count": 0
+  "repository_baseline": "R1, 2026-11-06",
+  "package_prepared_on": "2026-11-06",
+  "publication_status_at_packaging": {
+    "zenodo": "draft; DOI reserved",
+    "github_release": "not yet published"
   },
-  "software_doi": null,
-  "zenodo_record": "not verified",
-  "planned_first_public_release": "1.0.0",
+  "software_doi": "10.5281/zenodo.24000396",
+  "publication_status_sources": {
+    "zenodo": "https://zenodo.org/records/24000396",
+    "github": "https://github.com/antonioclim/technology-screening-capacity/releases/tag/v1.0.0"
+  },
+  "licence_map": "LICENSES.md",
   "raw_microdata_distributed": false,
   "manuscript_included": false,
   "workflow_files_included": false

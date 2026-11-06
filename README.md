@@ -76,4 +76,4 @@ Synthetic tests check software behaviour on fixtures. Figure generation reconstr
 
 ## Citation and rights
 
-Author and repository information are in [CITATION.cff](CITATION.cff). A software DOI will be added once its actual deposit identity is available. Component notices and data-source conditions are described in [RIGHTS_AND_PROVENANCE_EN.md](RIGHTS_AND_PROVENANCE_EN.md).
+Version **1.0.0** has archive identifier DOI [10.5281/zenodo.24000396](https://doi.org/10.5281/zenodo.24000396). Author and citation metadata are in [CITATION.cff](CITATION.cff). Original code by Antonio Clim is licensed under MIT; his original documentation and figures are licensed under CC BY 4.0. See the [component licence map](LICENSES.md) and [rights and provenance](RIGHTS_AND_PROVENANCE_EN.md) for inherited notices, aggregate outputs and data-source conditions. World Bank FAT data are not relicensed.

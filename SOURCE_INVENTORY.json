@@ -10,8 +10,8 @@
   },
   {
     "path": "CITATION.cff",
-    "sha256": "65422972dad60dc7350457b1b7cc42f2ee05eef730fe173cad42d08691c6a484",
-    "bytes": 580,
+    "sha256": "810f15ce7081d34be231e086a0ae228131f570c13c5939d0b9caf74e121b72ee",
+    "bytes": 658,
     "role": "protocol or metadata",
     "baseline": "H9 software, 2026-11-05",
     "baseline_sha256": "53c1ccc0dd33e42f6c86271ec585fabe515e42da6d9788ca22c1f54671701b7b",
@@ -36,9 +36,27 @@
     "change": "revised"
   },
   {
+    "path": "LICENSE",
+    "sha256": "2c27b30e1904206c71570ce75f9dba2919d5243e00c7a7f889f4478c5c25c686",
+    "bytes": 1068,
+    "role": "documentation or configuration",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "LICENSES.md",
+    "sha256": "b4c71ab2972392746bb6312578538a98739a1a966260d7690eb7713665f6a14d",
+    "bytes": 2012,
+    "role": "documentation or configuration",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
     "path": "README.md",
-    "sha256": "65a0c7d6233344303061e27b94c60ea4dccd014dbaa4bf06738cf5c42ea4f354",
-    "bytes": 6550,
+    "sha256": "9e1fcfca9af875c88b2207bed0571555dd71038f7d0af9589134115ae55c2fde",
+    "bytes": 6793,
     "role": "documentation or configuration",
     "baseline": "H9 software, 2026-11-05",
     "baseline_sha256": "957700cca89698a0ec064b691b1213f36805584d7f141db78f3e0eb7ece8c1ed",
@@ -46,8 +64,8 @@
   },
   {
     "path": "RELEASE_STATE.json",
-    "sha256": "ab0fa18dbde926ede82735d48b486e06ea1c91a77a6dfb0a12c04baec0bb4f0a",
-    "bytes": 622,
+    "sha256": "5d6eb9a849f49ec0aa06f2eff1901a8aa3dd38943408728ddd8de66f659ff748",
+    "bytes": 799,
     "role": "protocol or metadata",
     "baseline": null,
     "baseline_sha256": null,
@@ -55,8 +73,8 @@
   },
   {
     "path": "RIGHTS_AND_PROVENANCE_EN.md",
-    "sha256": "c7add10e7400a1999aeab233ea4bdf4157dc71cdc1988793e9b0dece9731e74a",
-    "bytes": 1974,
+    "sha256": "13823f9bcbabfd22b34a019e61e5cbb007e031683e2c47e7ec8888fabc8328df",
+    "bytes": 2645,
     "role": "documentation or configuration",
     "baseline": "H9 software, 2026-11-05",
     "baseline_sha256": "4b00d07f0aedf70a5d50f39767066d54388b8f3fd22ef4b260bbbfe25bc0ef35",
