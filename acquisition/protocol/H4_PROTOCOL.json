@@ -92,7 +92,7 @@
     "C": 1,
     "solver": "lbfgs",
     "max_iter": 2000,
-    "tolerance": 1e-8,
+    "tolerance": 1e-08,
     "class_weight": null,
     "hyperparameter_search": false,
     "seed": 20261105,
@@ -152,10 +152,16 @@
     "Target row reordering leaves allocations unchanged after alignment",
     "Independent primary contrasts recomputed from raw",
     "Complete negative and positive source results retained",
-    "No H3 scientific or AI declaration changes",
+    "No H3 scientific changes",
     "No raw records/identifiers/predictions in deliverable"
   ],
   "novelty_gate": "Do not equate higher predictive accuracy or nonzero association with novelty. Assess whether the results reveal meaningful capacity-constrained decision consequences, distributional reallocation or construct/priority/target mismatch beyond already-published FAT and policy-learning evidence. Finance cannot be promoted to primary after seeing favourable numbers without explicit exploratory relabelling and a separately dated follow-up design.",
-  "release": "Private H4 research overlay. No manuscript or five-kit modification in this phase, no new mathematical proof, no submission/publication/DOI/messaging/Actions/cost. Preserve exact approved AI declaration in H3; actual H4 assistance and provenance recorded separately."
+  "release": "Private H4 research overlay. No manuscript or five-kit modification in this phase, no new mathematical proof, no submission/publication/DOI/messaging/Actions/cost.",
+  "_publication_projection": {
+    "kind": "public_documentation_projection",
+    "original_protocol_sha256": "a62c851289541a00e387c68f8bcbc31c78677c18116c714f46c180af2858f777",
+    "prepared_date": "2026-11-06",
+    "method_definitions_unchanged": true,
+    "note": "Publication-administration text is omitted. This is not the original frozen byte sequence or a new pre-analysis lock. Historical status fields and embedded ancestor digests retain their original meaning. See docs/PROTOCOL_PROJECTIONS.md."
+  }
 }
-

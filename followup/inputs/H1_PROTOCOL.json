@@ -6,21 +6,105 @@
   "known_prior_exposure": "All 12 primary sources have contributed to previously inspected pooled results. The pooled three-block winner 1|23|45 is known. Broad-sample sensitivity has previously included BurkinaFaso and Cambodia. No source is claimed to be prospectively unseen on that basis.",
   "outcome": "Within each eligible source, log(e6a/s7) at or below its weighted 20th percentile; stable ascending order, first cumulative weight reaching 0.20, inclusive ties. This is a source-relative event, not an absolute productivity or policy eligibility threshold.",
   "sample": "Exact archived positive e6a, positive s7, positive base_wt and exact one-hot MOST planning states. Primary 12 sources and 14,412 rows must match their archived membership digest. Broad eligible sample 14,818 rows must match its own archived digest. No replacement of interval-coded Poland fields by midpoints.",
-  "primary_sources": ["Bangladesh", "Brazil", "Croatia", "Ethiopia", "Georgia", "Ghana", "India", "India_Wave2_New", "Kenya", "Korea", "Senegal", "Vietnam"],
-  "excluded_primary_targets": ["BurkinaFaso", "Cambodia"],
+  "primary_sources": [
+    "Bangladesh",
+    "Brazil",
+    "Croatia",
+    "Ethiopia",
+    "Georgia",
+    "Ghana",
+    "India",
+    "India_Wave2_New",
+    "Kenya",
+    "Korea",
+    "Senegal",
+    "Vietnam"
+  ],
+  "excluded_primary_targets": [
+    "BurkinaFaso",
+    "Cambodia"
+  ],
   "excluded_primary_target_interpretation": "Secondary source transfer in complete cases from sources excluded by the original sales-coverage rule. Both sources must be reported irrespective of direction. Earlier broad-sample exposure and missing-sales selection preclude a prospective external-validation claim.",
   "weighting": "Positive base_wt normalised to mean one within each eligible source. Expected weighted contacts, not exact unweighted headcounts or realised programme costs.",
-  "state_priority": [1, 2, 3, 4, 5],
+  "state_priority": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
   "within_block_contact": "Uniform contact probability throughout each block; fill lower-state blocks first and fractionally contact the marginal block. Never reorder by event risk on training or target outcomes.",
-  "quotas": ["0.20", "0.35", "0.50", "0.75"],
+  "quotas": [
+    "0.20",
+    "0.35",
+    "0.50",
+    "0.75"
+  ],
   "primary_quota": "0.50",
-  "fixed_policies": {"five_states": [1,2,3,4], "digital": [1], "population_lottery": []},
-  "three_block_candidates": [[1,2],[1,3],[1,4],[2,3],[2,4],[3,4]],
+  "fixed_policies": {
+    "five_states": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "digital": [
+      1
+    ],
+    "population_lottery": []
+  },
+  "three_block_candidates": [
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      3,
+      4
+    ]
+  ],
   "selection": "For each candidate and quota calculate five-state yield minus candidate yield for every training source. Average those signed differences equally across training sources. Minimise the maximum of the four quota-specific means. Exact objective ties use lexicographic ascending cut pairs. One chosen partition applies to every target quota. Test event masses never enter selection.",
   "primary_comparison": "Digital versus five-state, yield and five original-state contact shares together, at 50% expected weighted capacity in each target. Training-selected three-block policy is secondary. The historically pooled-selected 1|23|45 is descriptive only if reported.",
-  "transfer_routes": ["Retrospective leave-one-source-out across 12 primary sources", "Leave-one-reporting-country-out across 11 countries, excluding both India sources together", "Train on all 12 primary sources then score both excluded-primary sources using the same locked rule, if authentic eligible source-event data are available"],
-  "reporting": ["Source-specific yield per 100 expected weighted contacts", "Realised weighted event prevalence and event recall", "Expected-contact share of each of the five original states", "Signed yield and state-share differences against five-state and digital", "Total variation distance in contact composition versus five-state, in percentage points", "Selected cuts and full training-only objectives for every fold", "Equal-source paired summary primary for source transfer, expected-contact-weighted summary secondary", "Equal-country summary with equal-source weighting within country for country transfer", "Complete unfavourable and favourable source results and deterministic selection ties"],
+  "transfer_routes": [
+    "Retrospective leave-one-source-out across 12 primary sources",
+    "Leave-one-reporting-country-out across 11 countries, excluding both India sources together",
+    "Train on all 12 primary sources then score both excluded-primary sources using the same locked rule, if authentic eligible source-event data are available"
+  ],
+  "reporting": [
+    "Source-specific yield per 100 expected weighted contacts",
+    "Realised weighted event prevalence and event recall",
+    "Expected-contact share of each of the five original states",
+    "Signed yield and state-share differences against five-state and digital",
+    "Total variation distance in contact composition versus five-state, in percentage points",
+    "Selected cuts and full training-only objectives for every fold",
+    "Equal-source paired summary primary for source transfer, expected-contact-weighted summary secondary",
+    "Equal-country summary with equal-source weighting within country for country transfer",
+    "Complete unfavourable and favourable source results and deterministic selection ties"
+  ],
   "uncertainty": "Source-cell evaluation is descriptive. No confidence intervals, significance, equivalence, noninferiority or prospective validity are inferred from cell summaries, source ranges or a tiny number of excluded sources. Survey-aware uncertainty needs row data and documented design information and would require a separately dated protocol amendment before evaluation.",
   "provenance": "Chronological software lock is auditable local provenance, not independent time-stamped preregistration and not a cure for prior analyst exposure. Synthetic tests never count as empirical held-out evidence.",
-  "release": "Private extension overlay pending data verification and hostile audit. Preserve F3 baseline and exact author-approved AI declaration. No external submission, publication, messaging, DOI action, expense or GitHub Actions. No establishment identifiers, row records or small-cell tables automatically placed in public kits."
+  "release": "Private extension overlay pending data verification and hostile audit. Preserve F3 baseline. No external submission, publication, messaging, DOI action, expense or GitHub Actions. No establishment identifiers, row records or small-cell tables automatically placed in public kits.",
+  "_publication_projection": {
+    "kind": "public_documentation_projection",
+    "original_protocol_sha256": "80c5d6d9d69cbb38901ee1f169acc9d912ac11a3d1fb1604aa46037c6f3418bb",
+    "prepared_date": "2026-11-06",
+    "method_definitions_unchanged": true,
+    "note": "Publication-administration text is omitted. This is not the original frozen byte sequence or a new pre-analysis lock. Historical status fields and embedded ancestor digests retain their original meaning. See docs/PROTOCOL_PROJECTIONS.md."
+  }
 }

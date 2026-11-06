@@ -1,22 +1,21 @@
-# Independent H5 verification — original layout
+# Independent function and learner checks
 
-These instructions preserve the original H5 directory layout. For the current package, use the H5 commands in [INDEPENDENT_CHECKS_EN.md](../../INDEPENDENT_CHECKS_EN.md) from the package root. The `../empirical/` paths below belong to the original layout and are not paths in the current payload.
+These programs independently implement cohort preparation, anchored planning labels, training weights, preprocessing, fixed logistic/tree fits and expected-contact allocation. They do not import scientific functions from the canonical H4/H5 engine; both implementations use the same installed numerical libraries.
 
-The programs in this directory independently implement cohort preparation, anchored planning labels, training weights, preprocessing, fixed logistic/tree fits and expected-contact allocation. They do not import scientific functions from the canonical H4/H5 engine. They use the same installed numerical libraries.
+## Run from the repository root
 
-Run from a new working directory with the original authenticated FAT ZIP supplied separately. The example paths assume this directory is beside `empirical`. Use new output directories; the programs refuse to overwrite previous results.
+Supply the authenticated original FAT ZIP separately. Use new output directories outside the repository:
 
-```bash
-python3 -B verify_h5_raw.py --raw /path/to/WLD_2019-2023_FAT_v01_M_CSV.zip --protocol ../empirical/protocol/H5_PROTOCOL.json --receipt ../empirical/protocol/H5_LOCK_RECEIPT.json --output raw_reestimation_NEW
-python3 -B verify_both_diagnostic.py --raw /path/to/WLD_2019-2023_FAT_v01_M_CSV.zip --output both_diagnostic_NEW
+```sh
+python -B followup/independent/verify_h5_raw.py --raw /absolute/WLD_2019-2023_FAT_v01_M_CSV.zip --protocol followup/protocol/H5_PROTOCOL.json --receipt followup/protocol/H5_LOCK_RECEIPT.json --output /absolute/new_h5_independent/raw_reestimation
+python -B followup/independent/verify_both_diagnostic.py --raw /absolute/WLD_2019-2023_FAT_v01_M_CSV.zip --output /absolute/new_h5_independent/both_diagnostic
+python -B followup/independent/compare_h5.py --independent /absolute/new_h5_independent --canonical /absolute/new_complete_run/followup
 ```
 
-`compare_h5.py` expects subdirectories named `raw_reestimation` and `both_diagnostic` under its `--independent` argument. Copy the new outputs to a new comparison parent with these names if rerunning.
+The first two commands create the `raw_reestimation` and `both_diagnostic` subdirectories expected by the comparison; no manual copying or renaming is needed. The canonical path in the third command is the follow-up output of a completed top-level run. See [Independent checks](../../INDEPENDENT_CHECKS_EN.md) for that sequence.
 
-```bash
-python3 -B compare_h5.py --independent /path/to/new_comparison_parent --canonical ../empirical/results
-```
+## Scope
 
-Independent raw fits cover q=0.50 only, all 14 sources and all 12 predeclared cohort/policy/learner combinations. Independent group metrics exclude the both-function diagnostic. Aggregate accounting from canonical outputs covers all four quotas. No survey inference, prospective validation, formal proof or native Windows execution is claimed.
+Independent raw fits cover q=0.50, all fourteen sources and all twelve declared cohort/policy/learner combinations. Independent group metrics exclude the both-function diagnostic. Aggregate accounting from canonical outputs covers all four quotas. This does not establish survey inference, prospective validation or native Windows acceptance.
 
-The protocol receipt documents a local lock before these new fits. H5 was designed after H4 results were known. This is not an independent preregistration. No original microdata, individual identifiers or prediction vectors are distributed here.
+The original lock records the H5 specification before those fits, after H4 results were known. The [public projection record](../../docs/PROTOCOL_PROJECTIONS.md) distinguishes that historical lock from later administrative changes. Original microdata, individual identifiers and prediction vectors are not distributed.

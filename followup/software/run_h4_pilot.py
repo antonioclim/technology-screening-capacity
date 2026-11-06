@@ -30,7 +30,7 @@ from pilot_data import (H1_SHA,PRIMARY_FP,RAW_SHA,add_event_labels,adopted_max_s
 from pilot_primitives import (expected_contact_probabilities,fit_logistic_risk,
                               group_contact_rates,group_contact_shares,score_contacts,training_category_risks)
 
-PROTOCOL_SHA='a62c851289541a00e387c68f8bcbc31c78677c18116c714f46c180af2858f777'
+PROTOCOL_SHA='3a9eef6c9bdf42872422f54a20f216b266d28b47811d47a80ca672043db9ca99'
 ADDENDUM_SHA='a642133ea710cf15db06ae172df4d718d15f7388820b0324d86938a6c5388fd1'
 DOMAINS={'sector':[str(x) for x in [*range(1,12),101,102]]+['UNKNOWN'],
          'multi_establishment':['0','1','UNKNOWN'],

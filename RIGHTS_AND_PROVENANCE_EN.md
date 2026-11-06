@@ -1,11 +1,19 @@
-# Rights and provenance
+# Licences and provenance
 
-The canonical analysis sources and frozen dependencies are preserved byte for byte, with their identities in `SOURCE_INVENTORY.json`. The new top-level wrapper changes orchestration and output placement, not the retained empirical estimators, event labels or allocation arithmetic.
+## Component notices
 
-Historical notices remain under `legacy/transfer/extractor/vendor/provenance/legacy_licences/`. The inherited E4 code's MIT notice is preserved. It identifies the code to which it applied when issued. It is not a new blanket licence for every H4/H5/H7 addition, the manuscript or World Bank data. The local H9 preparation does not invent a new permission or change upstream data rights. No new blanket licence for the combined payload has been asserted; the author must use the applicable approved notices for any later public release.
+Inherited notices are retained in [legacy_licences](legacy/transfer/extractor/vendor/provenance/legacy_licences/). The inherited E4 code's MIT notice applies to the code it accompanied. It does not by itself license every subsequent addition, documentation file or third-party input. Additional author-owned components have not yet received a new blanket licence in this repository preparation.
 
-The original X04, X06, X07 and X10 exports and private parity references are excluded because redistribution permission remains unconfirmed. The reported aggregate figure inputs are included for local release preparation, with the same access and reuse status described in the accompanying materials. They have not been deposited or newly cleared for public redistribution by this build. The public-use FAT release must be acquired separately under the provider's conditions. Its hash is an identity check, not access or reuse permission.
+Preserve the applicable component notices when reusing or redistributing code. The licence terms for the first software release will be recorded explicitly once approved by the author.
 
-The current article title is *Which Firms Make the List? Technology Measurement under Fixed Screening Capacity*. Historical titles and labels in unchanged source notices describe provenance, not a different current project. H4/H5/H7 protocols record local commitments made within a retrospective study. They are not independent preregistration or evidence from a new sample.
+## Data source
 
-No public repository URL, software version release, software DOI, public deposit, funding declaration, competing-interest confirmation or author approval is invented by the local package. `CITATION.cff` names the author and article without asserting a public release date or DOI. No repository automation is included.
+The World Bank FAT dataset is acquired separately. Its citation and access conditions remain applicable. The repository contains reported statistical aggregates and plotting inputs; it does not distribute raw FAT records or the original private exports. See [DATA_BOUNDARY_EN.md](DATA_BOUNDARY_EN.md).
+
+The [World Bank Microdata Library terms](https://microdata.worldbank.org/index.php/terms-of-use) provide for statistical and scientific research and reporting aggregated information. This does not grant permission to redistribute the supplied microdata, identify establishments or treat the underlying data as author-owned material.
+
+## Repository provenance
+
+This revision derives from the H9 software baseline. Scientific source and data identities are recorded in `SOURCE_INVENTORY.json`. Public protocol projections and their current execution bindings are documented separately from historical locks. Original preparation artefacts remain in the author's private continuity archive.
+
+Matplotlib creator information and genuine export metadata are retained in the SVG and PNG figures. Changes to documentation, publication bindings and packaging are distinguished from changes to scientific calculations. No repository metadata claims a software DOI or a completed public release before those events have been verified.

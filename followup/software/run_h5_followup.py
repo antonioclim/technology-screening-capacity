@@ -22,7 +22,7 @@ from run_h4_pilot import (prepare_cohorts,balanced_fit_weights,DOMAINS,ROUTINE_C
 
 PROTOCOL_SHA='6a2fe9d4fcc2ff83d960681c10881ea78060614b43383f857733558e96c73874'
 ROOT=Path(__file__).resolve().parent.parent
-H4_SHA='a62c851289541a00e387c68f8bcbc31c78677c18116c714f46c180af2858f777'
+H4_SHA='3a9eef6c9bdf42872422f54a20f216b266d28b47811d47a80ca672043db9ca99'
 DOMAINS={**DOMAINS,'plan_MOST5':[str(x) for x in range(1,6)],'admin_MOST5':[str(x) for x in range(1,6)]}
 
 def prepare(raw,frozen,h4):

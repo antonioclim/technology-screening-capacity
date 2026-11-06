@@ -153,7 +153,7 @@ def run(raw_path,out):
     require(digest(ROOT/'protocol/H7_ADDENDUM_A02.json')==A02_SHA,'H7 A02 changed')
     require(not out.exists(),'Choose new output directory')
     p=json.loads((ROOT/'protocol/H7_PROTOCOL.json').read_text());h4=json.loads((ROOT/'protocol/H4_PROTOCOL.json').read_text())
-    require(digest(ROOT/'protocol/H4_PROTOCOL.json')=='a62c851289541a00e387c68f8bcbc31c78677c18116c714f46c180af2858f777','H4 protocol changed')
+    require(digest(ROOT/'protocol/H4_PROTOCOL.json')=='3a9eef6c9bdf42872422f54a20f216b266d28b47811d47a80ca672043db9ca99','H4 protocol changed')
     raw=load_raw(raw_path);frozen=load_frozen(ROOT/'inputs/run_e4_frozen_analysis_v1.0.2.py')
     cohorts,qa=prepare_cohorts(raw,frozen,h4);frame=cohorts['planning'];frame['plan_MOST']=frame.MOST
     primary=frame[frame.country.isin(p['primary_sources'])].copy()

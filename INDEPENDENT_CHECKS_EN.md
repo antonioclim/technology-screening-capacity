@@ -1,6 +1,6 @@
 # Independent computational checks
 
-The canonical engines and the independent implementations use the same lawful original FAT input and installed numerical libraries. Independent computation is not an independent dataset, formal proof or survey-valid inference. Keep every generated output outside this candidate and treat detailed source/group outputs as private.
+The canonical engines and the independent implementations use the same lawful original FAT input and installed numerical libraries. Independent computation is not an independent dataset, formal proof or survey-valid inference. Keep every generated output outside the repository and treat detailed source/group outputs as private.
 
 The inherited coding-transfer verifier is `legacy/transfer/verify_empirical_rows.py`. After a transfer run:
 
@@ -23,11 +23,11 @@ python followup/independent/verify_both_diagnostic.py --raw /absolute/WLD_2019-2
 python followup/independent/compare_h5.py --independent /absolute/new_h5_independent --canonical /absolute/new_complete_run/followup
 ```
 
-The H4 verifier's original scope README and historical snapshot remain with that source. Their past completed-run receipts are retained in the private audit archive, rather than copied here as if newly executed results. H6 execution receipts report the commands actually run on the packaged copy. H5 independent group reconstruction excludes the both-function diagnostic; all four canonical quotas are covered by aggregate accounting, not by independent fitting at every quota.
+The H4 scope README describes the independent implementation. Historical source snapshots and past completed-run receipts remain in the private continuity archive. Current public protocol bindings are recorded in [protocol provenance](docs/PROTOCOL_PROJECTIONS.md). H5 independent group reconstruction excludes the both-function diagnostic; all four canonical quotas are covered by aggregate accounting, not by independent fitting at every quota.
 
 ## H7 acquisition and capacity diagnostics
 
-`acquisition/independent/independent_h7.py` preserves the separately implemented allocation, query-band, pool, sector-fixed and inverse checks. Its relative source paths resolve within `acquisition/`; its original bytes are retained. Run synthetic numerical comparisons without microdata:
+`acquisition/independent/independent_h7.py` preserves the separately implemented allocation, query-band, pool, sector-fixed and inverse checks. Its relative source paths resolve within `acquisition/`; its allocation and capacity calculations are retained. Run synthetic numerical comparisons without microdata:
 
 ```sh
 python acquisition/independent/independent_h7.py --synthetic --output /absolute/new_h7_synthetic_comparison.json
@@ -40,4 +40,4 @@ python acquisition/independent/independent_h7.py --empirical --microdata /absolu
 python acquisition/independent/independent_h7.py --compare --production /absolute/new_acquisition/acquisition --independent /absolute/new_independent_acquisition --output /absolute/new_h7_comparison.json
 ```
 
-The separate procedure reuses the inherited raw reader, cohort constructor and logistic fitter. It implements allocation and capacity arithmetic separately. It does not independently rerun the inner models or the tree fits. Its full source has 224 independently regenerated logistic random repeats, not all 28,672 random allocations. It recalculates all saved random summaries and the country/equal-country accounting. Production and comparison outputs are private. Original H7 completed-run receipts remain in the private continuity archive and are not presented as new empirical evidence in this local preparation.
+The separate procedure reuses the inherited raw reader, cohort constructor and logistic fitter. It implements allocation and capacity arithmetic separately. It does not independently rerun the inner models or the tree fits. Its full source has 224 independently regenerated logistic random repeats, not all 28,672 random allocations. It recalculates all saved random summaries and the country/equal-country accounting. Production and comparison outputs are private. Original H7 completed-run receipts remain in the private continuity archive and are not presented as new empirical evidence by this repository preparation.

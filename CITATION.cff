@@ -1,7 +1,8 @@
 cff-version: 1.2.0
-message: "Analysis software accompanying the article; local H9 preparation, not a new public release or deposit."
-title: "Which Firms Make the List? Technology Measurement under Fixed Screening Capacity"
+message: "Please cite the accompanying study and the archived software version used for your analysis."
+title: "Which Firms Make the List? Technology Measurement under Fixed Screening Capacity — analysis software"
 type: software
+repository-code: "https://github.com/antonioclim/technology-screening-capacity"
 authors:
   - family-names: Clim
     given-names: Antonio

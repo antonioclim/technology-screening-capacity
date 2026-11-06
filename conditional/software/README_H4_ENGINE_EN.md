@@ -1,15 +1,15 @@
-# H4 private retrospective information-value pilot
+# Conditional screening engine
 
-This is a private research overlay. It preserves H3 and does not submit, publish, reserve a DOI, transfer to other people, run GitHub Actions or accept a cost. It introduces no mathematical proof or causal programme claim.
+The H4 engine evaluates the incremental screening value of recorded technology under a common expected weighted contact quota. It retains the declared cohort definitions, fixed logistic procedure and all policies and quotas. The analysis is retrospective. For the standard entry point, use the [repository README](../../README.md); [Protocol projections](../../docs/PROTOCOL_PROJECTIONS.md) records the public protocol metadata and identity bindings.
 
-The input must be the original `WLD_2019-2023_FAT_v01_M_CSV.zip`, SHA-256 `6d77d3ffb9dcef2ca4534e1c438ddd2e0b357eb852e6c5b48aa5fa6c3cbe2f0e`. Keep the ZIP outside the package. The code independently authenticates the ZIP and pooled member, and requires the unchanged frozen E4 reader and H1 protocol as explicit software inputs. Those are not substitutes for lawful data access.
+The input must be the original `WLD_2019-2023_FAT_v01_M_CSV.zip`, SHA-256 `6d77d3ffb9dcef2ca4534e1c438ddd2e0b357eb852e6c5b48aa5fa6c3cbe2f0e`. Keep the ZIP outside the package. The code independently authenticates the ZIP and pooled member, and requires the supplied E4 reader and H1 protocol as explicit software inputs. Those are not substitutes for lawful data access.
 
 The tested environment is Python 3.12.14 on Linux with the versions in `requirements-h4.txt`. Native Windows execution has not been performed. Fitting runs with a one-thread BLAS limit. The L-BFGS solver is deterministic here and does not use the protocol seed as a source of random splits.
 
 From this software directory, replacing the quoted paths:
 
 ```sh
-python -B run_h4_pilot.py --microdata "/path/to/WLD_2019-2023_FAT_v01_M_CSV.zip" --frozen-e4 "/path/to/run_e4_frozen_analysis_v1.0.2.py" --h1-protocol "/path/to/H1_PROTOCOL.json" --protocol "../protocol/H4_PROTOCOL.json" --addendum "../protocol/H4_ADDENDUM_A01.json" --output "/path/to/new-private-output"
+python -B run_h4_pilot.py --microdata "/path/to/WLD_2019-2023_FAT_v01_M_CSV.zip" --frozen-e4 "../inputs/run_e4_frozen_analysis_v1.0.2.py" --h1-protocol "../inputs/H1_PROTOCOL.json" --protocol "../protocol/H4_PROTOCOL.json" --addendum "../protocol/H4_ADDENDUM_A01.json" --output "/path/to/new-private-output"
 python -B summarise_h4.py --run "/path/to/new-private-output" --output "/path/to/new-private-summary"
 ```
 

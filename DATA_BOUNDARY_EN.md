@@ -1,15 +1,23 @@
-# Data and result boundary
+# Data boundary
 
-This is a local release-prepared candidate, not a public deposit or new clearance of third-party data. It contains analysis source, frozen protocols and software dependencies, reported aggregates and the eight aggregate CSV inputs required for the six current figures. Their inclusion supports review and reproducibility; public publication and the applicable rights remain separate decisions.
+The repository contains source code, protocols, reported statistical aggregates and the eight CSV inputs for the six figures. It excludes the manuscript and submission documents.
 
-The inherited H3 reported results comprise pooled capacity and deletion summaries and selected source-level transfer reporting tables. The H4/H5 reporting additions are cross-country summary tables: H4 equal-country policy summaries, contrast summaries and paired-objective summaries; H5 equal-country policy and function summaries. Current main Figure1/2 inputs contain the reported country-level increments and composition distances. They do not include source-state case/count masses, detailed sector/size groups or individual contact-probability vectors.
+## Included outputs
 
-Excluded are original FAT rows and ZIP, establishment identifiers, row-level derivatives, per-row predictions, H4/H5 fit locks and detailed source/group results, the full historical private transfer table, the original X04/X06/X07/X10 exports and private archived parity references. Source code and protocol variable names are not observations or an embedded data extract. The inherited licence and access notices remain applicable; no new blanket data licence is asserted.
+The pooled and transfer tables support the historical coding comparisons. H4/H5 tables report cross-country policy, contrast and function summaries. H7 tables report country-level results and equal-country means. Figure inputs contain the corresponding reported contrasts and composition measures.
 
-The canonical raw routes reconstruct their required inputs directly from lawful separate access to the exact original FAT ZIP. The four unconfirmed aggregate exports are not required by `reproduce.py --mode all`. The historical archived-input tools remain present for provenance and optional use with separately authorised inputs, retaining their original hash guards.
+These are statistical reporting tables, not establishment records or individual contact lists. A field called `contact_probability` must be interpreted together with its aggregation keys; the name alone does not indicate row-level data.
 
-Empirical modes write newly generated private aggregate cells, detailed results and fit receipts outside this candidate. Do not upload those generated directories to a repository or deposit without an appropriate disclosure and rights decision. Generating local outputs does not itself authorise their public redistribution. The study's data availability statement describes this same distinction.
+## Excluded inputs and outputs
 
-## H7 extension
+- Original FAT ZIP and raw data files
+- Establishment identifiers, row-level derivatives and individual predictions
+- Detailed private source/state/group results and fitted-model records
+- Original X04/X06/X07/X10 exports and private parity references
+- Private document audits and author-only submission material
 
-The added static tables report countries or equal-country means only. Raw observations, source/group cells, individual predictions and contact probabilities, fitted-parameter records, inner-fold outputs and random-replicate outputs remain outside the release-prepared payload. A lawful local empirical rerun generates detailed private outputs. The addition does not clear new public redistribution rights or change the survey provider conditions.
+## Re-execution
+
+Obtain the exact [FAT release](https://doi.org/10.48529/assd-3j65) separately under its provider's conditions. The canonical raw-data workflows reconstruct the required inputs without the four private exports. Historical archived-input tools remain available for use with separately authorised inputs.
+
+Empirical commands write detailed outputs outside the repository. Their generation does not authorise redistribution. Retain source attribution and assess disclosure and rights before sharing newly generated detailed tables. The dataset's own terms remain applicable; repository metadata does not relicense the underlying FAT data.
