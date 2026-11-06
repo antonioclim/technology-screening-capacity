@@ -1,0 +1,61 @@
+[
+  {
+    "payload_path": "sources/plot_main_figures.py",
+    "source_path": "baseline_h5/figures/plot_h5_figures.py",
+    "sha256": "64a4cf8653c4cd523cd8676ef7369c7e29ddb3409fe9f997c089f7007e2446b5",
+    "content_unchanged": false,
+    "baseline_sha256": "be20822361368159918c63f634a38eacaae89e3c980d80600a38620e8d3ce7ab",
+    "baseline_source_path": "baseline_h5/figures/plot_h5_figures.py",
+    "change_in_H9_F2": "Explicit UTC export metadata"
+  },
+  {
+    "payload_path": "sources/plot_pooled.py",
+    "source_path": "baseline_h5/h3_kits/PAPERE_IEP_H3_05_FIGURI_EDITABILE_20261105/plotting_code/plot_capacity.py",
+    "sha256": "77eb835b5f6574b713c4c94831e62ef763dfae33787e3e36ad6e1f87c66648d2",
+    "content_unchanged": true
+  },
+  {
+    "payload_path": "sources/plot_supplement_transfer.py",
+    "source_path": "baseline_h5/h3_kits/PAPERE_IEP_H3_05_FIGURI_EDITABILE_20261105/plotting_code/plot_supplement_transfer.py",
+    "sha256": "8ab253a7ad8e84a5350e0eac2e791961df1a82c409da26044c9e5eae084391b9",
+    "content_unchanged": true
+  },
+  {
+    "payload_path": "sources/plot_transfer.py",
+    "source_path": "baseline_h5/h3_kits/PAPERE_IEP_H3_05_FIGURI_EDITABILE_20261105/plotting_code/plot_transfer.py",
+    "sha256": "01be6afee16c1691288a8ec1bdf4a18985bc3a95091d1588e56edb2471c5d49e",
+    "content_unchanged": true
+  },
+  {
+    "payload_path": "sources/historical/postprocess_transfer.py",
+    "source_path": "baseline_h5/h3_kits/PAPERE_IEP_H3_05_FIGURI_EDITABILE_20261105/plotting_code/postprocess_transfer.py",
+    "sha256": "ce18d64f8584e459c455877d2be79adf0f0dded3ce59f4be32018efe04039057",
+    "content_unchanged": true
+  },
+  {
+    "payload_path": "generate_all_figures.py",
+    "source_path": "figures/generate_all_figures.py",
+    "sha256": "a85a7dc17e508df4d427354cfc175a1fa53a84a40c4c9dd6e176f2a24caafbde",
+    "content_unchanged": false,
+    "baseline_sha256": "66d39a6473ac7d96ea2e1c317b50aec90885b6b70fae1b93a528f401d1e5e05c",
+    "baseline_source_path": "figures/generate_all_figures.py",
+    "change_in_H9_F2": "Help string lists the acquisition input directory",
+    "change_recorded_for_H8": "Adds Figure S4 as sixth export; original five plotting sources unchanged"
+  },
+  {
+    "payload_path": "sources/historical/plot_h7_diagnostics.py",
+    "source_path": "/workspace/scratch/a9fb7966b77b/h8/baseline_H7/PAPERE_IEP_H7_EXTENSIE_PRIVATA_20261105/figures/plot_h7_diagnostics.py",
+    "sha256": "83dcf37cbf564a9010ce0305ce5a56b2f6c8ddbe131dbf2c0bf7a0c3ba7de908",
+    "content_unchanged": true
+  },
+  {
+    "payload_path": "sources/plot_acquisition.py",
+    "source_path": "Derived from retained H7 plotting procedure",
+    "sha256": "c82fcf6bac5ffdb544beac695b0dfb796f251a465d5ab7e11b4158af6d55646f",
+    "content_unchanged": false,
+    "baseline_sha256": "07d43a3744c6dbfc62a287d81c9cfff9434209b1ea8a153c9a3f126d2dc6f7d6",
+    "baseline_source_path": "Derived from retained H7 plotting procedure",
+    "change_in_H9_F2": "Explicit UTC export metadata",
+    "change_recorded_for_H8": "Pinned aggregate-only input interface; portrait layout and current scientific metadata; exact data retained"
+  }
+]

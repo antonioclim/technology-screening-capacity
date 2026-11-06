@@ -1,0 +1,117 @@
+{
+  "status": "PASS",
+  "finished_utc": "2026-11-05T16:16:33.157485+00:00",
+  "current_figures": [
+    "Figure_1",
+    "Figure_2",
+    "Figure_S1",
+    "Figure_S2",
+    "Figure_S3",
+    "Figure_S4"
+  ],
+  "csv_inputs": 8,
+  "inherited_artifacts_byte_identical": [
+    {
+      "path": "upload_pdf/Figure_1.pdf",
+      "sha256": "6305f58dc8ed66272d8ea642c7ed4842150c77629812b5846a4ee473c3a14755"
+    },
+    {
+      "path": "editable_svg/Figure_1.svg",
+      "sha256": "7c71c3be60b994bf10a1800b50842f8caa77f6e83bb2418dc24e92a86c4e0d1e"
+    },
+    {
+      "path": "preview_png/Figure_1.png",
+      "sha256": "e55c23f63b053ea1d62b922a2598e200df332b8e08cc00002924a994b6196ce5"
+    },
+    {
+      "path": "upload_pdf/Figure_2.pdf",
+      "sha256": "7bd66d9252551e20f917b4e067ca43ba75ae510b5c2aa49a703b6b4f0862854c"
+    },
+    {
+      "path": "editable_svg/Figure_2.svg",
+      "sha256": "301192dbb87490cd61005c2d8fbc23e2c8ad0e14a722a49f969b199edea2c399"
+    },
+    {
+      "path": "preview_png/Figure_2.png",
+      "sha256": "c396717ff5530abcd81ece3887458f1e774cbe256ae93d4c1e78b627f94ea0b3"
+    },
+    {
+      "path": "upload_pdf/Figure_S1.pdf",
+      "sha256": "43b7fb3716d7716dadba958d19d909a0b5be22229b358d8aa46da52150e85bb4"
+    },
+    {
+      "path": "editable_svg/Figure_S1.svg",
+      "sha256": "1eebf755c67e37453bb9d43c72685e135a1ff3d3127aed4405f06b41c8dd41da"
+    },
+    {
+      "path": "preview_png/Figure_S1.png",
+      "sha256": "5b873742bf176602bb5e2d96a7c74421c9a13e1ee37524dc22101c76604107ba"
+    },
+    {
+      "path": "upload_pdf/Figure_S2.pdf",
+      "sha256": "48f534d9535c90f2e50b81690f5438a635e79485845c748dcdd78e5f25d4333a"
+    },
+    {
+      "path": "editable_svg/Figure_S2.svg",
+      "sha256": "41923bb4b27c80bac818d6ffff4d957aee3f097eefea158f1794df71075eafef"
+    },
+    {
+      "path": "preview_png/Figure_S2.png",
+      "sha256": "6efb463a0b8b1b24b61fd4ddcc3104f3c8355c27dda165fe244f0e3bd358abdf"
+    },
+    {
+      "path": "upload_pdf/Figure_S3.pdf",
+      "sha256": "0d6f97c6e3c40af39e1b85f05c356b0c05fce7aacde446a723d48a47056e4a01"
+    },
+    {
+      "path": "editable_svg/Figure_S3.svg",
+      "sha256": "62f2b3d550a17262234cd1338632fe435ac7d009c3b7bbdd42d7ef646e516391"
+    },
+    {
+      "path": "preview_png/Figure_S3.png",
+      "sha256": "bf15e25857e3e615f919a5ec520c3157b5e81d95bfdaa8fbc45d3305a9b3036f"
+    }
+  ],
+  "executed_code_and_inputs_sha256": {
+    "generate_all_figures.py": "66d39a6473ac7d96ea2e1c317b50aec90885b6b70fae1b93a528f401d1e5e05c",
+    "INPUT_IDENTITIES.json": "2dd39716e846bb899454e51829d11da0d1651de8924c25e25df02faadb05fd4f",
+    "sources/plot_pooled.py": "77eb835b5f6574b713c4c94831e62ef763dfae33787e3e36ad6e1f87c66648d2",
+    "sources/plot_supplement_transfer.py": "8ab253a7ad8e84a5350e0eac2e791961df1a82c409da26044c9e5eae084391b9",
+    "sources/plot_transfer.py": "01be6afee16c1691288a8ec1bdf4a18985bc3a95091d1588e56edb2471c5d49e",
+    "sources/plot_main_figures.py": "be20822361368159918c63f634a38eacaae89e3c980d80600a38620e8d3ce7ab",
+    "sources/plot_acquisition.py": "07d43a3744c6dbfc62a287d81c9cfff9434209b1ea8a153c9a3f126d2dc6f7d6",
+    "sources/historical/postprocess_transfer.py": "ce18d64f8584e459c455877d2be79adf0f0dded3ce59f4be32018efe04039057",
+    "sources/historical/plot_h7_diagnostics.py": "83dcf37cbf564a9010ce0305ce5a56b2f6c8ddbe131dbf2c0bf7a0c3ba7de908",
+    "inputs/transfer/within_source_quota_50_percent.csv": "9d6d7eae2d5f9b217a9eaa95c57d57ec33956949425518c1a33bbd87c3c9cd49",
+    "inputs/acquisition/mean_acquisition.csv": "044a3827d93b4bf9943ca22802dee66eca02dee13d5bdd88ef462a74ac3712dc",
+    "inputs/acquisition/country_sector_fixed.csv": "8ad7608aff990b154b4d695a775252b5a25714b6de7e72987a344a9eeff9f6a4",
+    "inputs/pooled/capacity_curves.csv": "9c25e3c1501738180a7ebf625da35a2dbd8fde8e51bfa2220f16d689255ec69c",
+    "inputs/pooled/list_composition.csv": "623cbf124088d1eae80f3f64ab4f7e2726c8241b3e4ed59527bd6025c3dd9ed1",
+    "inputs/main/Figure_1_primary.csv": "02df196ce887c425f39cf0d42948c36ceaa04748cfc2acc17d729d5d676bd2e2",
+    "inputs/main/Figure_2_construct.csv": "3940521601db1d4ae351fa47f825ca8e0946ef8b4e6e6ee8e32144a11198c10c",
+    "inputs/main/Figure_1_secondary.csv": "75a1b3ceb1a889b8e290469697c7ba6f6a2c6a5bf5c40f159be18a068f42bbc5"
+  },
+  "native_execution": {
+    "command": [
+      "python",
+      "/workspace/scratch/a9fb7966b77b/h8/figures_release/acceptance/frozen_snapshot/generate_all_figures.py",
+      "--output",
+      "/workspace/scratch/a9fb7966b77b/h8/figures_release/acceptance/native_replay"
+    ],
+    "cwd": "/tmp",
+    "exit_code": 0,
+    "snapshot": "Fresh copied figure tree, separate output",
+    "stdout_sha256": "795bec0a0d9e39cf2e4d6d8907346b9f628fd44a73606d57cb29fc0c6c86de3a",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "all_six_pdf_pixel_identical": true,
+  "all_six_svg_geometry_text_equal": true,
+  "all_six_preview_png_byte_identical": true,
+  "all_current_previews_visually_inspected": true,
+  "S4_layout_change": "Same data and comparisons as H7; portrait stacked6.65x8.2in for print readability, originalwideH7preservedinprovenance",
+  "S4_pdf_sha256": "c9a1f0897ff7d199ce916fb0f6b961a8b472c826faf642ad879f6acacb6a5c16",
+  "S4_png_sha256": "cf7836c95a0b547955063e894fcbf448dfa311cd2de444b899cf1a8ee62e3090",
+  "no_microdata_or_empirical_fitting": true,
+  "scope": "Figure generation only; no native Windows/portal or survey-inference claim",
+  "metadata": "Authentic Matplotlib creator retained; no false software/provenance metadata"
+}

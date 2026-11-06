@@ -1,0 +1,3 @@
+cohort,route,country,quota,contrast,left_policy,right_policy,left_yield_per_100_contacts,right_yield_per_100_contacts,paired_yield_difference
+planning,secondary_targets,Burkina Faso,0.5,MOST5_increment,B_MOST5,B,19.210358606667068,28.1506956990285,-8.9403370923614318
+planning,secondary_targets,Cambodia,0.5,MOST5_increment,B_MOST5,B,23.038479693001239,19.710808282805345,3.3276714101958937

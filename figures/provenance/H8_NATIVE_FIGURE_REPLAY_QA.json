@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "scope": "CSV_TO_FIGURE_GENERATION_ONLY",
+  "empirical_reproduction": false,
+  "microdata_accessed": false,
+  "created_utc": "2026-11-05T16:14:06.849767+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "inputs": {
+    "main/Figure_1_primary.csv": {
+      "sha256": "02df196ce887c425f39cf0d42948c36ceaa04748cfc2acc17d729d5d676bd2e2",
+      "bytes": 1471
+    },
+    "main/Figure_1_secondary.csv": {
+      "sha256": "75a1b3ceb1a889b8e290469697c7ba6f6a2c6a5bf5c40f159be18a068f42bbc5",
+      "bytes": 391
+    },
+    "main/Figure_2_construct.csv": {
+      "sha256": "3940521601db1d4ae351fa47f825ca8e0946ef8b4e6e6ee8e32144a11198c10c",
+      "bytes": 1737
+    },
+    "pooled/capacity_curves.csv": {
+      "sha256": "9c25e3c1501738180a7ebf625da35a2dbd8fde8e51bfa2220f16d689255ec69c",
+      "bytes": 157586
+    },
+    "pooled/list_composition.csv": {
+      "sha256": "623cbf124088d1eae80f3f64ab4f7e2726c8241b3e4ed59527bd6025c3dd9ed1",
+      "bytes": 9239
+    },
+    "transfer/within_source_quota_50_percent.csv": {
+      "sha256": "9d6d7eae2d5f9b217a9eaa95c57d57ec33956949425518c1a33bbd87c3c9cd49",
+      "bytes": 4909
+    },
+    "acquisition/mean_acquisition.csv": {
+      "sha256": "044a3827d93b4bf9943ca22802dee66eca02dee13d5bdd88ef462a74ac3712dc",
+      "bytes": 864
+    },
+    "acquisition/country_sector_fixed.csv": {
+      "sha256": "8ad7608aff990b154b4d695a775252b5a25714b6de7e72987a344a9eeff9f6a4",
+      "bytes": 1481
+    }
+  },
+  "figures": [
+    "Figure_1",
+    "Figure_2",
+    "Figure_S1",
+    "Figure_S2",
+    "Figure_S3",
+    "Figure_S4"
+  ],
+  "artifacts": {
+    "pdf/Figure_1.pdf": {
+      "sha256": "b94045197c34b00f8903e7d9d5b4d424d807655ece22b0b1282580afacbc4f9a",
+      "bytes": 18039
+    },
+    "svg/Figure_1.svg": {
+      "sha256": "a9468be77f1fd97b13899350679b517fc14386af05ea92fb02fd814dcb1c92d2",
+      "bytes": 17637
+    },
+    "png/Figure_1.png": {
+      "sha256": "e55c23f63b053ea1d62b922a2598e200df332b8e08cc00002924a994b6196ce5",
+      "bytes": 107765
+    },
+    "pdf/Figure_2.pdf": {
+      "sha256": "3f6662c1bbc0f52f12852df13b924c5467a4f30db0c9298161b1c888cc5a494d",
+      "bytes": 16024
+    },
+    "svg/Figure_2.svg": {
+      "sha256": "400cfa9b77c76f6ce20f891c306b6719290bb3daf7e7dc7d130de01834133c02",
+      "bytes": 20377
+    },
+    "png/Figure_2.png": {
+      "sha256": "c396717ff5530abcd81ece3887458f1e774cbe256ae93d4c1e78b627f94ea0b3",
+      "bytes": 105066
+    },
+    "pdf/Figure_S1.pdf": {
+      "sha256": "43b7fb3716d7716dadba958d19d909a0b5be22229b358d8aa46da52150e85bb4",
+      "bytes": 27899
+    },
+    "svg/Figure_S1.svg": {
+      "sha256": "1eebf755c67e37453bb9d43c72685e135a1ff3d3127aed4405f06b41c8dd41da",
+      "bytes": 30514
+    },
+    "png/Figure_S1.png": {
+      "sha256": "5b873742bf176602bb5e2d96a7c74421c9a13e1ee37524dc22101c76604107ba",
+      "bytes": 247694
+    },
+    "pdf/Figure_S2.pdf": {
+      "sha256": "48f534d9535c90f2e50b81690f5438a635e79485845c748dcdd78e5f25d4333a",
+      "bytes": 29844
+    },
+    "svg/Figure_S2.svg": {
+      "sha256": "41923bb4b27c80bac818d6ffff4d957aee3f097eefea158f1794df71075eafef",
+      "bytes": 49629
+    },
+    "png/Figure_S2.png": {
+      "sha256": "6efb463a0b8b1b24b61fd4ddcc3104f3c8355c27dda165fe244f0e3bd358abdf",
+      "bytes": 344739
+    },
+    "pdf/Figure_S3.pdf": {
+      "sha256": "0d6f97c6e3c40af39e1b85f05c356b0c05fce7aacde446a723d48a47056e4a01",
+      "bytes": 53177
+    },
+    "svg/Figure_S3.svg": {
+      "sha256": "62f2b3d550a17262234cd1338632fe435ac7d009c3b7bbdd42d7ef646e516391",
+      "bytes": 182251
+    },
+    "png/Figure_S3.png": {
+      "sha256": "bf15e25857e3e615f919a5ec520c3157b5e81d95bfdaa8fbc45d3305a9b3036f",
+      "bytes": 295861
+    },
+    "pdf/Figure_S4.pdf": {
+      "sha256": "baaf25584781ed69272b88b4819a7a6f5dfeebad8fc960289009e3feb286394b",
+      "bytes": 21943
+    },
+    "svg/Figure_S4.svg": {
+      "sha256": "0e6df36bec1afc88ca6214acc1264428388679eb3da3ae51beeeda53b6f840fe",
+      "bytes": 32136
+    },
+    "png/Figure_S4.png": {
+      "sha256": "cf7836c95a0b547955063e894fcbf448dfa311cd2de444b899cf1a8ee62e3090",
+      "bytes": 198943
+    }
+  },
+  "numbering": "Current main 1/2; source transfer S1; original pooled yield S2 and composition S3; selective acquisition and fixed-sector allocation S4",
+  "limits": "The native environment was Linux/Python. This is not a native Windows or portal check."
+}

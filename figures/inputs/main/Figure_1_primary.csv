@@ -1,0 +1,12 @@
+country,cohort,route,quota,contrast,left_policy,right_policy,left_yield_per_100_contacts,right_yield_per_100_contacts,paired_yield_difference
+Bangladesh,planning,country_holdout,0.5,MOST5_increment,B_MOST5,B,29.451944342088169,22.316328190226791,7.1356161518613774
+Brazil,planning,country_holdout,0.5,MOST5_increment,B_MOST5,B,27.491492003278768,18.392254889691863,9.0992371135869057
+Croatia,planning,country_holdout,0.5,MOST5_increment,B_MOST5,B,22.767933154451399,24.408567578650779,-1.64063442419938
+Ethiopia,planning,country_holdout,0.5,MOST5_increment,B_MOST5,B,18.760378283260223,17.638673000042953,1.1217052832172705
+Georgia,planning,country_holdout,0.5,MOST5_increment,B_MOST5,B,28.374913113509184,28.472396143038218,-0.097483029529033802
+Ghana,planning,country_holdout,0.5,MOST5_increment,B_MOST5,B,18.962872244575479,17.375878124313925,1.5869941202615545
+India,planning,country_holdout,0.5,MOST5_increment,B_MOST5,B,26.16239610106404,22.390752757797479,3.771643343266561
+Kenya,planning,country_holdout,0.5,MOST5_increment,B_MOST5,B,23.792857527331087,23.20226875985129,0.59058876747979738
+Republic of Korea,planning,country_holdout,0.5,MOST5_increment,B_MOST5,B,25.058433758183924,25.66590939258824,-0.60747563440431307
+Senegal,planning,country_holdout,0.5,MOST5_increment,B_MOST5,B,30.52075859006932,29.79761097379944,0.72314761626988044
+Viet Nam,planning,country_holdout,0.5,MOST5_increment,B_MOST5,B,25.938660695893201,28.130953697807339,-2.1922930019141376

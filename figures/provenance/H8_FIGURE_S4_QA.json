@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "scope": "AGGREGATE_CSV_TO_FIGURE_ONLY",
+  "contact_quota": 0.5,
+  "country_n": 11,
+  "microdata_accessed": false,
+  "models_fitted": 0,
+  "inputs": {
+    "mean_acquisition.csv": "044a3827d93b4bf9943ca22802dee66eca02dee13d5bdd88ef462a74ac3712dc",
+    "country_sector_fixed.csv": "8ad7608aff990b154b4d695a775252b5a25714b6de7e72987a344a9eeff9f6a4"
+  },
+  "source_sha256": "07d43a3744c6dbfc62a287d81c9cfff9434209b1ea8a153c9a3f126d2dc6f7d6",
+  "artifacts": {
+    "Figure_S4.pdf": {
+      "sha256": "c9a1f0897ff7d199ce916fb0f6b961a8b472c826faf642ad879f6acacb6a5c16",
+      "bytes": 21943
+    },
+    "Figure_S4.svg": {
+      "sha256": "e3495deec3861b73821d3331b96e19f7e5e3ebcfac86daa618eee763dfe52ebd",
+      "bytes": 32136
+    },
+    "Figure_S4.png": {
+      "sha256": "cf7836c95a0b547955063e894fcbf448dfa311cd2de444b899cf1a8ee62e3090",
+      "bytes": 198943
+    }
+  },
+  "python": "3.12.14",
+  "matplotlib": "3.10.8",
+  "layout": "Portrait stacked panels for print readability; exact H7 values and comparisons retained",
+  "limits": "No confidence intervals, optimality, causal effects or prospective validation are asserted.",
+  "visual_qa": {
+    "renderer": "pdftoppm 140dpi",
+    "pages_inspected": 1,
+    "check": "Alllabelslegendsaxesfootersreadable; no clipping or overlap; 6.65x8.2in portrait; same data comparisons as H7 wide diagnostic",
+    "render_sha256": "a959e4f6166973bdd8e63a922317d92ac04a8b3d82323742ec8111948e97202b"
+  }
+}

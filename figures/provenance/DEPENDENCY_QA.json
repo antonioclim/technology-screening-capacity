@@ -1,0 +1,62 @@
+{
+  "matplotlib": {
+    "pinned": "3.10.8",
+    "actual": "3.10.8",
+    "match": true
+  },
+  "numpy": {
+    "pinned": "2.3.5",
+    "actual": "2.3.5",
+    "match": true
+  },
+  "pillow": {
+    "pinned": "13.0.0",
+    "actual": "13.0.0",
+    "match": true
+  },
+  "contourpy": {
+    "pinned": "1.3.3",
+    "actual": "1.3.3",
+    "match": true
+  },
+  "cycler": {
+    "pinned": "0.12.1",
+    "actual": "0.12.1",
+    "match": true
+  },
+  "fonttools": {
+    "pinned": "4.61.1",
+    "actual": "4.61.1",
+    "match": true
+  },
+  "kiwisolver": {
+    "pinned": "1.4.9",
+    "actual": "1.4.9",
+    "match": true
+  },
+  "packaging": {
+    "pinned": "26.3",
+    "actual": "26.3",
+    "match": true
+  },
+  "pyparsing": {
+    "pinned": "3.3.2",
+    "actual": "3.3.2",
+    "match": true
+  },
+  "python-dateutil": {
+    "pinned": "3.0.0",
+    "actual": "3.0.0",
+    "match": true
+  },
+  "six": {
+    "pinned": "1.17.0",
+    "actual": "1.17.0",
+    "match": true
+  },
+  "pandas": {
+    "pinned": "2.2.3",
+    "actual": "2.2.3",
+    "match": true
+  }
+}

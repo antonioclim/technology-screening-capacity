@@ -1,0 +1,144 @@
+{
+  "status": "PASS",
+  "figures": {
+    "Figure_1": {
+      "pdf_byte_identical": false,
+      "pdf_visible_text_identical": true,
+      "pdf_page_size_identical": true,
+      "pdf_render_pixel_identical": true,
+      "pdf_render_pixel_sha256": "1617d1bde5993c72ebf0e740a446893a018b724aaa4ae2c60d427597f2d25da4",
+      "render_dimensions": [
+        1016,
+        792
+      ],
+      "svg_byte_identical": false,
+      "svg_structure_equal_ignoring_dates_and_internal_ID_names": true,
+      "metadata_reference": {
+        "/Creator": "Matplotlib 3.10.8",
+        "/Producer": "Matplotlib pdf backend v3.10.8",
+        "/CreationDate": "D:20261105153830+03'00'",
+        "/Author": "Antonio Clim",
+        "/Title": "Figure_1 Paper E screening comparisons"
+      },
+      "metadata_replay": {
+        "/Creator": "Matplotlib 3.10.8",
+        "/Producer": "Matplotlib pdf backend v3.10.8",
+        "/CreationDate": "D:20261105161801+03'00'",
+        "/Author": "Antonio Clim",
+        "/Title": "Figure_1 Paper E screening comparisons"
+      },
+      "replay_png_valid": true,
+      "reference_PNG_byte_identical": true
+    },
+    "Figure_2": {
+      "pdf_byte_identical": false,
+      "pdf_visible_text_identical": true,
+      "pdf_page_size_identical": true,
+      "pdf_render_pixel_identical": true,
+      "pdf_render_pixel_sha256": "6fef645248acd0cc60585f99080859b8c9aa822fd4162a98e08f403dba8eba9c",
+      "render_dimensions": [
+        1016,
+        692
+      ],
+      "svg_byte_identical": false,
+      "svg_structure_equal_ignoring_dates_and_internal_ID_names": true,
+      "metadata_reference": {
+        "/Creator": "Matplotlib 3.10.8",
+        "/Producer": "Matplotlib pdf backend v3.10.8",
+        "/CreationDate": "D:20261105153830+03'00'",
+        "/Author": "Antonio Clim",
+        "/Title": "Figure_2 Paper E screening comparisons"
+      },
+      "metadata_replay": {
+        "/Creator": "Matplotlib 3.10.8",
+        "/Producer": "Matplotlib pdf backend v3.10.8",
+        "/CreationDate": "D:20261105161802+03'00'",
+        "/Author": "Antonio Clim",
+        "/Title": "Figure_2 Paper E screening comparisons"
+      },
+      "replay_png_valid": true,
+      "reference_PNG_byte_identical": true
+    },
+    "Figure_S1": {
+      "pdf_byte_identical": true,
+      "pdf_visible_text_identical": true,
+      "pdf_page_size_identical": true,
+      "pdf_render_pixel_identical": true,
+      "pdf_render_pixel_sha256": "e19be0303246298b94d6395219d95de589bb39b56d2cfd01ffc8f2d19db34fe3",
+      "render_dimensions": [
+        939,
+        1030
+      ],
+      "svg_byte_identical": true,
+      "svg_structure_equal_ignoring_dates_and_internal_ID_names": true,
+      "metadata_reference": {
+        "/Creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "/Producer": "Matplotlib pdf backend v3.10.8"
+      },
+      "metadata_replay": {
+        "/Creator": "Matplotlib v3.10.8, https://matplotlib.org",
+        "/Producer": "Matplotlib pdf backend v3.10.8"
+      },
+      "replay_png_valid": true,
+      "reference_PNG_byte_identical": true
+    },
+    "Figure_S2": {
+      "pdf_byte_identical": true,
+      "pdf_visible_text_identical": true,
+      "pdf_page_size_identical": true,
+      "pdf_render_pixel_identical": true,
+      "pdf_render_pixel_sha256": "82729ba82c033a8db1062735c794c311b984966f34fe5c3fc5f03ea31c014603",
+      "render_dimensions": [
+        1196,
+        922
+      ],
+      "svg_byte_identical": true,
+      "svg_structure_equal_ignoring_dates_and_internal_ID_names": true,
+      "metadata_reference": {
+        "/Creator": "Matplotlib 3.10.8",
+        "/Producer": "Matplotlib pdf backend v3.10.8",
+        "/Title": "Expected yield at equal weighted contact capacity",
+        "/Subject": "Screening rules share the same expected weighted coverage. At 50% coverage, the five-state and digital rules yield 24.59 and 24.19 cases per 100 expected weighted contacts. The lower panel compares the five-state rule with digital, integrated and retrospectively selected best binary rules. Line patterns and markers distinguish those comparisons.",
+        "/Author": "Antonio Clim"
+      },
+      "metadata_replay": {
+        "/Creator": "Matplotlib 3.10.8",
+        "/Producer": "Matplotlib pdf backend v3.10.8",
+        "/Title": "Expected yield at equal weighted contact capacity",
+        "/Subject": "Screening rules share the same expected weighted coverage. At 50% coverage, the five-state and digital rules yield 24.59 and 24.19 cases per 100 expected weighted contacts. The lower panel compares the five-state rule with digital, integrated and retrospectively selected best binary rules. Line patterns and markers distinguish those comparisons.",
+        "/Author": "Antonio Clim"
+      },
+      "replay_png_valid": true
+    },
+    "Figure_S3": {
+      "pdf_byte_identical": true,
+      "pdf_visible_text_identical": true,
+      "pdf_page_size_identical": true,
+      "pdf_render_pixel_identical": true,
+      "pdf_render_pixel_sha256": "c95ce494513b36d1098f4ba03803b61703a93d03756a554dc43901ef9cfcb0fd",
+      "render_dimensions": [
+        1196,
+        807
+      ],
+      "svg_byte_identical": true,
+      "svg_structure_equal_ignoring_dates_and_internal_ID_names": true,
+      "metadata_reference": {
+        "/Creator": "Matplotlib 3.10.8",
+        "/Producer": "Matplotlib pdf backend v3.10.8",
+        "/Title": "Composition of expected weighted contacts at half coverage",
+        "/Subject": "Four stacked bars show the share of expected weighted contacts by original technology state at 50% expected weighted coverage. Both the full and digital rules allocate 68.13% to manual planners. Digital coding shifts 7.39 percentage points from standard software to three more advanced states. Patterns distinguish the five states. A table below the bars gives each share as a percentage.",
+        "/Author": "Antonio Clim"
+      },
+      "metadata_replay": {
+        "/Creator": "Matplotlib 3.10.8",
+        "/Producer": "Matplotlib pdf backend v3.10.8",
+        "/Title": "Composition of expected weighted contacts at half coverage",
+        "/Subject": "Four stacked bars show the share of expected weighted contacts by original technology state at 50% expected weighted coverage. Both the full and digital rules allocate 68.13% to manual planners. Digital coding shifts 7.39 percentage points from standard software to three more advanced states. Patterns distinguish the five states. A table below the bars gives each share as a percentage.",
+        "/Author": "Antonio Clim"
+      },
+      "replay_png_valid": true
+    }
+  },
+  "scope": "CSV figure generation only; no empirical model re-estimation, survey inference, native Windows or journal portal validation",
+  "comparison_normalisation": "Only in-memory comparison ignores SVG dates and equivalent internal ID names; delivered metadata is unchanged."
+}

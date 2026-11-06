@@ -1,0 +1,1 @@
+ChatGPT and Codex (OpenAI) assisted with English-language drafting and revision, bibliographic checks, code debugging and document checks. Figures 1 and 2 were plotted from the result tables using Python. No generative-image model was used for either figure. I reviewed and edited the resulting material as needed and take full responsibility for the published article.

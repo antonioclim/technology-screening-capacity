@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "candidate_not_canonical_article_figure": true,
+  "contact_quota": 0.5,
+  "country_n": 11,
+  "microdata_read": false,
+  "model_fits": 0,
+  "source_hashes": {
+    "RUN_STATUS.json": "2895856e4b861f43b0f03fdebc3100f6476d81b0ea4a93cb9241648859cf7e98",
+    "equal_country_policy_summaries.csv": "f3dcd98ad052d42281bf25ee8c992cf46abf213a48e8de5ccceda93fc4466f86",
+    "country_policy_results.csv": "837bb28022c93bad2e4016c4550b1ba79f1cc3666917e046d00490c5bf579505"
+  },
+  "generated_sha256": {
+    "acquisition_plot_inputs.csv": "044a3827d93b4bf9943ca22802dee66eca02dee13d5bdd88ef462a74ac3712dc",
+    "sector_fixed_plot_inputs.csv": "8ad7608aff990b154b4d695a775252b5a25714b6de7e72987a344a9eeff9f6a4",
+    "H7_Acquisition_Diagnostics.pdf": "117532f908d37d80c7349c4562d07a3bf93ab07a72e1699e843f28f332126377",
+    "H7_Acquisition_Diagnostics.svg": "8abd43ec3b8aadeab4d8be5ea32d486cf0acb2812f10dc9687c6c146703c9b27",
+    "H7_Acquisition_Diagnostics.png": "953e59d1711a1fd9a977692fb108fc381d12af03bd26798ba7982783d02fcd18"
+  },
+  "plot_code_sha256": "83dcf37cbf564a9010ce0305ce5a56b2f6c8ddbe131dbf2c0bf7a0c3ba7de908",
+  "python": "3.12.14",
+  "matplotlib": "3.10.8",
+  "notes": [
+    "Actual query burden reflects full exact-score blocks.",
+    "Acquisition bands are prespecified diagnostics, not an optimal frontier.",
+    "The selected rule is fitted within training-country nested validation.",
+    "India is averaged across its two sources before country comparisons.",
+    "No confidence intervals or generative-image model were used."
+  ],
+  "visual_qa": {
+    "renderer": "pdftoppm 110 dpi",
+    "pages_inspected": 1,
+    "checks": [
+      "All labels and legends readable and within canvas.",
+      "Footer and legends do not overlap.",
+      "Eleven country rows and paired point series visible.",
+      "Actual query coverage axes and expected weighted contact yield units explicit.",
+      "No confidence intervals or optimality claim."
+    ],
+    "render_sha256": "d81194f4b77e0b2394c6e237ab93df1a479bbaa4674abd4224ed56a1ea45f17f",
+    "current_render_byte_identical_to_already_inspected_first_render": true
+  }
+}
