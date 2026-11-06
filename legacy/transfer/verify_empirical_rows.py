@@ -22,7 +22,7 @@ import pandas as pd
 
 RAW_SHA = "6d77d3ffb9dcef2ca4534e1c438ddd2e0b357eb852e6c5b48aa5fa6c3cbe2f0e"
 MEMBER_SHA = "f61a2c6e09f4763818ae1d4db8b330e97bffd8bb0824c2d833b79d728152bd17"
-PROTOCOL_SHA = "80c5d6d9d69cbb38901ee1f169acc9d912ac11a3d1fb1604aa46037c6f3418bb"
+PROTOCOL_SHA = "f3d6536f0de1ccd09cb18f3e73a4a7071eeada16a3423cbfca0572285ae6fa72"
 P_FP = "59d49ff980b98de612b32d721ed35dc80a92fb3175be2e1ddfcf8d36168c6f76"
 B_FP = "49f35215e472132af24dcb2f80388ca2e23edb81613aaa11df8b7d9f7ad6f1c2"
 STATES = ["ib9b" + str(i) for i in range(1, 6)]

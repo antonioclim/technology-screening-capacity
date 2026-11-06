@@ -251,7 +251,6 @@
   "release_and_disclosure": {
     "default_source_specific_coefficients": false,
     "establishment_identifiers": false,
-    "generative_ai_disclosure": "transparent manuscript disclosure retained; hidden authoring metadata may be scrubbed without claims of defeating detection",
     "minimum_cell": 20,
     "public_repository": "data-free schema/synthetic mode only; no remote action authorised in E3",
     "row_level_outputs": false,
@@ -326,5 +325,12 @@
     "E1_package_sha256": "002ca580e04345b26036f9e537996695216c4619fa230138f40e16497be60bd1",
     "E2_package_sha256": "283b71699db3966e7a667c7d717c2a9f7a6f55a461787d65fce84b85bc9dac2b"
   },
-  "working_title": "Do Technology-Adoption Definitions Change Estimated Firm Performance? Evidence from the World Bank FAT Survey"
+  "working_title": "Do Technology-Adoption Definitions Change Estimated Firm Performance? Evidence from the World Bank FAT Survey",
+  "_publication_projection": {
+    "kind": "public_documentation_projection",
+    "original_protocol_sha256": "9cc3214c4c126fcf5100e276e1f37bfc6c823740daf9f3d6e6c7852dcaad6b98",
+    "prepared_date": "2026-11-06",
+    "method_definitions_unchanged": true,
+    "note": "Publication-administration text is omitted. This is not the original frozen byte sequence or a new pre-analysis lock. Historical status fields and embedded ancestor digests retain their original meaning. See docs/PROTOCOL_PROJECTIONS.md."
+  }
 }

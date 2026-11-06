@@ -10,6 +10,11 @@ import pandas as pd
 
 import export_source_cells as ex
 
+PRIVATE_REFERENCES_AVAILABLE = all(
+    (ex.ROOT / "vendor/aggregate_reference" / name).is_file()
+    for name in ex.REFERENCE_HASHES
+)
+
 
 class ExportTests(unittest.TestCase):
     @classmethod
@@ -103,6 +108,8 @@ class ExportTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError, "container SHA-256 mismatch"):
                 self.frozen.load_real_microdata(raw)
 
+    @unittest.skipUnless(PRIVATE_REFERENCES_AVAILABLE,
+                         "Requires the three excluded private archived aggregate references")
     def test_failed_export_writes_no_success_or_output_directory(self):
         with tempfile.TemporaryDirectory() as tmp:
             raw, target = Path(tmp) / "bad.zip", Path(tmp) / "result"
@@ -113,6 +120,8 @@ class ExportTests(unittest.TestCase):
                           ex.ROOT / "vendor/aggregate_reference")
             self.assertFalse(target.exists())
 
+    @unittest.skipUnless(PRIVATE_REFERENCES_AVAILABLE,
+                         "Requires the three excluded private archived aggregate references")
     def test_archived_aggregate_reference_gate_and_parity(self):
         refs = ex.load_references(ex.ROOT / "vendor/aggregate_reference")
         rows = []

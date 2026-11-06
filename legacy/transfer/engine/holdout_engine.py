@@ -42,7 +42,7 @@ INTEGER = re.compile(r"[0-9]{1,10}")
 NUMBER = re.compile(r"[0-9]+(?:\.[0-9]+)?(?:[eE][+-]?[0-9]+)?")
 HASH = re.compile(r"[0-9a-f]{64}")
 WEIGHT_TOL = F("0.00000001")
-EXPECTED_PROTOCOL_SHA256 = "80c5d6d9d69cbb38901ee1f169acc9d912ac11a3d1fb1604aa46037c6f3418bb"
+EXPECTED_PROTOCOL_SHA256 = "f3d6536f0de1ccd09cb18f3e73a4a7071eeada16a3423cbfca0572285ae6fa72"
 
 
 def require(condition, message):

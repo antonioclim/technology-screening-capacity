@@ -1,6 +1,6 @@
 # Technology measurement under fixed screening capacity
 
-Analysis software for *Which Firms Make the List? Technology Measurement under Fixed Screening Capacity* by Antonio Clim. This local candidate contains the complete current pooled-capacity and source-transfer implementations, tests, reported publication aggregates, independent empirical verifier and CSV-to-figure scripts. The four original analysis input exports and private parity-reference CSVs remain outside the public payload. It has not been published as a new release or assigned a software DOI.
+This directory contains the original pooled-capacity and coding-transfer analyses for *Which Firms Make the List? Technology Measurement under Fixed Screening Capacity* by Antonio Clim. It includes analysis code, tests, reported aggregates, an independent empirical verifier and plotting scripts. For the current conditional and acquisition analyses, start with the [repository README](../README.md).
 
 ## Evidence and allocation contracts
 
@@ -8,11 +8,11 @@ The original pooled analysis applies one expected weighted quota to the combined
 
 The frozen protocol evaluates four quotas (20%, 35%, 50% and 75%), selects one of six contiguous three-group codings using training sources only and applies the selected coding unchanged in the target. It also excludes complete reporting countries, removing both India sources together, and evaluates the all-primary training choice in Burkina Faso and Cambodia. Previous pooled and broad-sample exposure makes this retrospective transfer, not prospective external validation.
 
-The exact original FAT input has now been executed locally. Thirty-nine checks reproduce the historical pooled aggregate references. An independent implementation reconstructs eligibility, weighted labels, source weights and row-wise allocations from the same original input. It confirms all 416 private policy/quota rows, 64 summary rows and 24 training choices/locks, with maximum numerical discrepancy 2.27e-13. This is independent computation on the same sample. No sampling confidence interval, equivalence test, causal effect or universal coding recommendation is claimed.
+Retained computational evidence records thirty-nine checks against the historical pooled aggregate references. A separate implementation reconstructed eligibility, weighted labels, source weights and row-wise allocations from the same original input. It confirmed all 416 private policy/quota rows, 64 summary rows and 24 training choices/locks, with maximum numerical discrepancy 2.27e-13. This is independent computation on the same sample. No sampling confidence interval, equivalence test, causal effect or universal coding recommendation is claimed.
 
-## Plot Figures 1 and 2 from the included reported CSVs
+## Plot the pooled results: current Figures S2 and S3
 
-Use Python 3.12 in a suitable environment. Keep new outputs outside this package:
+Run the following commands from `legacy/`, using the pinned environment documented at the repository root. Keep new outputs outside the repository. The plotting source retains its historical export stems; the current six-figure generator maps them to Figures S2 and S3:
 
 ```sh
 python -m pip install -r requirements-figures.txt
@@ -38,7 +38,7 @@ python -B transfer/build_transfer_tables.py --inputs reported_results/transfer -
 python -B transfer/plot_transfer.py --csv reported_results/transfer/within_source_quota_50_percent.csv --output /private/new-transfer-figure
 ```
 
-The first command rebuilds the source-mean, excluded-source and source-heterogeneity panels and the country summary CSV. The second plots directly from the fourteen-source CSV and exports the publication-sized `Figure_S1.png`, `Figure_S1.svg` and `Figure_S1.pdf`. It does not require private source-state cells or the full 416-row table. These are also the current filenames in the figures kit; `source_transfer` identifies historical exports.
+The first command rebuilds the source-mean, excluded-source and source-heterogeneity panels and the country summary CSV. The second plots directly from the fourteen-source CSV and exports the publication-sized `Figure_S1.png`, `Figure_S1.svg` and `Figure_S1.pdf`. It does not require private source-state cells or the full 416-row table. These are the current S1 filenames; `source_transfer` identifies earlier exports. The [figure directory](../figures/README.md) provides the current numbering and previews.
 
 The low average three-group loss at half capacity is not a bound on individual-source loss. Brazil loses 1.89 cases per 100 expected weighted contacts at 75%. In Burkina Faso the ordered rules remain below the lottery at all four quotas; their equality at half capacity is mechanical because the quota stays within the manual state. These unfavourable findings are retained.
 
@@ -63,7 +63,3 @@ python -B -m unittest discover -s transfer/engine -p 'test_*.py' -v
 These 22 engine tests use artificial rows. The eleven tests of the historical canonical exporter are preserved with its source, but their private parity-reference fixtures are not distributed; all eleven passed in the complete private H2 snapshot. Synthetic tests are distinct from the actual empirical rerun and independent raw-data calculation. The old binary-only conditional example is retained under `historical/conditional_held_out`; it is not the current empirical transfer route.
 
 The observed dependency versions and plotting environment are supplied. Byte identity was verified in the recorded Linux environment; native Windows execution has not been tested. Plot-library/font differences can change graphical bytes. No GitHub Actions, automatic data download, publication, DOI reservation or external messaging is part of any command.
-
-## Use of AI-assisted tools
-
-ChatGPT and Codex (OpenAI) assisted with English-language drafting and revision, bibliographic checks, code debugging and document checks. Figures 1 and 2 were plotted from the result tables using Python. No generative-image model was used for either figure. I reviewed and edited the resulting material as needed and take full responsibility for the published article.

@@ -27,7 +27,7 @@ def load(name, path):
 def verify(baseline_private=None):
     checks = []
     protocol_sha = sha(ROOT / "protocol/H1_PROTOCOL.json")
-    assert protocol_sha == "80c5d6d9d69cbb38901ee1f169acc9d912ac11a3d1fb1604aa46037c6f3418bb"
+    assert protocol_sha == "f3d6536f0de1ccd09cb18f3e73a4a7071eeada16a3423cbfca0572285ae6fa72"
     checks.append({"check": "frozen protocol", "status": "PASS"})
     for name, directory in (("engine", ROOT / "engine"), ("extractor", ROOT / "extractor")):
         proc = subprocess.run([sys.executable, "-B", "-m", "unittest", "discover", "-s", str(directory),

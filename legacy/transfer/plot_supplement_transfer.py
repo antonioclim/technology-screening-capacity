@@ -171,7 +171,7 @@ def plot(csv_path: Path, output_dir: Path):
               "source_rows": len(rows), "native_width_inches": 6.52,
               "native_height_inches": 7.15, "minimum_text_size_pt": 8.5,
               "data_required": "source-level yields, yield differences and composition distances at 50%",
-              "state_share_columns_required": False, "generative_image_model_used": False,
+              "state_share_columns_required": False,
               "write_integrity_scope": "IN_MEMORY_RENDER_ATOMIC_FSYNCED_WRITE_FULL_READBACK", "exports": exports}
     atomic_export(qa_path, (json.dumps(report, indent=2)+"\n").encode("utf-8"))
     return report

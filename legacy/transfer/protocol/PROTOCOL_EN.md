@@ -1,6 +1,6 @@
 # Paper E source transfer evaluation
 
-Protocol date: 5 November 2026. Governing machine-readable contract: `H1_PROTOCOL.json`, SHA-256 `80c5d6d9d69cbb38901ee1f169acc9d912ac11a3d1fb1604aa46037c6f3418bb`. This protocol was fixed before newly obtaining or scoring source-specific event masses in this extension. It follows substantial prior pooled exploration. Its local digest is not independent preregistration.
+Scientific specification recorded on 5 November 2026. The governing machine-readable contract is `H1_PROTOCOL.json`; the [public projection record](../../../docs/PROTOCOL_PROJECTIONS.md) documents the later administrative projection and its identity bindings. The original specification was fixed before newly obtaining or scoring source-specific event masses in this extension, after substantial prior pooled exploration. Its local digest is not independent preregistration.
 
 ## Research question and evidence
 
@@ -62,4 +62,4 @@ Synthetic fixtures test software. Recalculation from historical pooled aggregate
 
 Source cells alone do not support sampling confidence intervals, equivalence, noninferiority or claims of statistical significance. Survey-aware uncertainty would require row-level data and documented survey-design information. A few source strata or two low-coverage test sources do not establish international transportability.
 
-The first-phase package is a private extension overlay. The F3 submission materials, mathematical proofs and exact author-approved AI declaration remain unchanged. Source-specific small cells and raw records are not automatically released. Integration into the manuscript follows verified empirical results and a further critical audit. External submission, publication, messaging, DOI actions and costs require the applicable authorisation. GitHub Actions remain excluded.
+The original first-phase implementation was a private extension overlay. This repository distributes the analysis source, scientific specifications and selected reporting aggregates. Source-specific small cells, raw records and private reference exports remain excluded. The current public protocol projection removes administrative workflow text without changing the scientific decisions above. GitHub Actions are not part of the reproduction route.
