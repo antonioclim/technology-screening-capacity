@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.dta
+*.sav
+*.parquet
+WLD_2019-2023_FAT_v01_M_CSV.zip
+fat0_raw_data_qje.csv
+isic_data.csv
+private_source_cells/
+private_outputs/
+new-transfer-run/
