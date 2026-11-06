@@ -1,0 +1,1859 @@
+[
+  {
+    "payload_path": "AI_DECLARATION_APPROVED_EN.txt",
+    "source": "H6 software payload/AI_DECLARATION_APPROVED_EN.txt",
+    "role": "Preserved H6 file",
+    "sha256": "093a351b90300b1f93d6c568e88f1aab188983f083fcd2f264732519fa042301",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "CITATION.cff",
+    "source": "H9 final local packaging/CITATION.cff",
+    "role": "Local preparation status and documentation; calculation unchanged",
+    "sha256": "53c1ccc0dd33e42f6c86271ec585fabe515e42da6d9788ca22c1f54671701b7b",
+    "source_phase": "H9_F3",
+    "source_byte_identical": false,
+    "baseline_H9_F2_entry": {
+      "payload_path": "CITATION.cff",
+      "source": "H8 local integration/CITATION.cff",
+      "role": "H8 orchestration, documentation or current figure integration",
+      "sha256": "607b5389b718c2dc6396aa28b76af3feaf509a8f8ddb35474e9694cf99d72cb2",
+      "source_byte_identical": false,
+      "source_phase": "H8"
+    }
+  },
+  {
+    "payload_path": "DATA_BOUNDARY_EN.md",
+    "source": "H9 phase2 local integration/DATA_BOUNDARY_EN.md",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "047469ec302f81cf560541b0f5bdb47867848207fbab5585235e4d729aa1ff2c",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": {
+      "payload_path": "DATA_BOUNDARY_EN.md",
+      "source": "H8 local integration/DATA_BOUNDARY_EN.md",
+      "role": "H8 orchestration, documentation or current figure integration",
+      "sha256": "1185f18f636b17c61c82b530c66754e71994ea7c95446afa81358e5a835d443a",
+      "source_byte_identical": false,
+      "source_phase": "H8"
+    }
+  },
+  {
+    "payload_path": "INDEPENDENT_CHECKS_EN.md",
+    "source": "H9 final local packaging/INDEPENDENT_CHECKS_EN.md",
+    "role": "Local preparation status and documentation; calculation unchanged",
+    "sha256": "8617ea5a8a8667ee7fbe0b17bc01160bbd75af8ae08865e9ba9eab7050c366dc",
+    "source_phase": "H9_F3",
+    "source_byte_identical": false,
+    "baseline_H9_F2_entry": {
+      "payload_path": "INDEPENDENT_CHECKS_EN.md",
+      "source": "H8 local integration/INDEPENDENT_CHECKS_EN.md",
+      "role": "H8 orchestration, documentation or current figure integration",
+      "sha256": "731dc2d5fca357e3fa66f0ff4f9531826ce82d4df4dc85db13a82f0ca02cc310",
+      "source_byte_identical": false,
+      "source_phase": "H8"
+    }
+  },
+  {
+    "payload_path": "LOCAL_RELEASE_STATE.json",
+    "source": "H9 final local packaging/LOCAL_RELEASE_STATE.json",
+    "role": "Local preparation status and documentation; calculation unchanged",
+    "sha256": "4d31d5d35bd43eea64f8e1ddf079d0b3295cbabc7654cd132f3d3523ec8ddc2d",
+    "source_phase": "H9_F3",
+    "source_byte_identical": false,
+    "baseline_H9_F2_entry": {
+      "payload_path": "LOCAL_RELEASE_STATE.json",
+      "source": "H9 phase2 local integration/LOCAL_RELEASE_STATE.json",
+      "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+      "sha256": "50dd205189909742cc86ac31e975d178dba9d5754004b997f1d8c06cf91265bb",
+      "source_byte_identical": false,
+      "source_phase": "H9_F2",
+      "baseline_H8_entry": {
+        "payload_path": "LOCAL_RELEASE_STATE.json",
+        "source": "H8 local integration/LOCAL_RELEASE_STATE.json",
+        "role": "H8 orchestration, documentation or current figure integration",
+        "sha256": "553cc34ecd321f2fbdf6e86f7aaafe68419cb096bca1bcc8d4dc6630f9ec3689",
+        "source_byte_identical": false,
+        "source_phase": "H8"
+      }
+    }
+  },
+  {
+    "payload_path": "README.md",
+    "source": "H9 final local packaging/README.md",
+    "role": "Local preparation status and documentation; calculation unchanged",
+    "sha256": "957700cca89698a0ec064b691b1213f36805584d7f141db78f3e0eb7ece8c1ed",
+    "source_phase": "H9_F3",
+    "source_byte_identical": false,
+    "baseline_H9_F2_entry": {
+      "payload_path": "README.md",
+      "source": "H9 phase2 local integration/README.md",
+      "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+      "sha256": "00c96d2b286aff403e4f12dad96d4e62e5326b9a88c6854752ff392249af5e88",
+      "source_byte_identical": false,
+      "source_phase": "H9_F2",
+      "baseline_H8_entry": {
+        "payload_path": "README.md",
+        "source": "H8 local integration/README.md",
+        "role": "H8 orchestration, documentation or current figure integration",
+        "sha256": "382d45a12d5bf347c9aab3eb3129e32e7c2109bc4263a5600793a0089f2231e3",
+        "source_byte_identical": false,
+        "source_phase": "H8"
+      }
+    }
+  },
+  {
+    "payload_path": "RIGHTS_AND_PROVENANCE_EN.md",
+    "source": "H9 final local packaging/RIGHTS_AND_PROVENANCE_EN.md",
+    "role": "Local preparation status and documentation; calculation unchanged",
+    "sha256": "4b00d07f0aedf70a5d50f39767066d54388b8f3fd22ef4b260bbbfe25bc0ef35",
+    "source_phase": "H9_F3",
+    "source_byte_identical": false,
+    "baseline_H9_F2_entry": {
+      "payload_path": "RIGHTS_AND_PROVENANCE_EN.md",
+      "source": "H8 local integration/RIGHTS_AND_PROVENANCE_EN.md",
+      "role": "H8 orchestration, documentation or current figure integration",
+      "sha256": "9c6b84180328c7207ef80d4c468d64701a55dacd81c91a1317446f5d96625ebf",
+      "source_byte_identical": false,
+      "source_phase": "H8"
+    }
+  },
+  {
+    "payload_path": "acquisition/README_EN.md",
+    "source": "H8 local integration/acquisition/README_EN.md",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "5c39cefb31747636dfb96c721200e4e8ebe98873275f3ed894a5fa1095b98be7",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "acquisition/independent/independent_h7.py",
+    "source": "H7/validation/independent_h7.py",
+    "role": "Separate acquisition/allocation/inverse checking implementation",
+    "sha256": "9727d271f0177662458c717ae329e868546fc3a2268621eaf8b8c05dda86311d",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/inputs/H1_PROTOCOL.json",
+    "source": "H7/inputs/H1_PROTOCOL.json",
+    "role": "Locked H7 input or protocol and amendment",
+    "sha256": "80c5d6d9d69cbb38901ee1f169acc9d912ac11a3d1fb1604aa46037c6f3418bb",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/inputs/run_e4_frozen_analysis_v1.0.2.py",
+    "source": "H7/inputs/run_e4_frozen_analysis_v1.0.2.py",
+    "role": "Locked H7 input or protocol and amendment",
+    "sha256": "0ac2f1d60dbafcdc5edd763e682759732f326cceb66639cdf50647d34987a402",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/protocol/H4_ADDENDUM_A01.json",
+    "source": "H7/protocol/H4_ADDENDUM_A01.json",
+    "role": "Locked H7 input or protocol and amendment",
+    "sha256": "a642133ea710cf15db06ae172df4d718d15f7388820b0324d86938a6c5388fd1",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/protocol/H4_PROTOCOL.json",
+    "source": "H7/protocol/H4_PROTOCOL.json",
+    "role": "Locked H7 input or protocol and amendment",
+    "sha256": "a62c851289541a00e387c68f8bcbc31c78677c18116c714f46c180af2858f777",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/protocol/H7_ADDENDUM_A01.json",
+    "source": "H7/protocol/H7_ADDENDUM_A01.json",
+    "role": "Locked H7 input or protocol and amendment",
+    "sha256": "9ebd34823e0bfa5bb2fcb71c8d4a6d145279b3a436da0577804d0442dfc163dd",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/protocol/H7_ADDENDUM_A01.sha256",
+    "source": "H7/protocol/H7_ADDENDUM_A01.sha256",
+    "role": "Locked H7 input or protocol and amendment",
+    "sha256": "33cec2766f470efd02791a013d7ae1d0382a8022c60dd9af5e145992d2cf30f1",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/protocol/H7_ADDENDUM_A02.json",
+    "source": "H7/protocol/H7_ADDENDUM_A02.json",
+    "role": "Locked H7 input or protocol and amendment",
+    "sha256": "a929627cd20b85b0323db7da2c33eebe956889ba186d30f5ec1abeea02a652d6",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/protocol/H7_ADDENDUM_A02.sha256",
+    "source": "H7/protocol/H7_ADDENDUM_A02.sha256",
+    "role": "Locked H7 input or protocol and amendment",
+    "sha256": "341ef43d18ffaacc469fa93543571b38713f0e53bd8b0c4f790e45847776004b",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/protocol/H7_PROTOCOL.json",
+    "source": "H7/protocol/H7_PROTOCOL.json",
+    "role": "Locked H7 input or protocol and amendment",
+    "sha256": "cb11771a5bb234c97fe1bc0297972d64272e25ae67555a9e440de4dea09b7ea8",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/protocol/H7_PROTOCOL.sha256",
+    "source": "H7/protocol/H7_PROTOCOL.sha256",
+    "role": "Locked H7 input or protocol and amendment",
+    "sha256": "bc6784fb24277395ad08571d3a1508375b2192b0035b4faa827b1266500b23a3",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/protocol/H7_REPORTING_CORRECTION_R01.json",
+    "source": "H7/protocol/H7_REPORTING_CORRECTION_R01.json",
+    "role": "Locked H7 input or protocol and amendment",
+    "sha256": "550796fe1306335a175c22bccadefe54b1c1f8ce76bacf5136923281f8504819",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/protocol/LOCK_RECEIPT.json",
+    "source": "H7/protocol/LOCK_RECEIPT.json",
+    "role": "Locked H7 input or protocol and amendment",
+    "sha256": "e455f475e6579980613ff661b434992a37941500db1c03216c5d05b68faf5093",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/software/acquisition_primitives.py",
+    "source": "H7/software/acquisition_primitives.py",
+    "role": "H7 acquisition engine or inherited estimator dependency",
+    "sha256": "88af5e7151ceef63279f33d3a2a4e67279d647079f16ae2852742deb2eebffc0",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/software/pilot_data.py",
+    "source": "H7/software/pilot_data.py",
+    "role": "H7 acquisition engine or inherited estimator dependency",
+    "sha256": "fec23189d82239ed244685852fea553ae44876de1e3f444dc83da217f1ee935c",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/software/pilot_primitives.py",
+    "source": "H7/software/pilot_primitives.py",
+    "role": "H7 acquisition engine or inherited estimator dependency",
+    "sha256": "f889a893cdb17be00db5832b32bc22ddccc0bedecb44b7f13b9cb0eed3449e2e",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/software/run_h4_pilot.py",
+    "source": "H7/software/run_h4_pilot.py",
+    "role": "H7 acquisition engine or inherited estimator dependency",
+    "sha256": "675e26384354089f9fe38f5258f18924668c1cc65546c7bb7869607fb42c80d8",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/software/run_h5_followup.py",
+    "source": "H7/software/run_h5_followup.py",
+    "role": "H7 acquisition engine or inherited estimator dependency",
+    "sha256": "fca0bf50036d9693a7cb6c88ded9591088b4f0e6cdcdf5164e13e2b56fe31cf8",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/software/run_h7.py",
+    "source": "H7/software/run_h7.py",
+    "role": "H7 acquisition engine or inherited estimator dependency",
+    "sha256": "c89112c303ec0a2fc53808c6801dd7dc68a81bac292ee0b02e331f8f6ad8b1ac",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "acquisition/software/test_h7_primitives.py",
+    "source": "H7/software/test_h7_primitives.py",
+    "role": "H7 acquisition engine or inherited estimator dependency",
+    "sha256": "46ef1c420fcb275aff1f8fc11eaacd22a7b0d986f162dabcb778da6e459d2621",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "conditional/independent/README_ORIGINAL_EN.md",
+    "source": "H6 software payload/conditional/independent/README_ORIGINAL_EN.md",
+    "role": "Original independent verifier scope and commands",
+    "sha256": "98f9bd3fcd11e84de9301f000a2d4de73d2ee1d4afc9eb731ca6e8952718e625",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/independent/compare_completed_h4.py",
+    "source": "H6 software payload/conditional/independent/compare_completed_h4.py",
+    "role": "Independent H4 implementation; archived v1 snapshot is historical only",
+    "sha256": "6913f5babb8c2a098420a201edd185a2402fcb4a475659359de28635a1bf3960",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/independent/test_independent_primitives.py",
+    "source": "H6 software payload/conditional/independent/test_independent_primitives.py",
+    "role": "Independent H4 implementation; archived v1 snapshot is historical only",
+    "sha256": "fa1a16e094005b99865d3359140fcfbdbce39df25c22b399bf997e9891160f73",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/independent/verify_h4_cohorts.py",
+    "source": "H6 software payload/conditional/independent/verify_h4_cohorts.py",
+    "role": "Independent H4 implementation; archived v1 snapshot is historical only",
+    "sha256": "1c3d4ef4304bc16afc4e72b745c6f2334c013a85d8713ee6e373b0d91e6fb188",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/independent/verify_h4_objective_distance.py",
+    "source": "H6 software payload/conditional/independent/verify_h4_objective_distance.py",
+    "role": "Independent H4 implementation; archived v1 snapshot is historical only",
+    "sha256": "f92aa7178a045729a1220191c5ccd51a9ab6b9799ad0c22ba8c1cf1140521df5",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/independent/verify_h4_primary.py",
+    "source": "H6 software payload/conditional/independent/verify_h4_primary.py",
+    "role": "Independent H4 implementation; archived v1 snapshot is historical only",
+    "sha256": "99fb6bf257f368e382680d1e5167bf019869d1aec07be14e8e6535f0d7b076fa",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/independent/verify_h4_primary_v1_snapshot.py",
+    "source": "H6 software payload/conditional/independent/verify_h4_primary_v1_snapshot.py",
+    "role": "Independent H4 implementation; archived v1 snapshot is historical only",
+    "sha256": "c2d1f4c3784aed2cb581160ab4b2c1078aa3dce7ac1fe95437d7520f69289286",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/inputs/H1_PROTOCOL.json",
+    "source": "H6 software payload/conditional/inputs/H1_PROTOCOL.json",
+    "role": "Unchanged frozen software input",
+    "sha256": "80c5d6d9d69cbb38901ee1f169acc9d912ac11a3d1fb1604aa46037c6f3418bb",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/inputs/run_e4_frozen_analysis_v1.0.2.py",
+    "source": "H6 software payload/conditional/inputs/run_e4_frozen_analysis_v1.0.2.py",
+    "role": "Unchanged frozen software input",
+    "sha256": "0ac2f1d60dbafcdc5edd763e682759732f326cceb66639cdf50647d34987a402",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/protocol/H4_ADDENDUM_A01.json",
+    "source": "H6 software payload/conditional/protocol/H4_ADDENDUM_A01.json",
+    "role": "Locked retrospective H4 design",
+    "sha256": "a642133ea710cf15db06ae172df4d718d15f7388820b0324d86938a6c5388fd1",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/protocol/H4_PROTOCOL.json",
+    "source": "H6 software payload/conditional/protocol/H4_PROTOCOL.json",
+    "role": "Locked retrospective H4 design",
+    "sha256": "a62c851289541a00e387c68f8bcbc31c78677c18116c714f46c180af2858f777",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/software/README_H4_ENGINE_EN.md",
+    "source": "H6 software payload/conditional/software/README_H4_ENGINE_EN.md",
+    "role": "Canonical H4 six-cohort conditional screening engine",
+    "sha256": "b294cf7bf883f2e4c2fcc0095f0cc772907da50c951bd5bb1007378e83484e9f",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/software/pilot_data.py",
+    "source": "H6 software payload/conditional/software/pilot_data.py",
+    "role": "Canonical H4 six-cohort conditional screening engine",
+    "sha256": "fec23189d82239ed244685852fea553ae44876de1e3f444dc83da217f1ee935c",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/software/pilot_primitives.py",
+    "source": "H6 software payload/conditional/software/pilot_primitives.py",
+    "role": "Canonical H4 six-cohort conditional screening engine",
+    "sha256": "f889a893cdb17be00db5832b32bc22ddccc0bedecb44b7f13b9cb0eed3449e2e",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/software/plot_h4_overview.py",
+    "source": "H6 software payload/conditional/software/plot_h4_overview.py",
+    "role": "Canonical H4 six-cohort conditional screening engine",
+    "sha256": "fdb12cc3bfd815d968935f403c167efcf299e4167abe2dbea32d0cced1186d4c",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/software/requirements-h4.txt",
+    "source": "H6 software payload/conditional/software/requirements-h4.txt",
+    "role": "Canonical H4 six-cohort conditional screening engine",
+    "sha256": "16b4b5ff39167dd6ead96b6677ae26fc4c2f1e7228d6606a5818e19d5c9cfefe",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/software/requirements-plotting.txt",
+    "source": "H6 software payload/conditional/software/requirements-plotting.txt",
+    "role": "Canonical H4 six-cohort conditional screening engine",
+    "sha256": "bc4e233d5c03413be5741c17ab0b5c68e26b49d5c88a83a1712bdc4623514bf5",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/software/run_h4_pilot.py",
+    "source": "H6 software payload/conditional/software/run_h4_pilot.py",
+    "role": "Canonical H4 six-cohort conditional screening engine",
+    "sha256": "675e26384354089f9fe38f5258f18924668c1cc65546c7bb7869607fb42c80d8",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/software/summarise_h4.py",
+    "source": "H6 software payload/conditional/software/summarise_h4.py",
+    "role": "Canonical H4 six-cohort conditional screening engine",
+    "sha256": "42735896177c9bb0c71047403ebbe605b8505f3444db4a4d01cc3dc8c743e336",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/software/test_pilot_primitives.py",
+    "source": "H6 software payload/conditional/software/test_pilot_primitives.py",
+    "role": "Canonical H4 six-cohort conditional screening engine",
+    "sha256": "826f19b47db13c6c3035f9ed766c9d9f72b59b7bbcdb07f0ec5817c24bd85515",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "conditional/software/verify_aggregate_accounting.py",
+    "source": "H6 software payload/conditional/software/verify_aggregate_accounting.py",
+    "role": "Canonical H4 six-cohort conditional screening engine",
+    "sha256": "3c7ba52d45ec6c2091184c858e9ea8e5f7ee54d4b9a09ebf8588f2ea883e7f20",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "document_checks/audit_document_numbers.py",
+    "source": "H6 software payload/document_checks/audit_document_numbers.py",
+    "role": "Document numeric and editorial checking code; private document paths supplied separately",
+    "sha256": "325bd6106041da05621510be3a4c613a4652bd520b671df61a752a2c91e38f65",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "document_checks/audit_supplement_editorial.py",
+    "source": "H6 software payload/document_checks/audit_supplement_editorial.py",
+    "role": "Document numeric and editorial checking code; private document paths supplied separately",
+    "sha256": "c15d27a50e7bf43087f461bc9a64bb2347caf95179b99150e7b49ad753111c4b",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "document_checks/final_document_editorial_checks.py",
+    "source": "H6 software payload/document_checks/final_document_editorial_checks.py",
+    "role": "Final editorial checking source; original private layout documented",
+    "sha256": "a49dc6f349c24efe1b4e1f6de9662bb022a09044f6083dc7a65c59e6914b9920",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/AI_DECLARATION_APPROVED_EN.txt",
+    "source": "H6 software payload/figures/AI_DECLARATION_APPROVED_EN.txt",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "093a351b90300b1f93d6c568e88f1aab188983f083fcd2f264732519fa042301",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/ALT_TEXT_EN.txt",
+    "source": "H9 phase2 local integration/figures/ALT_TEXT_EN.txt",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "da0385e76ae6e18828dad8ede0356e2f734cf1c58ce4caa932e6297ae4a90d48",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": {
+      "payload_path": "figures/ALT_TEXT_EN.txt",
+      "source": "H8 local integration/figures/ALT_TEXT_EN.txt",
+      "role": "H8 orchestration, documentation or current figure integration",
+      "sha256": "dd3743dc21e025587b13619567fe9f46ea181b63dd77e50c2c83546812e542d3",
+      "source_byte_identical": false,
+      "source_phase": "H8"
+    }
+  },
+  {
+    "payload_path": "figures/CAPTIONS_EN.txt",
+    "source": "H8 local integration/figures/CAPTIONS_EN.txt",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "9f90257cef3c8e56eddd8dde67f95f255637b6aae03360d1880261b8016fc431",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/FIGURE_NUMBERING.tsv",
+    "source": "H8 local integration/figures/FIGURE_NUMBERING.tsv",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "e25d984fe505db93d569aad8283d2180149f6ffcf05875e5494bbc3ec07b2826",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/INPUT_IDENTITIES.json",
+    "source": "H8 local integration/figures/INPUT_IDENTITIES.json",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "2dd39716e846bb899454e51829d11da0d1651de8924c25e25df02faadb05fd4f",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/README_EN.md",
+    "source": "H9 phase2 local integration/figures/README_EN.md",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "b048ff2db0ce3c1b6d1ba923f61330793094d8e223ed1ce3d5028b5af663a956",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": {
+      "payload_path": "figures/README_EN.md",
+      "source": "H8 local integration/figures/README_EN.md",
+      "role": "H8 orchestration, documentation or current figure integration",
+      "sha256": "02f8807aab1d977455bb43bf2b6b3009b1d5875a3e3a006bc480d66553683b15",
+      "source_byte_identical": false,
+      "source_phase": "H8"
+    }
+  },
+  {
+    "payload_path": "figures/README_RO.md",
+    "source": "H9 phase2 local integration/figures/README_RO.md",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "156800da51a15d360319e3fcf1033150cd56aa5da89a51550c656a50d0275667",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": {
+      "payload_path": "figures/README_RO.md",
+      "source": "H8 local integration/figures/README_RO.md",
+      "role": "H8 orchestration, documentation or current figure integration",
+      "sha256": "8cf5cf0bceeced71bbd79d4b24fcd3d5b24949b955b2482da5ca779d629f953e",
+      "source_byte_identical": false,
+      "source_phase": "H8"
+    }
+  },
+  {
+    "payload_path": "figures/SHA256SUMS.txt",
+    "source": "H9 phase2 local integration/figures/SHA256SUMS.txt",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "ff0852155a8827bbd9f891e6b39199e5922ec6833235f64cf2528c0d41f06ae8",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": {
+      "payload_path": "figures/SHA256SUMS.txt",
+      "source": "H8 local integration/figures/SHA256SUMS.txt",
+      "role": "H8 orchestration, documentation or current figure integration",
+      "sha256": "a1e875b57843baf9482b82fede6f89a815f04fb0e5aa87bc9c825f33fd027164",
+      "source_byte_identical": false,
+      "source_phase": "H8"
+    }
+  },
+  {
+    "payload_path": "figures/editable_svg/Figure_1.svg",
+    "source": "H9 phase2 local integration/figures/editable_svg/Figure_1.svg",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "70d8f60213fdcd0e4ce2f49fb31fa8328167125c5fdd20bdecd648887835c99d",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": {
+      "payload_path": "figures/editable_svg/Figure_1.svg",
+      "source": "H6 software payload/figures/editable_svg/Figure_1.svg",
+      "role": "Current-numbered figure artwork, aggregate input and plotting application",
+      "sha256": "7c71c3be60b994bf10a1800b50842f8caa77f6e83bb2418dc24e92a86c4e0d1e",
+      "source_byte_identical": true,
+      "source_phase": "H6"
+    }
+  },
+  {
+    "payload_path": "figures/editable_svg/Figure_2.svg",
+    "source": "H9 phase2 local integration/figures/editable_svg/Figure_2.svg",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "aedaa3b4c6d2d98d4fb4cfbaca9610464886ed5bafe00e968d8bc7fb5a297ca9",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": {
+      "payload_path": "figures/editable_svg/Figure_2.svg",
+      "source": "H6 software payload/figures/editable_svg/Figure_2.svg",
+      "role": "Current-numbered figure artwork, aggregate input and plotting application",
+      "sha256": "301192dbb87490cd61005c2d8fbc23e2c8ad0e14a722a49f969b199edea2c399",
+      "source_byte_identical": true,
+      "source_phase": "H6"
+    }
+  },
+  {
+    "payload_path": "figures/editable_svg/Figure_S1.svg",
+    "source": "H6 software payload/figures/editable_svg/Figure_S1.svg",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "1eebf755c67e37453bb9d43c72685e135a1ff3d3127aed4405f06b41c8dd41da",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/editable_svg/Figure_S2.svg",
+    "source": "H6 software payload/figures/editable_svg/Figure_S2.svg",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "41923bb4b27c80bac818d6ffff4d957aee3f097eefea158f1794df71075eafef",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/editable_svg/Figure_S3.svg",
+    "source": "H6 software payload/figures/editable_svg/Figure_S3.svg",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "62f2b3d550a17262234cd1338632fe435ac7d009c3b7bbdd42d7ef646e516391",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/editable_svg/Figure_S4.svg",
+    "source": "H9 phase2 local integration/figures/editable_svg/Figure_S4.svg",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "9034c7cfaf3a35fd52b73ffdf9d91c9b652d6af691e7b52c4fe9524fd71210a6",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": {
+      "payload_path": "figures/editable_svg/Figure_S4.svg",
+      "source": "H8 local integration/figures/editable_svg/Figure_S4.svg",
+      "role": "H8 orchestration, documentation or current figure integration",
+      "sha256": "e3495deec3861b73821d3331b96e19f7e5e3ebcfac86daa618eee763dfe52ebd",
+      "source_byte_identical": false,
+      "source_phase": "H8"
+    }
+  },
+  {
+    "payload_path": "figures/generate_all_figures.py",
+    "source": "H9 phase2 local integration/figures/generate_all_figures.py",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "a85a7dc17e508df4d427354cfc175a1fa53a84a40c4c9dd6e176f2a24caafbde",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": {
+      "payload_path": "figures/generate_all_figures.py",
+      "source": "H8 local integration/figures/generate_all_figures.py",
+      "role": "H8 orchestration, documentation or current figure integration",
+      "sha256": "66d39a6473ac7d96ea2e1c317b50aec90885b6b70fae1b93a528f401d1e5e05c",
+      "source_byte_identical": false,
+      "source_phase": "H8"
+    }
+  },
+  {
+    "payload_path": "figures/inputs/acquisition/country_sector_fixed.csv",
+    "source": "H8 local integration/figures/inputs/acquisition/country_sector_fixed.csv",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "8ad7608aff990b154b4d695a775252b5a25714b6de7e72987a344a9eeff9f6a4",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/inputs/acquisition/mean_acquisition.csv",
+    "source": "H8 local integration/figures/inputs/acquisition/mean_acquisition.csv",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "044a3827d93b4bf9943ca22802dee66eca02dee13d5bdd88ef462a74ac3712dc",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/inputs/main/Figure_1_primary.csv",
+    "source": "H6 software payload/figures/inputs/main/Figure_1_primary.csv",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "02df196ce887c425f39cf0d42948c36ceaa04748cfc2acc17d729d5d676bd2e2",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/inputs/main/Figure_1_secondary.csv",
+    "source": "H6 software payload/figures/inputs/main/Figure_1_secondary.csv",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "75a1b3ceb1a889b8e290469697c7ba6f6a2c6a5bf5c40f159be18a068f42bbc5",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/inputs/main/Figure_2_construct.csv",
+    "source": "H6 software payload/figures/inputs/main/Figure_2_construct.csv",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "3940521601db1d4ae351fa47f825ca8e0946ef8b4e6e6ee8e32144a11198c10c",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/inputs/pooled/capacity_curves.csv",
+    "source": "H6 software payload/figures/inputs/pooled/capacity_curves.csv",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "9c25e3c1501738180a7ebf625da35a2dbd8fde8e51bfa2220f16d689255ec69c",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/inputs/pooled/list_composition.csv",
+    "source": "H6 software payload/figures/inputs/pooled/list_composition.csv",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "623cbf124088d1eae80f3f64ab4f7e2726c8241b3e4ed59527bd6025c3dd9ed1",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/inputs/transfer/within_source_quota_50_percent.csv",
+    "source": "H6 software payload/figures/inputs/transfer/within_source_quota_50_percent.csv",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "9d6d7eae2d5f9b217a9eaa95c57d57ec33956949425518c1a33bbd87c3c9cd49",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/preview_png/Figure_1.png",
+    "source": "H6 software payload/figures/preview_png/Figure_1.png",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "e55c23f63b053ea1d62b922a2598e200df332b8e08cc00002924a994b6196ce5",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/preview_png/Figure_2.png",
+    "source": "H6 software payload/figures/preview_png/Figure_2.png",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "c396717ff5530abcd81ece3887458f1e774cbe256ae93d4c1e78b627f94ea0b3",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/preview_png/Figure_S1.png",
+    "source": "H6 software payload/figures/preview_png/Figure_S1.png",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "5b873742bf176602bb5e2d96a7c74421c9a13e1ee37524dc22101c76604107ba",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/preview_png/Figure_S2.png",
+    "source": "H6 software payload/figures/preview_png/Figure_S2.png",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "6efb463a0b8b1b24b61fd4ddcc3104f3c8355c27dda165fe244f0e3bd358abdf",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/preview_png/Figure_S3.png",
+    "source": "H6 software payload/figures/preview_png/Figure_S3.png",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "bf15e25857e3e615f919a5ec520c3157b5e81d95bfdaa8fbc45d3305a9b3036f",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/preview_png/Figure_S4.png",
+    "source": "H8 local integration/figures/preview_png/Figure_S4.png",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "cf7836c95a0b547955063e894fcbf448dfa311cd2de444b899cf1a8ee62e3090",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/provenance/CLI_CONTRACT_QA.json",
+    "source": "H6 software payload/figures/provenance/CLI_CONTRACT_QA.json",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "9013fa45868779812cf6e56186d783eac096398e10f91b0c7a92655c1b632d5d",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/provenance/DEPENDENCY_QA.json",
+    "source": "H6 software payload/figures/provenance/DEPENDENCY_QA.json",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "fe87a1795c9bb1adf76f4f1d2700c0e81ad507717b88ba02f54faa9727fa3320",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/provenance/FIGURE_REPLAY_COMPARISON_QA.json",
+    "source": "H6 software payload/figures/provenance/FIGURE_REPLAY_COMPARISON_QA.json",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "12d96d95055fab0da60ba14f11f3242b56b4d242f6d00806e99e8ad41a9a7d43",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/provenance/H3_PLOT_RUNTIME.json",
+    "source": "H6 software payload/figures/provenance/H3_PLOT_RUNTIME.json",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "98d44fab4d3b335a952fde4891c3a1a7008d7acb0065e5e558da6ea4f39f9338",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/provenance/H5_PLOT_RUNTIME.json",
+    "source": "H6 software payload/figures/provenance/H5_PLOT_RUNTIME.json",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "64d4981875951321dc996cd31a086cce06893d5a4c0130b30f91f65328839457",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/provenance/H7_Acquisition_Diagnostics.pdf",
+    "source": "H8 local integration/figures/provenance/H7_Acquisition_Diagnostics.pdf",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "117532f908d37d80c7349c4562d07a3bf93ab07a72e1699e843f28f332126377",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/provenance/H7_Acquisition_Diagnostics.png",
+    "source": "H8 local integration/figures/provenance/H7_Acquisition_Diagnostics.png",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "953e59d1711a1fd9a977692fb108fc381d12af03bd26798ba7982783d02fcd18",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/provenance/H7_Acquisition_Diagnostics.svg",
+    "source": "H8 local integration/figures/provenance/H7_Acquisition_Diagnostics.svg",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "8abd43ec3b8aadeab4d8be5ea32d486cf0acb2812f10dc9687c6c146703c9b27",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/provenance/H7_FIGURE_QA.json",
+    "source": "H8 local integration/figures/provenance/H7_FIGURE_QA.json",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "3d9288f9044079d51d8350327e44eace329599f0437543f09cd497648bbd3e57",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/provenance/H8_ALL_SIX_REPLAY_QA.json",
+    "source": "H8 local integration/figures/provenance/H8_ALL_SIX_REPLAY_QA.json",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "07b2b5b60ce8621d05a8fe3db56afc276a5f50469a56c6ed8a93ce3e4efe8c8c",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/provenance/H8_FIGURE_PAYLOAD_QA.json",
+    "source": "H8 local integration/figures/provenance/H8_FIGURE_PAYLOAD_QA.json",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "7eb3f535232ec4b626cab978df90737ede1653f377bd2abdfb7e1378c0fc1aeb",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/provenance/H8_FIGURE_S4_QA.json",
+    "source": "H8 local integration/figures/provenance/H8_FIGURE_S4_QA.json",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "956e268ec6b6205714f20d6206317572a942165caf1cb3def3f126abf4189394",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/provenance/H8_NATIVE_FIGURE_REPLAY_QA.json",
+    "source": "H8 local integration/figures/provenance/H8_NATIVE_FIGURE_REPLAY_QA.json",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "795bec0a0d9e39cf2e4d6d8907346b9f628fd44a73606d57cb29fc0c6c86de3a",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/provenance/H8_native_stderr.log",
+    "source": "H8 local integration/figures/provenance/H8_native_stderr.log",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/provenance/H8_native_stdout.log",
+    "source": "H8 local integration/figures/provenance/H8_native_stdout.log",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "795bec0a0d9e39cf2e4d6d8907346b9f628fd44a73606d57cb29fc0c6c86de3a",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/provenance/H9_F2_FIGURE_UTC_QA.json",
+    "source": "H9 phase2 local integration/figures/provenance/H9_F2_FIGURE_UTC_QA.json",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "8fabba500ac2398dcdf4cd1cd3582451f1fadabdf83b55c149472dd661888aea",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": null
+  },
+  {
+    "payload_path": "figures/provenance/NATIVE_ALL_FIGURES_REPLAY_QA.json",
+    "source": "H6 software payload/figures/provenance/NATIVE_ALL_FIGURES_REPLAY_QA.json",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "e856936b90fedd586d6b2aef885a0c04b7899520a87bc137a44bffe8c50239d9",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/provenance/SOURCE_LINEAGE.json",
+    "source": "H9 phase2 local integration/figures/provenance/SOURCE_LINEAGE.json",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "e6246b953559dad95dfd0328f9101317480670ddf288224bf585951f12b4d420",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": {
+      "payload_path": "figures/provenance/SOURCE_LINEAGE.json",
+      "source": "H8 local integration/figures/provenance/SOURCE_LINEAGE.json",
+      "role": "H8 orchestration, documentation or current figure integration",
+      "sha256": "cce18655c78b23add065cc6580c8566c328cb9b34cf6c82b1cb44aa911c23c5c",
+      "source_byte_identical": false,
+      "source_phase": "H8"
+    }
+  },
+  {
+    "payload_path": "figures/provenance/requirements-checks.txt",
+    "source": "H8 local integration/figures/provenance/requirements-checks.txt",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "85d8b215316868ab03fba64258867f48e9d9393e7e5255ed4953beec0f7b9351",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/provenance/verify_all_six_figures.py",
+    "source": "H8 local integration/figures/provenance/verify_all_six_figures.py",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "51a12e01d5a61f754ca269627ae3b72d033cb600dc728195304e166706fd24a9",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/requirements.txt",
+    "source": "H6 software payload/figures/requirements.txt",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "d23d16accfd99ae65502089470d57036ac485a76d1af1bfd67db87f2b602a19b",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/sources/historical/plot_h7_diagnostics.py",
+    "source": "H8 local integration/figures/sources/historical/plot_h7_diagnostics.py",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "83dcf37cbf564a9010ce0305ce5a56b2f6c8ddbe131dbf2c0bf7a0c3ba7de908",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "figures/sources/historical/postprocess_transfer.py",
+    "source": "H6 software payload/figures/sources/historical/postprocess_transfer.py",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "ce18d64f8584e459c455877d2be79adf0f0dded3ce59f4be32018efe04039057",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/sources/plot_acquisition.py",
+    "source": "H9 phase2 local integration/figures/sources/plot_acquisition.py",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "c82fcf6bac5ffdb544beac695b0dfb796f251a465d5ab7e11b4158af6d55646f",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": {
+      "payload_path": "figures/sources/plot_acquisition.py",
+      "source": "H8 local integration/figures/sources/plot_acquisition.py",
+      "role": "H8 orchestration, documentation or current figure integration",
+      "sha256": "07d43a3744c6dbfc62a287d81c9cfff9434209b1ea8a153c9a3f126d2dc6f7d6",
+      "source_byte_identical": false,
+      "source_phase": "H8"
+    }
+  },
+  {
+    "payload_path": "figures/sources/plot_main_figures.py",
+    "source": "H9 phase2 local integration/figures/sources/plot_main_figures.py",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "64a4cf8653c4cd523cd8676ef7369c7e29ddb3409fe9f997c089f7007e2446b5",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": {
+      "payload_path": "figures/sources/plot_main_figures.py",
+      "source": "H6 software payload/figures/sources/plot_main_figures.py",
+      "role": "Current-numbered figure artwork, aggregate input and plotting application",
+      "sha256": "be20822361368159918c63f634a38eacaae89e3c980d80600a38620e8d3ce7ab",
+      "source_byte_identical": true,
+      "source_phase": "H6"
+    }
+  },
+  {
+    "payload_path": "figures/sources/plot_pooled.py",
+    "source": "H6 software payload/figures/sources/plot_pooled.py",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "77eb835b5f6574b713c4c94831e62ef763dfae33787e3e36ad6e1f87c66648d2",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/sources/plot_supplement_transfer.py",
+    "source": "H6 software payload/figures/sources/plot_supplement_transfer.py",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "8ab253a7ad8e84a5350e0eac2e791961df1a82c409da26044c9e5eae084391b9",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/sources/plot_transfer.py",
+    "source": "H6 software payload/figures/sources/plot_transfer.py",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "01be6afee16c1691288a8ec1bdf4a18985bc3a95091d1588e56edb2471c5d49e",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/upload_pdf/Figure_1.pdf",
+    "source": "H9 phase2 local integration/figures/upload_pdf/Figure_1.pdf",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "98c8043a5ae2410689630f7bec21fad87d7be0a83a151fc1755afa86793594a8",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": {
+      "payload_path": "figures/upload_pdf/Figure_1.pdf",
+      "source": "H6 software payload/figures/upload_pdf/Figure_1.pdf",
+      "role": "Current-numbered figure artwork, aggregate input and plotting application",
+      "sha256": "6305f58dc8ed66272d8ea642c7ed4842150c77629812b5846a4ee473c3a14755",
+      "source_byte_identical": true,
+      "source_phase": "H6"
+    }
+  },
+  {
+    "payload_path": "figures/upload_pdf/Figure_2.pdf",
+    "source": "H9 phase2 local integration/figures/upload_pdf/Figure_2.pdf",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "e9966841de5ed977dff2cc260a9d189ce822843144e50a53182fd50ebd7df43d",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": {
+      "payload_path": "figures/upload_pdf/Figure_2.pdf",
+      "source": "H6 software payload/figures/upload_pdf/Figure_2.pdf",
+      "role": "Current-numbered figure artwork, aggregate input and plotting application",
+      "sha256": "7bd66d9252551e20f917b4e067ca43ba75ae510b5c2aa49a703b6b4f0862854c",
+      "source_byte_identical": true,
+      "source_phase": "H6"
+    }
+  },
+  {
+    "payload_path": "figures/upload_pdf/Figure_S1.pdf",
+    "source": "H6 software payload/figures/upload_pdf/Figure_S1.pdf",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "43b7fb3716d7716dadba958d19d909a0b5be22229b358d8aa46da52150e85bb4",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/upload_pdf/Figure_S2.pdf",
+    "source": "H6 software payload/figures/upload_pdf/Figure_S2.pdf",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "48f534d9535c90f2e50b81690f5438a635e79485845c748dcdd78e5f25d4333a",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/upload_pdf/Figure_S3.pdf",
+    "source": "H6 software payload/figures/upload_pdf/Figure_S3.pdf",
+    "role": "Current-numbered figure artwork, aggregate input and plotting application",
+    "sha256": "0d6f97c6e3c40af39e1b85f05c356b0c05fce7aacde446a723d48a47056e4a01",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "figures/upload_pdf/Figure_S4.pdf",
+    "source": "H9 phase2 local integration/figures/upload_pdf/Figure_S4.pdf",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "259e2675a7ddd1b3f913926a37deb64973f8749bc43500f3af4e80fbbca33b99",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": {
+      "payload_path": "figures/upload_pdf/Figure_S4.pdf",
+      "source": "H8 local integration/figures/upload_pdf/Figure_S4.pdf",
+      "role": "H8 orchestration, documentation or current figure integration",
+      "sha256": "c9a1f0897ff7d199ce916fb0f6b961a8b472c826faf642ad879f6acacb6a5c16",
+      "source_byte_identical": false,
+      "source_phase": "H8"
+    }
+  },
+  {
+    "payload_path": "followup/independent/README_INDEPENDENT_EN.md",
+    "source": "H9 phase2 local integration/followup/independent/README_INDEPENDENT_EN.md",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "8b028c1517c7615ac3ba2e3a1338a59937d93cfca5f786cf1115a0ee815c7182",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": {
+      "payload_path": "followup/independent/README_INDEPENDENT_EN.md",
+      "source": "H6 software payload/followup/independent/README_INDEPENDENT_EN.md",
+      "role": "Original independent H5 scope and commands",
+      "sha256": "41addb6d5c2900bc3ad0cfa3f6f97629c08733ffdc54147c1bac24c3dff8df5d",
+      "source_byte_identical": true,
+      "source_phase": "H6"
+    }
+  },
+  {
+    "payload_path": "followup/independent/compare_h5.py",
+    "source": "H6 software payload/followup/independent/compare_h5.py",
+    "role": "Independent H5 raw re-estimation and comparison",
+    "sha256": "5be7f4753e74aa57dac51e7fb61c18cf045f0c03e847a22a9cf3125e09f5eb41",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "followup/independent/verify_both_diagnostic.py",
+    "source": "H6 software payload/followup/independent/verify_both_diagnostic.py",
+    "role": "Independent H5 raw re-estimation and comparison",
+    "sha256": "2a80fb2127ad95890e6bfdc2d7c5c0c3a08dbcb871a43d330d4841353209f5f6",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "followup/independent/verify_h5_raw.py",
+    "source": "H6 software payload/followup/independent/verify_h5_raw.py",
+    "role": "Independent H5 raw re-estimation and comparison",
+    "sha256": "e47641dbcbda43866441e55b09657dc05e27f8fd941108d7fe42c317f5c9b0ac",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "followup/inputs/H1_PROTOCOL.json",
+    "source": "H6 software payload/followup/inputs/H1_PROTOCOL.json",
+    "role": "Canonical H5 same-firm and fixed-learner follow-up",
+    "sha256": "80c5d6d9d69cbb38901ee1f169acc9d912ac11a3d1fb1604aa46037c6f3418bb",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "followup/inputs/run_e4_frozen_analysis_v1.0.2.py",
+    "source": "H6 software payload/followup/inputs/run_e4_frozen_analysis_v1.0.2.py",
+    "role": "Canonical H5 same-firm and fixed-learner follow-up",
+    "sha256": "0ac2f1d60dbafcdc5edd763e682759732f326cceb66639cdf50647d34987a402",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "followup/protocol/H4_PROTOCOL.json",
+    "source": "H6 software payload/followup/protocol/H4_PROTOCOL.json",
+    "role": "Canonical H5 same-firm and fixed-learner follow-up",
+    "sha256": "a62c851289541a00e387c68f8bcbc31c78677c18116c714f46c180af2858f777",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "followup/protocol/H5_LOCK_RECEIPT.json",
+    "source": "H6 software payload/followup/protocol/H5_LOCK_RECEIPT.json",
+    "role": "Canonical H5 same-firm and fixed-learner follow-up",
+    "sha256": "22f49e665cdcd0a3b59717784d6f133862322e1a76af0e260dea8cd4ffcec343",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "followup/protocol/H5_PROTOCOL.json",
+    "source": "H6 software payload/followup/protocol/H5_PROTOCOL.json",
+    "role": "Canonical H5 same-firm and fixed-learner follow-up",
+    "sha256": "6a2fe9d4fcc2ff83d960681c10881ea78060614b43383f857733558e96c73874",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "followup/requirements-h5.txt",
+    "source": "H6 software payload/followup/requirements-h5.txt",
+    "role": "Pinned analysis dependencies",
+    "sha256": "16b4b5ff39167dd6ead96b6677ae26fc4c2f1e7228d6606a5818e19d5c9cfefe",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "followup/software/pilot_data.py",
+    "source": "H6 software payload/followup/software/pilot_data.py",
+    "role": "Canonical H5 same-firm and fixed-learner follow-up",
+    "sha256": "fec23189d82239ed244685852fea553ae44876de1e3f444dc83da217f1ee935c",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "followup/software/pilot_primitives.py",
+    "source": "H6 software payload/followup/software/pilot_primitives.py",
+    "role": "Canonical H5 same-firm and fixed-learner follow-up",
+    "sha256": "f889a893cdb17be00db5832b32bc22ddccc0bedecb44b7f13b9cb0eed3449e2e",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "followup/software/run_h4_pilot.py",
+    "source": "H6 software payload/followup/software/run_h4_pilot.py",
+    "role": "Canonical H5 same-firm and fixed-learner follow-up",
+    "sha256": "675e26384354089f9fe38f5258f18924668c1cc65546c7bb7869607fb42c80d8",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "followup/software/run_h5_followup.py",
+    "source": "H6 software payload/followup/software/run_h5_followup.py",
+    "role": "Canonical H5 same-firm and fixed-learner follow-up",
+    "sha256": "fca0bf50036d9693a7cb6c88ded9591088b4f0e6cdcdf5164e13e2b56fe31cf8",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "followup/software/test_h5_followup.py",
+    "source": "H6 software payload/followup/software/test_h5_followup.py",
+    "role": "Canonical H5 same-firm and fixed-learner follow-up",
+    "sha256": "bc183d87810be4c6f9c5aeb40ba1824d589211cc6481ed0476a887a3af44c88f",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "followup/software/verify_h5_accounting.py",
+    "source": "H6 software payload/followup/software/verify_h5_accounting.py",
+    "role": "Canonical H5 same-firm and fixed-learner follow-up",
+    "sha256": "31bb37b0947fb6fccf3a774be957613bc989051250cabe89e4ab5cb5b67dae7b",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/.gitignore",
+    "source": "H6 software payload/legacy/.gitignore",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "67acc1acb66aed0aa155b0b28ae45770bc6eb9cbb5da2f42bccb5f578ca9ffcd",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/CITATION.cff",
+    "source": "H6 software payload/legacy/CITATION.cff",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "6cec4d1ceb37a8d2c1fde50e9b70a14297292e134f1922089f5ce28bdc8bec92",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/EXPECTED_POOLED_INPUT_SHA256.txt",
+    "source": "H6 software payload/legacy/EXPECTED_POOLED_INPUT_SHA256.txt",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "91d922326d0bdcdaeec6b87bae8df83a4229bea35f336fa9a9647924f87b724e",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/PLOT_REFERENCE_ENVIRONMENT.json",
+    "source": "H6 software payload/legacy/PLOT_REFERENCE_ENVIRONMENT.json",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "98d44fab4d3b335a952fde4891c3a1a7008d7acb0065e5e558da6ea4f39f9338",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/PUBLIC_DATA_BOUNDARY_EN.md",
+    "source": "H6 software payload/legacy/PUBLIC_DATA_BOUNDARY_EN.md",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "19803e07b2f1855378f2ef7f879384d4d4b5e8d510761e482344ab9b331f8c0a",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/RAW_POOLED_README_EN.md",
+    "source": "H6 software payload/legacy/RAW_POOLED_README_EN.md",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "aac0b14ca6fec6e02045db89b6710679b04a65f3b90de9a429d4debc1cb46997",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/README.md",
+    "source": "H9 phase2 local integration/legacy/README.md",
+    "role": "Documentation or plotting metadata correction; empirical calculation unchanged",
+    "sha256": "01609045abd506ac894847f7ad35ad4a217eaea8ec923046fc85b4e6cdfdd8cf",
+    "source_byte_identical": false,
+    "source_phase": "H9_F2",
+    "baseline_H8_entry": {
+      "payload_path": "legacy/README.md",
+      "source": "H6 software payload/legacy/README.md",
+      "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+      "sha256": "acb5e340d090cfbe682247d43269d1cc671aeb115e8be07c33a31af7805b7f02",
+      "source_byte_identical": true,
+      "source_phase": "H6"
+    }
+  },
+  {
+    "payload_path": "legacy/RIGHTS_AND_PROVENANCE_EN.md",
+    "source": "H6 software payload/legacy/RIGHTS_AND_PROVENANCE_EN.md",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "1c477623de2163387e40dad1ecc865f728ef95ef2b08423cc2e0804adc3f41e2",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/historical/README.md",
+    "source": "H6 software payload/legacy/historical/README.md",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "841ce58f3571bc39e02e02f804a3a4e5703ec632d1a3ae1cf8eb4ca31c3e531b",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/historical/conditional_held_out/run_transport.py",
+    "source": "H6 software payload/legacy/historical/conditional_held_out/run_transport.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "7f4b9b1432b2bec5c65a89a1a1a54a6dd361e8ea60c8ffefc4d25328c68aa562",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/historical/conditional_held_out/test_transport.py",
+    "source": "H6 software payload/legacy/historical/conditional_held_out/test_transport.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "38c697a7e003fa9b203d3c240f843d709f74e630ecf5909a0eabc85e7cce17ff",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/independent_capacity_check.py",
+    "source": "H6 software payload/legacy/independent_capacity_check.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "290bce008d24b7d3aaa5dc0d25105d7d149562c3c86b2f3ddcbe4474518f5112",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/plot_capacity.py",
+    "source": "H6 software payload/legacy/plot_capacity.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "77eb835b5f6574b713c4c94831e62ef763dfae33787e3e36ad6e1f87c66648d2",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/pooled_capacity_core.py",
+    "source": "H6 software payload/legacy/pooled_capacity_core.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "7ad96d55f166a43283e12a178ac4b4c68672d4e993b57eed4e3b0c88442a0f77",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/prepare_authorised_inputs.py",
+    "source": "H6 software payload/legacy/prepare_authorised_inputs.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "c7e6a2a09936c0b5e621c4c8f31cc9be4e816a5ca708368021ca994a49a632a8",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/rebuild_x10_bounds.py",
+    "source": "H6 software payload/legacy/rebuild_x10_bounds.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "cc2ead83ab14d619e026b613f41fe747dcd848855d3705c6b2b4526481a807ca",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/reported_results/deletion/X10_FIXED_CAPACITY_QA.json",
+    "source": "H6 software payload/legacy/reported_results/deletion/X10_FIXED_CAPACITY_QA.json",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "f50aeb8e09f2f3650f4f527c20cd8d7f4a8ae3c434201ffa29e5d7b894e3261e",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/reported_results/deletion/X10_FIXED_CAPACITY_RECALL_BOUNDS.csv",
+    "source": "H6 software payload/legacy/reported_results/deletion/X10_FIXED_CAPACITY_RECALL_BOUNDS.csv",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "6e1d8b48a9526bb69b8286165854fdb3d1c473d261f6200bdaa23af5fac0af2b",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/reported_results/pooled/adjacent_merges.csv",
+    "source": "H6 software payload/legacy/reported_results/pooled/adjacent_merges.csv",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "670e4b1255804e839dc046ac2d6b80c3716517d4c751b7baf7e839038643525b",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/reported_results/pooled/best_binary_intervals.csv",
+    "source": "H6 software payload/legacy/reported_results/pooled/best_binary_intervals.csv",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "f6e129b72ccbf285a9d463999b6d480ff99cc1cdd734690c836db6ae914fad0e",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/reported_results/pooled/capacity_curves.csv",
+    "source": "H6 software payload/legacy/reported_results/pooled/capacity_curves.csv",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "9c25e3c1501738180a7ebf625da35a2dbd8fde8e51bfa2220f16d689255ec69c",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/reported_results/pooled/compression_profiles.csv",
+    "source": "H6 software payload/legacy/reported_results/pooled/compression_profiles.csv",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "4b81335058dff1dfabdd5b8b1773709978561e5062bfe0e9b422fa6a634d4383",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/reported_results/pooled/illustrative_quotas.csv",
+    "source": "H6 software payload/legacy/reported_results/pooled/illustrative_quotas.csv",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "ac7e20788cb19334fc6641a24c03465851af4735404f07f1b3953936f855c12c",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/reported_results/pooled/list_composition.csv",
+    "source": "H6 software payload/legacy/reported_results/pooled/list_composition.csv",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "623cbf124088d1eae80f3f64ab4f7e2726c8241b3e4ed59527bd6025c3dd9ed1",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/reported_results/pooled/list_composition_distance.csv",
+    "source": "H6 software payload/legacy/reported_results/pooled/list_composition_distance.csv",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "19c1133a031ed85b9679e5afafb97bbae224aa7055c5330aa8b3a4c088c0291c",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/reported_results/pooled/outcome_sensitivity.csv",
+    "source": "H6 software payload/legacy/reported_results/pooled/outcome_sensitivity.csv",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "b1b1becf15b2a3f5db49f92d28e73f3fd7d66be25f7119f42ddffe5f79fdd3fb",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/reported_results/pooled/result_summary.json",
+    "source": "H6 software payload/legacy/reported_results/pooled/result_summary.json",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "207c9615519037f89c744fabb74b209489efbd6a8c665770fb9a0d0e3afa347e",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/reported_results/transfer/FIGURE_CAPTION_EN.md",
+    "source": "H6 software payload/legacy/reported_results/transfer/FIGURE_CAPTION_EN.md",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "5f31b6ad2475a51a340743b113ab181db4aa9da2bca825700980e7ab8fa19cab",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/reported_results/transfer/excluded_primary_all_quotas.csv",
+    "source": "H6 software payload/legacy/reported_results/transfer/excluded_primary_all_quotas.csv",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "e3b2ae0932bb720b4c6b412660e9fd7a32cb8790a468e2a5bab422c2b6535c69",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/reported_results/transfer/training_selections.csv",
+    "source": "H6 software payload/legacy/reported_results/transfer/training_selections.csv",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "8f13a5474e531bd0c48586a291f34142211e6300d016323d8be4478f7e1a473d",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/reported_results/transfer/transfer_summaries.csv",
+    "source": "H6 software payload/legacy/reported_results/transfer/transfer_summaries.csv",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "0dcdec68a3f7535ef7a770daba7595fa866ffa9eaec1589e17f76028f05620ea",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/reported_results/transfer/within_source_quota_50_percent.csv",
+    "source": "H6 software payload/legacy/reported_results/transfer/within_source_quota_50_percent.csv",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "9d6d7eae2d5f9b217a9eaa95c57d57ec33956949425518c1a33bbd87c3c9cd49",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/requirements-analysis.txt",
+    "source": "H6 software payload/legacy/requirements-analysis.txt",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "65b97f7db87e4cdcb0f4157240cfece5b48363b3e6a18fdccf72d6528ebcbf85",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/requirements-figures.txt",
+    "source": "H6 software payload/legacy/requirements-figures.txt",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "bc4e233d5c03413be5741c17ab0b5c68e26b49d5c88a83a1712bdc4623514bf5",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/requirements-validation.txt",
+    "source": "H6 software payload/legacy/requirements-validation.txt",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "202900ea1e24ce6cecf3a34ec5a6946009408a497af9964a4fba92cfecb991f4",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/run_capacity.py",
+    "source": "H6 software payload/legacy/run_capacity.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "d410464ef9ccff215fab0643193a13e678407b32592a99a6cb9a3fe000800dfe",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/run_raw_pooled.py",
+    "source": "H6 software payload/legacy/run_raw_pooled.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "aa475c395bc60a4b84f4a5024af69a0e9427bc501a3bfe95a593a2b2b555729a",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/test_raw_pooled.py",
+    "source": "H6 software payload/legacy/test_raw_pooled.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "5b603d0848901df15062591e75d0812c359a64b75fcaaa6570bc332d3bab5e3a",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/build_transfer_tables.py",
+    "source": "H6 software payload/legacy/transfer/build_transfer_tables.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "c4414d99e3ca506aba79b369df64a9dfdf83abbba1649e154dd6b72b094b5bb3",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/engine/README_EN.md",
+    "source": "H6 software payload/legacy/transfer/engine/README_EN.md",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "f6a53bff9fedc1a0a8655a7c2921dbe633ac8e7b3a29a84c097e6dad6f8434f3",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/engine/demo_synthetic.py",
+    "source": "H6 software payload/legacy/transfer/engine/demo_synthetic.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "c380a86c6d878cda2abbcf7424899ba81195dd9f754838388cb00f8aae52fb7e",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/engine/holdout_engine.py",
+    "source": "H6 software payload/legacy/transfer/engine/holdout_engine.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "2b280a2bb9d899f0d98ede052062e34eb6dd43a56d290915a33494b02b9f4ba9",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/engine/test_holdout_engine.py",
+    "source": "H6 software payload/legacy/transfer/engine/test_holdout_engine.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "ae6da3695362af0c4fe60951a5f4a4ddbc2d4d4bdea318e2e7019b1c43dd3694",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/extractor/EXTRACTOR_TEST_RECEIPT.json",
+    "source": "H6 software payload/legacy/transfer/extractor/EXTRACTOR_TEST_RECEIPT.json",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "411f8e60eb271f2532143e725bc6d132acdbca176a8e40b5932f395676ab8f53",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/extractor/README_EN.md",
+    "source": "H6 software payload/legacy/transfer/extractor/README_EN.md",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "35205a210542788e214c085343242fda852d01510fea4017467d2112b9dcdd3f",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/extractor/TEST_LOG.txt",
+    "source": "H6 software payload/legacy/transfer/extractor/TEST_LOG.txt",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "f2ba0291b344e68b89b7d42d52c6ddd3aa2754ddd51f1ec5ca423b487a9c6a06",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/extractor/export_source_cells.py",
+    "source": "H6 software payload/legacy/transfer/extractor/export_source_cells.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "b9b938172aac31239a765c35aaa7a84d26bed71a1f4534e1df1b2f531f126237",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/extractor/requirements.txt",
+    "source": "H6 software payload/legacy/transfer/extractor/requirements.txt",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "65b97f7db87e4cdcb0f4157240cfece5b48363b3e6a18fdccf72d6528ebcbf85",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/extractor/test_export_source_cells.py",
+    "source": "H6 software payload/legacy/transfer/extractor/test_export_source_cells.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "6dcfa0c96e71d6d7588450d0de8b52b3234dfeca9b48b071df0ae8cbbff0f082",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/extractor/vendor/protocols/E2_OUTCOME_AND_SAMPLE_CONTRACT.json",
+    "source": "H6 software payload/legacy/transfer/extractor/vendor/protocols/E2_OUTCOME_AND_SAMPLE_CONTRACT.json",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "7a2ac874b1bd12fcebf102b602f81ff6d7471595f46dd68f2230ed9ed5073cb7",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/extractor/vendor/protocols/E3_PREANALYSIS_PROTOCOL.json",
+    "source": "H6 software payload/legacy/transfer/extractor/vendor/protocols/E3_PREANALYSIS_PROTOCOL.json",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "9cc3214c4c126fcf5100e276e1f37bfc6c823740daf9f3d6e6c7852dcaad6b98",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/extractor/vendor/provenance/legacy_licences/LICENSE_CODE.txt",
+    "source": "H6 software payload/legacy/transfer/extractor/vendor/provenance/legacy_licences/LICENSE_CODE.txt",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "2c27b30e1904206c71570ce75f9dba2919d5243e00c7a7f889f4478c5c25c686",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/extractor/vendor/provenance/legacy_licences/LICENSE_CONTENT.md",
+    "source": "H6 software payload/legacy/transfer/extractor/vendor/provenance/legacy_licences/LICENSE_CONTENT.md",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "172a5eb6a316e8e4e2349cd8f48b7d1f2473f2c266a9398ea74bb5b56b270cda",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/extractor/vendor/provenance/legacy_licences/LICENSE_DATA.md",
+    "source": "H6 software payload/legacy/transfer/extractor/vendor/provenance/legacy_licences/LICENSE_DATA.md",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "b6d59ffc583ddb05a453f581030e8da745bfcf368bf2989912a3927e750b1f79",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/extractor/vendor/upstream/run_e4_frozen_analysis_v1.0.2.py",
+    "source": "H6 software payload/legacy/transfer/extractor/vendor/upstream/run_e4_frozen_analysis_v1.0.2.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "0ac2f1d60dbafcdc5edd763e682759732f326cceb66639cdf50647d34987a402",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/plot_supplement_transfer.py",
+    "source": "H6 software payload/legacy/transfer/plot_supplement_transfer.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "8ab253a7ad8e84a5350e0eac2e791961df1a82c409da26044c9e5eae084391b9",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/plot_transfer.py",
+    "source": "H6 software payload/legacy/transfer/plot_transfer.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "01be6afee16c1691288a8ec1bdf4a18985bc3a95091d1588e56edb2471c5d49e",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/postprocess_transfer.py",
+    "source": "H6 software payload/legacy/transfer/postprocess_transfer.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "ce18d64f8584e459c455877d2be79adf0f0dded3ce59f4be32018efe04039057",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/protocol/H1_PROTOCOL.json",
+    "source": "H6 software payload/legacy/transfer/protocol/H1_PROTOCOL.json",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "80c5d6d9d69cbb38901ee1f169acc9d912ac11a3d1fb1604aa46037c6f3418bb",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/protocol/PROTOCOL_EN.md",
+    "source": "H6 software payload/legacy/transfer/protocol/PROTOCOL_EN.md",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "9ca3b90e1c92741dc4887c10a86c747c32837c9dca56f4213656a61837329a25",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/run_h1.py",
+    "source": "H6 software payload/legacy/transfer/run_h1.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "1d72fcbd831f1aca8e213d87a8361bca52350813de74aa8f02f775bd0d72f2d8",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/run_transfer_from_raw.py",
+    "source": "H6 software payload/legacy/transfer/run_transfer_from_raw.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "543822b971cbced77fb612baea4af518481b8137778d029ec120568c252287bd",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/verify_empirical_rows.py",
+    "source": "H6 software payload/legacy/transfer/verify_empirical_rows.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "a5ae714efa6036d8467ca1f9627adf5a024fbb40f2417432269c7631b3bc707c",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/verify_h1.py",
+    "source": "H6 software payload/legacy/transfer/verify_h1.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "687ea1913905a38e73e2df10eb635b3bfc19a2bb6e40f1f57cbc375c98619571",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "legacy/transfer/verify_presentation.py",
+    "source": "H6 software payload/legacy/transfer/verify_presentation.py",
+    "role": "Preserved H3 pooled, deletion and retrospective coding-transfer implementation or reported aggregate",
+    "sha256": "e018c218c7f28ed212fc99092834b9b4adc8da273040671b7aacd394734a8606",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "reported_results/H4/equal_country_contrast_summaries.csv",
+    "source": "H6 software payload/reported_results/H4/equal_country_contrast_summaries.csv",
+    "role": "Cross-country reported summary; no source-state or group microcells",
+    "sha256": "1abf6d9e49a7c02e5a63edad97403d47a93ebee442c4f15cac96eb2055098b61",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "reported_results/H4/equal_country_policy_summaries.csv",
+    "source": "H6 software payload/reported_results/H4/equal_country_policy_summaries.csv",
+    "role": "Cross-country reported summary; no source-state or group microcells",
+    "sha256": "516c695c3cc1f6a25ca77cd7101a2b4bd858628d86081fb35fbe83a71b76094c",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "reported_results/H4/paired_objectives_equal_country_summaries.csv",
+    "source": "H6 software payload/reported_results/H4/paired_objectives_equal_country_summaries.csv",
+    "role": "Cross-country reported summary; no source-state or group microcells",
+    "sha256": "ad0e2f8641ef48ec5415f23b16c880883db5448f175ecafc903bcf3385af9a6e",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "reported_results/H5/equal_country_function_summaries.csv",
+    "source": "H6 software payload/reported_results/H5/equal_country_function_summaries.csv",
+    "role": "Cross-country reported follow-up summary; no row vectors or source-group cells",
+    "sha256": "624797437ee9f49867fa981b0b5e3b8fd6ba6df0a2a334c28f9e762d7ce08d0b",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "reported_results/H5/equal_country_policy_summaries.csv",
+    "source": "H6 software payload/reported_results/H5/equal_country_policy_summaries.csv",
+    "role": "Cross-country reported follow-up summary; no row vectors or source-group cells",
+    "sha256": "1ea6d21fad893861b0e9f124d0a400fb90db27a76d7821dfc6dcda19233d0cc8",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "reported_results/H7/country_policy_results.csv",
+    "source": "H7/results_native/country_policy_results.csv",
+    "role": "Country or equal-country aggregate, private local release preparation",
+    "sha256": "837bb28022c93bad2e4016c4550b1ba79f1cc3666917e046d00490c5bf579505",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "reported_results/H7/country_random_comparisons.csv",
+    "source": "H7/results_native/country_random_comparisons.csv",
+    "role": "Country or equal-country aggregate, private local release preparation",
+    "sha256": "0c97ac174b41e89877add38e1fc311ab7feff09d5decb322161c29e0bcc8bfee",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "reported_results/H7/equal_country_policy_summaries.csv",
+    "source": "H7/results_native/equal_country_policy_summaries.csv",
+    "role": "Country or equal-country aggregate, private local release preparation",
+    "sha256": "f3dcd98ad052d42281bf25ee8c992cf46abf213a48e8de5ccceda93fc4466f86",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "reported_results/H7/equal_country_random_summaries.csv",
+    "source": "H7/results_native/equal_country_random_summaries.csv",
+    "role": "Country or equal-country aggregate, private local release preparation",
+    "sha256": "c53a261c2debf6375b0e8aca3488be50897f5ece3255d6824cdb4f8bb49e3367",
+    "source_byte_identical": true,
+    "source_phase": "H7"
+  },
+  {
+    "payload_path": "reproduce.py",
+    "source": "H8 local integration/reproduce.py",
+    "role": "H8 orchestration, documentation or current figure integration",
+    "sha256": "4f308c88532e95406b2e8fb81feac001e6eedab431bc9344fea0856fee266cdf",
+    "source_byte_identical": false,
+    "source_phase": "H8"
+  },
+  {
+    "payload_path": "requirements-analysis.txt",
+    "source": "H6 software payload/requirements-analysis.txt",
+    "role": "Preserved H6 file",
+    "sha256": "16b4b5ff39167dd6ead96b6677ae26fc4c2f1e7228d6606a5818e19d5c9cfefe",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  },
+  {
+    "payload_path": "requirements.txt",
+    "source": "H6 software payload/requirements.txt",
+    "role": "Preserved H6 file",
+    "sha256": "33fbf57021c5e73b63f01c5e2536a492b92f2b1275b74f646bdd221790f48f7b",
+    "source_byte_identical": true,
+    "source_phase": "H6"
+  }
+]

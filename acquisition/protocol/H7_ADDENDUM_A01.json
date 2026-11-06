@@ -1,0 +1,8 @@
+{
+  "id": "PAPERE_H7_A01_BUDGET_CLARIFICATION",
+  "locked_utc": "2026-11-05T15:27:12.613163+00:00",
+  "before_first_h7_fit": true,
+  "overrides": "H7_PROTOCOL.random_comparator.rule phrase expected firm-count budget to probability p",
+  "clarification": "p equals selected band actual weighted mass fraction, so expected weighted query mass matches band weighted budget. Expected number queried is p*N, generally different from the band actual unweighted count. Both fractions/counts are reported; no equal respondent/time/cost claim. Monte Carlo uncertainty is algorithmic only.",
+  "other_changes": null
+}

@@ -1,0 +1,16 @@
+{
+  "addendum_id": "PAPERE_H4_A01_PAIRED_POLICY_OBJECTIVES_20261105",
+  "base_protocol_sha256": "a62c851289541a00e387c68f8bcbc31c78677c18116c714f46c180af2858f777",
+  "reason": "Pre-analysis red-team identified that a productivity-versus-finance contrast on different cohorts cannot isolate a change in screening objective. Add an explicitly paired common-cohort comparison; preserve all original planned cohorts and reports.",
+  "analysis_status_at_design": "No H4 empirical model scores or associations inspected by the parent; implementation first-fit status recorded separately in lock receipt.",
+  "cohort": "Within each primary source and secondary target, intersect the planning MOST/MAX matched cohort with known finite nonnegative integer d3c, excluding exact2500000. Do not change H1 productivity labels when restricting. Keep d3c99 in main common cohort; its ambiguity remains documented in the existing full finance excluding99 sensitivity.",
+  "outcomes": [
+    "H1 anchored source-relative low-sales-per-worker event",
+    "d3c>0 reported unmet borrowing for production expansion"
+  ],
+  "evaluation": "Fit all16 base-protocol policies separately for each of the two outcomes on precisely the same rows in every training fold. Same routine/technology variables, preprocessing rules, equal-country sumN fit weights, source evaluation weights and four quotas. Maintain 11 country exclusions; all-primary fitting then both secondary targets. Do not select a primary outcome based on results.",
+  "reporting": "Retain per-outcome full results and report paired source/country contrasts of incremental technology value over the same B baseline. Report sector/size expected-contact shares/rates for both outcomes and their differences. For the same policy, report total variation between the two normalised expected-contact allocation vectors on the common rows; this is expected-allocation distance, not realised list overlap. No row IDs or predictions in deliverables.",
+  "primary_status": "Secondary pre-analysis methodological extension. The original planning B_MOST5 minus B at quota0.50 remains the sole overall primary contrast.",
+  "prohibited": "No target-label use in predictors; no cross-objective causal claim, grant-benefit inference, cost-saving claim or significance claim. Generic questionnaire harmonisation limitations remain."
+}
+

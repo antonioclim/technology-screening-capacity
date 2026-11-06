@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Analysis software accompanying the article; local H9 preparation, not a new public release or deposit."
+title: "Which Firms Make the List? Technology Measurement under Fixed Screening Capacity"
+type: software
+authors:
+  - family-names: Clim
+    given-names: Antonio
+    orcid: "https://orcid.org/0000-0003-4745-0431"
+    affiliation: "Bucharest University of Economic Studies"
+keywords:
+  - technology measurement
+  - screening capacity
+  - information value

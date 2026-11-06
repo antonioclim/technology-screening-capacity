@@ -1,0 +1,9 @@
+{
+  "id": "PAPERE_H7_A02_FLOATING_CASE_BOUNDARIES",
+  "locked_utc": "2026-11-05T15:34:15.359385+00:00",
+  "before_first_h7_fit": true,
+  "scope": "Numerical convention only, no model, cohort, selector or score-tie change",
+  "rule": "In capacity-equivalent inverse only, snap target case mass to cumulative case boundary when their absolute difference <= 64*float64_machine_epsilon*max(1,total_case_mass). Return leftmost quota at such a boundary. This prevents floating block-sum errors from skipping a zero-case plateau. Exact equality of score ties and strict acquisition-band overlap are unchanged. Report inverse accounting tolerance and verify independent arithmetic.",
+  "reason": "Independent synthetic adversarial tests found that a one-ULP case-mass prefix discrepancy can cause a large inverse-quota jump across an outcome-free plateau. Detected before all H7 empirical fits.",
+  "first_h7_fit_utc": null
+}

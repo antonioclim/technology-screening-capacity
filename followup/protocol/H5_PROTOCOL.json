@@ -1,0 +1,82 @@
+{
+  "acceptance": [
+    "Input SHA and original H4 cohort/label identity",
+    "Common function rows labels weights identical",
+    "No training-held country overlap",
+    "Training-only preprocessing; weights sum N",
+    "Target labels cannot change scores; reversal gives aligned identical scores",
+    "Quota/tie/group accounting",
+    "Clean new-directory replay byte-identical science CSVs",
+    "Independent primary comparisons delegated separately"
+  ],
+  "aggregation": "Paired source contrasts; equal-source average within India, then equal-country average over eleven primary countries. Report mean, min/max, sign counts (zero tol1e-10). Both secondary targets separately.",
+  "allocation": "H4 descending score, exact-score tie blocks share uniform fractional probability to meet expected weighted quota. No identifier/outcome tie-break.",
+  "cohorts": {
+    "common_functions": "Intersect H4 planning cohort with valid administration MOST one-hot and complete adoption indicators with at least one adoption; selected MOST adopted in both. Preserve H1 planning event on identical firms for both function models. Re-normalise evaluation weights mean one within this common source. No administration-specific event redefinition. Compare B, B+planning MOST5, B+administration MOST5 and B+both MOST5 (secondary diagnostic).",
+    "planning_H4": "Exactly H4 planning matched MOST/adoption cohort; H1 productivity event labels fixed before matching. Logistic B/MOST re-estimated as parity check; tree B/MOST sensitivity."
+  },
+  "composition": "Sector and employment (<20,20-99,100-249,>=250,UNKNOWN) shares and within-group contact rates; total variation of shares and expected weighted individual-contact allocation between function models. Expected allocation distances are not realised list overlap/Jaccard.",
+  "contrasts": [
+    "H4 planning MOST increment B+planningMOST minus B for logistic and tree, separately",
+    "On common firms, administrationMOST minus planningMOST, separately per learner",
+    "On common firms, each function and both functions increment versus identical B",
+    "Tree minus logistic increments only as sensitivity, not winner selection"
+  ],
+  "features": "H4 B=sector a5a, founding/start year a6, multi-establishment s4, foreign ownership a3b. No employment/sales/country/region/target event as predictors. Same H4 valid domains and UNKNOWN.",
+  "functions": "Both function MOST categories represented as five nominal one-hot states; no ordinal risk constraint. MAX validity needed only for matched eligibility, not as a model feature in H5.",
+  "h4_protocol_sha256": "a62c851289541a00e387c68f8bcbc31c78677c18116c714f46c180af2858f777",
+  "known_exposure": "All H4 results and historical pooled/H1/H3 evidence have been inspected. H5 is a retrospective follow-up chosen after H4, with no prospective external validation or independent preregistration. No H5 matched-function fit or tree score has been computed before this lock.",
+  "locked_utc": "2026-11-05T13:28:39.335618+00:00",
+  "models": {
+    "logistic": "H4 fixed L2 C=1 lbfgs max_iter2000 tol1e-8; stable per-row math.fsum prediction; no tuning.",
+    "one_class": "Training prevalence constant; record if present.",
+    "tree": {
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "family": "sklearn.tree.DecisionTreeClassifier",
+      "hyperparameter_search": false,
+      "interpretation": "One fixed shallow alternative learner to expose model dependence; not an optimiser or model selection exercise.",
+      "max_depth": 3,
+      "max_features": null,
+      "min_samples_leaf": 50,
+      "min_samples_split": 2,
+      "random_state": 20261105,
+      "splitter": "best"
+    }
+  },
+  "output_privacy": "Only aggregate CSVs, model parameters, membership hashes, QA and code. Never raw records, firm IDs or per-row prediction vectors.",
+  "policies": {
+    "common_functions": [
+      "logistic_B",
+      "logistic_B_plan_MOST5",
+      "logistic_B_admin_MOST5",
+      "logistic_B_both_MOST5",
+      "tree_B",
+      "tree_B_plan_MOST5",
+      "tree_B_admin_MOST5",
+      "tree_B_both_MOST5"
+    ],
+    "planning_H4": [
+      "logistic_B",
+      "logistic_B_plan_MOST5",
+      "tree_B",
+      "tree_B_plan_MOST5"
+    ]
+  },
+  "preprocessing": "Fit numeric medians and StandardScaler on training only with always unscaled missing flags. Fixed H4 categorical domains. Same encoding for logistic and tree.",
+  "preserved_primary": "H4 planning logistic B_MOST5 minus B at q0.50 remains primary; H5 does not select a winning learner or replace H4 hierarchy.",
+  "primary_quota": 0.5,
+  "protocol_id": "PAPERE_H5_MATCHED_FUNCTION_AND_LEARNER_FOLLOWUP_20261105_v1",
+  "quotas": [
+    0.2,
+    0.35,
+    0.5,
+    0.75
+  ],
+  "raw_zip_sha256": "6d77d3ffb9dcef2ca4534e1c438ddd2e0b357eb852e6c5b48aa5fa6c3cbe2f0e",
+  "sources": "Identical H4 twelve primary sources, eleven countries; both India sources held out together. Both secondary targets separately scored after fitting all primary sources; never in primary averages.",
+  "status": "LOCAL_LOCK_BEFORE_NEW_H5_MODEL_FITS_NOT_PREREGISTRATION",
+  "training_weights": "H4 equal-country and equal-source within country preserving relative base_wt, globally rescaled to sum Ntrain.",
+  "uncertainty": "Descriptive retrospective finite-sample; no verified PSU/strata and no manufactured survey CIs/pvalues. No causal benefit, programme eligibility, cost savings or welfare claims."
+}

@@ -1,0 +1,87 @@
+{
+  "protocol_id": "PAPERE_H7_SELECTIVE_INFORMATION_CAPACITY_20261105_v1",
+  "status": "LOCKED_BEFORE_NEW_H7_FITS_AND_EVALUATION_NOT_PREREGISTERED",
+  "locked_utc": "2026-11-05T15:26:56.765749+00:00",
+  "author": "Antonio Clim",
+  "article": "Which Firms Make the List? Technology Measurement under Fixed Screening Capacity",
+  "known_exposure": "All H3-H6 outcomes, model yields and country failures have been inspected. H7 ideas use this knowledge. No new H7 acquisition, nested-selection, sector-fixed or capacity-equivalent empirical results computed before this lock. This is retrospective protocol-locked exploratory analysis, not prospective external confirmation.",
+  "canonical_baseline": {
+    "capsule_sha256": "c5b31689423adc02dd1f1307a56f7128857e6ad9f8ca060b426989df8d128444",
+    "current_manuscript_sha256": "5456a6d0687bb9428cee56ce547d1f37b107727f64e1503564e9f0d77b89b841",
+    "unchanged_in_this_phase": true
+  },
+  "input": {
+    "raw_zip_sha256": "6d77d3ffb9dcef2ca4534e1c438ddd2e0b357eb852e6c5b48aa5fa6c3cbe2f0e",
+    "raw_member_sha256": "f61a2c6e09f4763818ae1d4db8b330e97bffd8bb0824c2d833b79d728152bd17"
+  },
+  "cohort": "H4 matched planning; primary N=13996, full N=14363; original H1 planning labels fixed BEFORE adoption matching; no new eligibility or relabelling. This conditions on observed valid technology/adoption; not evidence about missing-technology population.",
+  "primary_sources": [
+    "Bangladesh",
+    "Brazil",
+    "Croatia",
+    "Ethiopia",
+    "Georgia",
+    "Ghana",
+    "India",
+    "India_Wave2_New",
+    "Kenya",
+    "Korea",
+    "Senegal",
+    "Vietnam"
+  ],
+  "secondary_sources": [
+    "BurkinaFaso",
+    "Cambodia"
+  ],
+  "features": "B and B_MOST5 exactly H4 (routine sector, start year, multi-establishment, foreign ownership; no sales/employment/source/country predictors). MOST5 is one categorical response with five states, not five questions. Target query decisions use B scores and positive weights only, never target technology/outcomes.",
+  "primary_model": "H4 L2 logistic C1 lbfgs max_iter2000 tol1e-8; H4 train-only preprocessing/fixed domains; equal-country/equal-source India fitting weights sum=Ntrain.",
+  "sensitivity_model": "H5 fixed gini tree max_depth3 min_samples_leaf50 random_state20261105, other settings unchanged. Same planning cohort. No learner selection by results.",
+  "quotas": [
+    0.2,
+    0.35,
+    0.5,
+    0.75
+  ],
+  "primary_quota": 0.5,
+  "band_menu": [
+    0,
+    0.1,
+    0.25,
+    0.5,
+    1
+  ],
+  "band_rule": "For r>0 descending B-score cumulative weighted probability interval [q*(1-r),q+(1-q)*r]; query every complete exact-score block with strictly positive intersection. r=0 queries nobody, r=1 everybody. Entire B ties included, actual weighted/unweighted query burden reported and may exceed nominal r.",
+  "contact_rule": "No-query allocation exactly B. Outside queried pool retain each original B contact probability. Inside pool rerank by rich score to the same B expected weighted contact mass in that pool. Full-query allocation exactly B_MOST5. Uniform fractional tie probabilities; no firm-ID or outcome tiebreak. Querying changes neither eligibility nor total expected weighted contact quota.",
+  "nested_selection": {
+    "outer": "Leave one of 11 reporting countries out; both India sources excluded together. Secondary sources evaluated after training/selection on all 11 primary countries, never used for training or selection.",
+    "inner": "Within each outer-training-country set, hold one validation country out, fit both models on the rest; never fit imputation/scaling/model/selector on outer target. Evaluate each menu band per validation source at same q; average India sources within country then equal countries. For secondary selector use 11 inner folds.",
+    "objective": "For each quota/model separately select smallest nominal r whose inner equal-country yield >= full-query inner equal-country yield - 0.25 cases per 100 expected weighted contacts. r=0 eligible; r=1 always qualifies. Tie by smaller r. No target scores/outcomes/technology used to choose r. The 0.25 tolerance is design input, not equivalence, non-inferiority or guaranteed held-out loss bound.",
+    "fit_reuse": "A model fitted excluding the same unordered country pair may be reused in both corresponding inner folds. Fitting sample and weights identical; prediction/evaluation target differs. Record all fits, hashes and inner results."
+  },
+  "random_comparator": {
+    "role": "Secondary paired Monte Carlo comparator; not selector candidate.",
+    "rule": "For each outer source/model/quota generate 256 independent Bernoulli query masks with p equal to actual weighted query fraction of selected band. Seed deterministically from master seed plus source/model/quota/replicate, independent of outcomes/technology. Apply same pool reranking and outside-B rule. This matches expected query-weight and expected firm-count budget to probability p; realised budget and yield reported per replicate. It does not exactly match realised band firm count. No global B/rich policy lottery substituted.",
+    "master_seed": 20261105,
+    "replicates": 256,
+    "report": "Mean queried weighted and unweighted fractions, actual band count/mass, MC standard error for yield, sector/employment shares; mean per-replicate TV and TV of mean allocation distinguished. MC error is numerical simulation error only, not survey/sampling uncertainty."
+  },
+  "capacity_equivalent": {
+    "role": "Retrospective explanatory diagnostic, not an operational rule or causal saving.",
+    "rule": "For every retained deterministic policy and source at each q, invert the fixed B-score cumulative expected case-mass curve using exact tie blocks and their event rates; use smallest/leftmost quota reaching target case mass, zero target gives zero quota. Record B inverse at its own cases, policy inverse, raw inverse(policy)-q and anchored inverse(policy)-inverse(B at q), in pp. Anchored quantity gives exactly zero for unchanged case mass and preserves adverse signs. Compare composition at policy quota q and B inverse quota. Do not invert average yields or average curves.",
+    "limits": "Target outcomes are used ex post. Equal cases may have different sector/size composition and lower yield at expanded B capacity. No monetary or staffing cost estimate; no claim future policymakers know the inverse."
+  },
+  "sector_fixed": {
+    "rule": "For each sector retain exact expected weighted contact mass allocated by B at q, then rerank within sector by rich score using exact ties. Report yield and employment composition; sector composition must be unchanged. This isolates an allocation constraint comparison, not a causal decomposition or fairness guarantee."
+  },
+  "reporting": "Every source including both adverse secondary sources, all bands and both learners retained. Primary summaries average source values within India, then equal 11 countries. Primary +/− country counts, ranges, source query count/mass, absolute yield differences vs B/full, sector and employment TV, capacity-equivalent pp. No selected-best-on-target envelope, significance/equivalence or robustness claim from absence of CI. Without verified strata/PSUs no design-based CI. No multiplicity-free confirmation.",
+  "checks": [
+    "authenticate baseline, raw and inherited inputs",
+    "endpoint and tie primitives; row-order invariance; quota accounting; ignored unqueried rich values",
+    "outer/inner country exclusion and selector provenance",
+    "independent numerical recomputation of allocations, inverses and aggregate accounting",
+    "baseline logistic/tree B and full yields match H4/H5 on exact cohort",
+    "native run from clean extracted package and exact aggregate replay"
+  ],
+  "external_validation": "No new untouched compatible external sample currently identified. Existing BF/Cambodia outcomes already inspected. Nested selection reduces current target leakage but cannot erase retrospective researcher choice. No prospective claim.",
+  "data_and_release": "Private analysis only. No raw CSV, firm identifiers or row prediction/allocation vectors saved or redistributed. Protocol, source, aggregate results, environment, receipts and audit retained. H6 manuscript/kits unchanged until subsequent phase. No public upload/submission/DOI/cost/GitHub Actions."
+}

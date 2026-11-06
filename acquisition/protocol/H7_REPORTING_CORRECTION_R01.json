@@ -1,0 +1,13 @@
+{
+  "id": "H7_REPORTING_CORRECTION_R01",
+  "utc": "2026-11-05T15:41:52.694007+00:00",
+  "after_first_H7_empirical_run": true,
+  "first_run_preserved": "historical/results_native",
+  "change": "selected_beats_random_country_n uses >1e-10 instead of >0 to exclude floating residuals when selected and random query all. Other sign counts already used1e-10.",
+  "methodological_changes": null,
+  "models_cohort_policies_quotas_band_selection_unchanged": true,
+  "q50_logistic_correct_count": 3,
+  "q50_logistic_exact_equal_within_tolerance_count": 8,
+  "original_count": 8,
+  "validation": "Full native replay of corrected source in new clean extracted snapshot; compare every CSV and allfitparameters, expectedonlyonecountcolumninsummarydiffers."
+}

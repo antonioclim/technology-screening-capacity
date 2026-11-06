@@ -1,0 +1,161 @@
+{
+  "protocol_id": "PAPERE_H4_DECISION_VALUE_PILOT_20261105_v1",
+  "status": "LOCKED_BEFORE_H4_EMPIRICAL_MODEL_SCORING_NOT_PREREGISTERED",
+  "article": "Which Firms Make the List? Technology Measurement under Fixed Screening Capacity",
+  "purpose": "Evaluate incremental decision value, measurement construct and priority rule; distinguish decision consequences from predictive-score improvements.",
+  "known_exposure": "H3 pooled/source/country results and all historical outcomes were previously inspected. H4 structural coverage, coding consistency and univariate finance values have been inspected. No H4 fitted-model yields or feature-outcome associations have been inspected before this lock. This is retrospective exploratory work, not an untouched or prospectively external sample.",
+  "input": {
+    "raw_zip_sha256": "6d77d3ffb9dcef2ca4534e1c438ddd2e0b357eb852e6c5b48aa5fa6c3cbe2f0e",
+    "member": "fat0_raw_data_qje.csv",
+    "member_sha256": "f61a2c6e09f4763818ae1d4db8b330e97bffd8bb0824c2d833b79d728152bd17",
+    "raw_shape": [
+      21055,
+      723
+    ],
+    "H3_complete_sha256": "9eff52276ccbfcea67f9e786aa84c50ab9482bd06717daae6e349f59c2c72f5a",
+    "H1_protocol_sha256": "80c5d6d9d69cbb38901ee1f169acc9d912ac11a3d1fb1604aa46037c6f3418bb"
+  },
+  "primary_sources": [
+    "Bangladesh",
+    "Brazil",
+    "Croatia",
+    "Ethiopia",
+    "Georgia",
+    "Ghana",
+    "India",
+    "India_Wave2_New",
+    "Kenya",
+    "Korea",
+    "Senegal",
+    "Vietnam"
+  ],
+  "secondary_targets": [
+    "BurkinaFaso",
+    "Cambodia"
+  ],
+  "country_rule": "Both India sources form one country and are always excluded together. Primary evaluation is 11 leave-reporting-country-out fits, evaluated separately at each of 12 source quotas. Train on all 12 primary sources before scoring either secondary target. Both targets reported, never included in primary averages.",
+  "cohorts": {
+    "planning": {
+      "MOST": "ib9b1..ib9b5 exact one-hot",
+      "adoption": "db9a1..db9a5 all binary and at least one adoption",
+      "MAX": "Highest adopted state in the documented ascending questionnaire ladder",
+      "base": "Positive finite sales e6a, employment s7 and base_wt, valid MOST; original H1 planning sample and event labels preserved before adoption matching.",
+      "expected_primary_MOST_N": 14412,
+      "expected_primary_matched_N": 13996,
+      "event": "H1 source-relative weighted inclusive 20th percentile of log(e6a/s7) on the original MOST base, fixed before adoption matching.",
+      "consistency": "Selected MOST must be marked adopted; zero contradictions expected in matched cohort; fail if contradicted."
+    },
+    "administration": {
+      "MOST": "ib8b1..ib8b5 exact one-hot",
+      "adoption": "db8a1..db8a5 all binary and at least one adoption",
+      "MAX": "Highest adopted state in the documented ascending questionnaire ladder",
+      "base": "Positive finite sales e6a, employment s7 and base_wt, valid administration MOST; no conditioning on planning validity.",
+      "expected_primary_MOST_N": 14707,
+      "expected_primary_matched_N": 14249,
+      "event": "Source-relative weighted inclusive 20th percentile of log(e6a/s7) on own administration MOST base before adoption matching, same algorithm as H1.",
+      "interpretation": "Separate function replication, not direct head-to-head function ranking; cohort/event labels differ.",
+      "consistency": "Selected MOST must be marked adopted; fail if contradicted."
+    },
+    "finance_planning": {
+      "role": "Exploratory secondary and provisional pooled harmonisation",
+      "MOST": "Planning valid one-hot",
+      "adoption": "Planning binary adoption with at least one; MOST adopted consistency required",
+      "base": "Positive finite base_wt and valid planning MOST/adoption; known finite nonnegative integer d3c; do not require sales or employment and do not restrict to d3a successful borrowers.",
+      "event": "d3c > 0: reported unmet borrowing for production expansion over the survey-specific three-year window.",
+      "anomalies": "Exclude exact 2500000 as implausible count. Main encoding retains 99 as not documented missing; repeat entire finance evaluation excluding exact 99. Never code missing as zero.",
+      "limits": "Not specifically technology-investment finance, not an indicator of causal financial constraint, treatment eligibility or programme gain. Exact local wording/calendar endpoints remain incompletely verified."
+    }
+  },
+  "features": {
+    "routine_primary": {
+      "sector": "a5a valid categorical codes 1..11,101,102 else UNKNOWN",
+      "start_year": "a6 finite 1800..2023 else missing; label start year, not exact firm age",
+      "multi": "s4 categorical 0/1 else UNKNOWN",
+      "ownership": "a3b=0 DOMESTIC; 0<a3b<=100 ANY_FOREIGN; otherwise UNKNOWN",
+      "availability": "Survey-observed routine characteristics; no assumption of zero administrative acquisition cost."
+    },
+    "excluded_primary": [
+      "source or country labels",
+      "region identifiers",
+      "sales",
+      "productivity",
+      "manager characteristics",
+      "employment s7"
+    ],
+    "size_sensitivity": "Add log(s7) only where finite positive, otherwise training-imputed with missing flag. This variable is also the productivity denominator; no independent technology mechanism inferred.",
+    "technology": "MOST and MAX five states are one-hot categorical. Binary = state 1 versus states 2..5."
+  },
+  "preprocessing": "Every fold fits numeric medians and standardisation on training rows only. Always emit numeric missing indicators; all-missing training variable uses zero. Categorical domains fixed by documented valid codes with UNKNOWN; no target-fitted centring, scaling or imputation. No country/source predictors.",
+  "training_weights": "Mean-one positive weights within matched source for evaluation. For fitting, equal total per training country and equal source total within country, preserving relative survey weights within source; rescale all fit weights to sum exactly N_training. Record masses and preprocessing for every fit.",
+  "model": {
+    "family": "L2 logistic regression",
+    "C": 1,
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "tolerance": 1e-8,
+    "class_weight": null,
+    "hyperparameter_search": false,
+    "seed": 20261105,
+    "one_class": "Use training weighted prevalence constant and report fallback; never infer missing classes from target.",
+    "convergence": "Nonconvergence is a failed computation requiring explicit numerical remediation record; do not silently select different scientific models."
+  },
+  "learned_state_risk": "For MOST5-only/MAX5-only ordering, compute training weighted event frequencies by state, smoothed by five pseudo-observations at training global weighted event prevalence. Training weights use the same country balance and sum N rule. Absent states use that global prevalence. Same fitted scores at all quotas; no target outcome ranking.",
+  "policies": [
+    "lottery",
+    "fixed_MOST5",
+    "fixed_MOST_binary",
+    "fixed_MAX5",
+    "fixed_MAX_binary",
+    "learned_MOST5",
+    "learned_MAX5",
+    "B",
+    "B_MOST_binary",
+    "B_MOST5",
+    "B_MAX_binary",
+    "B_MAX5",
+    "B_MOST5_MAX5",
+    "B_SIZE",
+    "B_SIZE_MOST5",
+    "B_SIZE_MAX5"
+  ],
+  "allocation": "Descending fitted or fixed score; identical scores form one block. Fully fill earlier blocks and assign uniform contact probability across marginal tied block to meet exact expected weighted source quota. Lottery gives every eligible row quota probability. No rank tie-breaking using IDs or outcomes.",
+  "quotas": [
+    0.2,
+    0.35,
+    0.5,
+    0.75
+  ],
+  "primary_contrast": "Planning B_MOST5 minus B yield at q=0.50, paired per country, with equal-source averaging within India and equal-country averaging over 11 countries.",
+  "secondary_contrasts": [
+    "B_MAX5 minus B_MOST5 on same cohort",
+    "B_MOST5 minus B_MOST_binary",
+    "B_MAX5 minus B_MAX_binary",
+    "B_MOST5_MAX5 minus B_MOST5",
+    "learned_MOST5 minus fixed_MOST5",
+    "learned_MAX5 minus fixed_MAX5",
+    "B_SIZE_MOST5 minus B_SIZE",
+    "B_SIZE_MAX5 minus B_SIZE",
+    "Every policy minus lottery",
+    "Administration replication of all contrasts",
+    "Exploratory finance and finance-excluding-99 replication"
+  ],
+  "reporting": "All predeclared models, sources and four quotas; source/country paired yield differences, means/ranges/sign counts and event prevalence. Expected cases per 100 expected weighted contacts. Contact share AND within-group contact rate by sector and size, plus total variation of sector/size/contact-state composition. Size groups: positive employment <20,20..99,100..249,>=250, missing/invalid; analytical groups not a claim of official national SME definition. No winner-only report, equivalence, significance, welfare or costs saved. Detailed group/cell outputs remain private.",
+  "uncertainty": "Descriptive retrospective finite-sample pilot. Public raw file has no verified PSU/stratum design fields; region_id is not a PSU. No survey-valid CI or p-value is manufactured. Numerical and synthetic checks are not statistical inference.",
+  "audit_acceptance": [
+    "Raw ZIP/member and H3/H1 identities match",
+    "Original planning cohort and H1 event labels match",
+    "Family matched cohort counts and consistency match",
+    "No training country includes held-out India source",
+    "Train-only transforms and country-balanced fit-weight global scale",
+    "All quotas exact and ties uniform",
+    "Held-out outcome perturbation leaves fits/scores/contact probabilities unchanged",
+    "Target row reordering leaves allocations unchanged after alignment",
+    "Independent primary contrasts recomputed from raw",
+    "Complete negative and positive source results retained",
+    "No H3 scientific or AI declaration changes",
+    "No raw records/identifiers/predictions in deliverable"
+  ],
+  "novelty_gate": "Do not equate higher predictive accuracy or nonzero association with novelty. Assess whether the results reveal meaningful capacity-constrained decision consequences, distributional reallocation or construct/priority/target mismatch beyond already-published FAT and policy-learning evidence. Finance cannot be promoted to primary after seeing favourable numbers without explicit exploratory relabelling and a separately dated follow-up design.",
+  "release": "Private H4 research overlay. No manuscript or five-kit modification in this phase, no new mathematical proof, no submission/publication/DOI/messaging/Actions/cost. Preserve exact approved AI declaration in H3; actual H4 assistance and provenance recorded separately."
+}
+
