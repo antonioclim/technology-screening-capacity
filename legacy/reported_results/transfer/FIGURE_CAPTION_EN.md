@@ -1,0 +1,3 @@
+Figure S1. Yield and contact composition across survey sources
+
+Each source has a separate 50% expected weighted quota. Panels A and B use source-exclusion choices for the primary sources and the all-primary training choice for the two shaded target sources. Negative yield differences are losses. Panel C shows that the identical ordered rules in Burkina Faso yield 15.54 cases per 100 expected weighted contacts against 20.71 for the lottery; their equality at this quota occurs within the manual block. The figure is plotted in Python from the accompanying result table and contains no confidence intervals.

@@ -1,0 +1,28 @@
+{
+  "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest -v test_export_source_cells.py",
+  "empirical_raw_route_executed": false,
+  "empirical_result_produced": false,
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "python": "3.12.14",
+    "scipy": "1.17.0"
+  },
+  "files": {
+    "README_EN.md": "cecf4e707b8eaf3bc5eec47f5b51a90174cc402ffb62fc6338f59af7fd05e4ae",
+    "TEST_LOG.txt": "f2ba0291b344e68b89b7d42d52c6ddd3aa2754ddd51f1ec5ca423b487a9c6a06",
+    "export_source_cells.py": "b9b938172aac31239a765c35aaa7a84d26bed71a1f4534e1df1b2f531f126237",
+    "requirements.txt": "65b97f7db87e4cdcb0f4157240cfece5b48363b3e6a18fdccf72d6528ebcbf85",
+    "test_export_source_cells.py": "6dcfa0c96e71d6d7588450d0de8b52b3234dfeca9b48b071df0ae8cbbff0f082",
+    "vendor/aggregate_reference/X04_LOW_PERFORMANCE_THRESHOLD_GRID.csv": "7069e707e0b380e19c2a71c5d70c486a0612763c349dda9e45d9502aebb0e21d",
+    "vendor/aggregate_reference/X06_TRANSITION_GROUP_DECOMPOSITION.csv": "b523df3653b407acbe6e56772b01605c5232530f484b776ac41fb631f232c83e",
+    "vendor/aggregate_reference/X07_ALL_MONOTONE_CUTPOINT_CLASSIFICATION.csv": "4fb38483aacf0d8b327634b8fc88c1dc18555c3e1e656e1d51c5bb442053af7d",
+    "vendor/protocols/E2_OUTCOME_AND_SAMPLE_CONTRACT.json": "7a2ac874b1bd12fcebf102b602f81ff6d7471595f46dd68f2230ed9ed5073cb7",
+    "vendor/protocols/E3_PREANALYSIS_PROTOCOL.json": "9cc3214c4c126fcf5100e276e1f37bfc6c823740daf9f3d6e6c7852dcaad6b98",
+    "vendor/upstream/run_e4_frozen_analysis_v1.0.2.py": "0ac2f1d60dbafcdc5edd763e682759732f326cceb66639cdf50647d34987a402"
+  },
+  "known_numeric_edge": "Archived mean-one floating quantile can advance at an exact mathematical 20% boundary; synthetic regression exposed and preserved. Empirical occurrence unknown. Real-input audit diagnostic compares raw and mean-one threshold event memberships but preserves original labels.",
+  "scope": "ARTIFICIAL_ROWS_AND_ARCHIVED_AGGREGATE_REFERENCE_CHECKS_ONLY",
+  "status": "PASS",
+  "tests_run": 11
+}

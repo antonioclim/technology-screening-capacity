@@ -1,0 +1,16 @@
+test_archived_aggregate_reference_gate_and_parity (test_export_source_cells.ExportTests.test_archived_aggregate_reference_gate_and_parity) ... ok
+test_archived_float_boundary_edge_is_preserved_and_exposed (test_export_source_cells.ExportTests.test_archived_float_boundary_edge_is_preserved_and_exposed) ... ok
+test_eligibility_mask_and_explicit_zero_state (test_export_source_cells.ExportTests.test_eligibility_mask_and_explicit_zero_state) ... ok
+test_failed_export_writes_no_success_or_output_directory (test_export_source_cells.ExportTests.test_failed_export_writes_no_success_or_output_directory) ... ok
+test_inclusive_quantile_ties (test_export_source_cells.ExportTests.test_inclusive_quantile_ties) ... ok
+test_membership_digest_is_order_invariant (test_export_source_cells.ExportTests.test_membership_digest_is_order_invariant) ... ok
+test_protocol_and_vendor_pins (test_export_source_cells.ExportTests.test_protocol_and_vendor_pins) ... ok
+test_source_mean_one_and_hand_aggregate (test_export_source_cells.ExportTests.test_source_mean_one_and_hand_aggregate) ... ok
+test_weight_scale_diagnostic_equal_weight_case (test_export_source_cells.ExportTests.test_weight_scale_diagnostic_equal_weight_case) ... ok
+test_weight_scale_diagnostic_flags_edge_without_replacing_labels (test_export_source_cells.ExportTests.test_weight_scale_diagnostic_flags_edge_without_replacing_labels) ... ok
+test_wrong_raw_hash_refused_before_csv_or_zip_parse (test_export_source_cells.ExportTests.test_wrong_raw_hash_refused_before_csv_or_zip_parse) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.555s
+
+OK

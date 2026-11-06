@@ -1,0 +1,62 @@
+{
+  "input_sha256": "b0d693b2807f008f71f7aa67786c0dd073831d2635b8e7e3a74a12884f3a834a",
+  "retained_mixtures": 12,
+  "comparisons": {
+    "specialised_planning": {
+      "strict_coverage_intervals_open": [
+        [
+          0.0,
+          0.44795613880028734
+        ]
+      ],
+      "intervals_exact": [
+        [
+          "0",
+          "6278038830789181915814136222295/14014851649545370820326492713052"
+        ]
+      ],
+      "lower_bound_for_digital_minus_comparator_recall": {
+        "0.0": 0.0,
+        "0.2": 0.007585283455130967,
+        "0.35": 0.013274246046479192,
+        "0.5": -0.009576324970394253,
+        "0.75": -0.05557754754324557,
+        "1.0": 0.0
+      }
+    },
+    "integrated_planning": {
+      "strict_coverage_intervals_open": [
+        [
+          0.0,
+          0.6502256047809144
+        ]
+      ],
+      "intervals_exact": [
+        [
+          "0",
+          "60437065997203887132430001376/92947840799913463575128954191"
+        ]
+      ],
+      "lower_bound_for_digital_minus_comparator_recall": {
+        "0.0": 0.0,
+        "0.2": 0.01903317803922898,
+        "0.35": 0.03330806156865071,
+        "0.5": 0.019043411489850774,
+        "0.75": -0.012647942852878026,
+        "1.0": 0.0
+      }
+    }
+  },
+  "qa": {
+    "status": "PASS",
+    "quota_grid_points_for_corner_dominance": 101,
+    "parameter_grid_per_corner_check": [
+      6,
+      6
+    ],
+    "quota_grid_points_for_strict_intervals": 1001,
+    "endpoints": "All rules tie at both zero and full coverage"
+  },
+  "scope": "Conservative deterministic bounds on event recall within each retained mixture",
+  "unresolved": "Outside strict intervals the independent ranges do not establish ordering"
+}

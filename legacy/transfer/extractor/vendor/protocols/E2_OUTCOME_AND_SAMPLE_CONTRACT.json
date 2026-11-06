@@ -1,0 +1,139 @@
+{
+  "common_sample": {
+    "india": "India and India_Wave2_New remain separate source strata; combined only in equal-reporting-country weight sensitivity",
+    "no_definition_specific_sample_changes": true,
+    "primary_rows": 14412,
+    "primary_sample_id": "PRIMARY_S60_N200",
+    "primary_sources": [
+      "Bangladesh",
+      "Brazil",
+      "Croatia",
+      "Ethiopia",
+      "Georgia",
+      "Ghana",
+      "India",
+      "India_Wave2_New",
+      "Kenya",
+      "Korea",
+      "Senegal",
+      "Vietnam"
+    ],
+    "reporting_countries": 11,
+    "row_rule": [
+      "e6a>0",
+      "s7>0",
+      "base_wt>0",
+      "exact one-hot MOST"
+    ],
+    "sample_frame_sensitivity": "PRIMARY_S7_GE5",
+    "source_rule": {
+      "eligible_rows_min": 200,
+      "exclude_poland": true,
+      "positive_sales_coverage_all_source_rows_min": 0.6
+    },
+    "source_strata": 12
+  },
+  "disclosure": {
+    "internal_source_diagnostics_not_for_public_release": true,
+    "minimum_cell": 20,
+    "raw_or_row_level_exports": false,
+    "source_level_performance_rankings": false
+  },
+  "exact_next_phase": "E3 — pre-analysis freeze",
+  "frozen_at_utc": "2026-08-28T10:15:38+00:00",
+  "missingness": {
+    "adoption": "all-blank MOST excluded as unresolved; other invalid patterns quarantined",
+    "controls": "to be frozen in E3; no control-driven sample change may silently alter definition comparisons",
+    "outcome": "complete-case after fixed source inclusion; no imputation"
+  },
+  "modelling_guardrails_for_e3": {
+    "causal_claims": false,
+    "fit_each_nested_boundary_separately": true,
+    "identical_outcome_sample_controls_weights_required_for_definition_comparison": true,
+    "source_interactions": "prohibited where either boundary cell <20; final heterogeneity plan deferred to E3",
+    "source_specific_coefficients_or_country_league_tables": false
+  },
+  "outcome_hierarchy": {
+    "currency_and_reference_period": "no cross-source level interpretation; source fixed effects mandatory",
+    "denominator_sensitivities": [
+      "Y_SENS_E1_MATCHED",
+      "Y_SENS_COMPONENT_MATCHED"
+    ],
+    "poland": "excluded from cardinal outcome; no cardinalisation",
+    "primary": "Y_PRIMARY_RAW = ln(e6a/s7)",
+    "primary_tail_rule": "retain all finite positive-input log outcomes",
+    "robustness": [
+      "Y_ROBUST_Z_SOURCE",
+      "Y_ROBUST_WINSOR_1_99"
+    ],
+    "zero_or_missing_sales": "exclude from log outcome; no imputation or arbitrary offset"
+  },
+  "project": "Paper E — technology-adoption definitions and firm performance",
+  "result_blindness": {
+    "adoption_outcome_correlations_computed": false,
+    "headline_models_fitted": false,
+    "outcome_summaries_by_adoption_boundary_computed": false,
+    "permitted_e2_diagnostics": [
+      "data identity and schema",
+      "outcome availability and marginal distribution",
+      "sample attrition",
+      "denominator agreement without adoption",
+      "weight concentration",
+      "adoption cell counts without outcomes"
+    ]
+  },
+  "schema_version": "1.0",
+  "source": {
+    "analysis_unit": "establishment",
+    "columns": 723,
+    "container_sha256": "6d77d3ffb9dcef2ca4534e1c438ddd2e0b357eb852e6c5b48aa5fa6c3cbe2f0e",
+    "doi": "10.48529/assd-3j65",
+    "reference_id": "WLD_2019-2023_FAT_v01_M",
+    "rows": 21055,
+    "selected_member_sha256": "f61a2c6e09f4763818ae1d4db8b330e97bffd8bb0824c2d833b79d728152bd17"
+  },
+  "state_mapping": {
+    "boundaries": {
+      "digitally_enabled_planning": [
+        "ib9b2",
+        "ib9b3",
+        "ib9b4",
+        "ib9b5"
+      ],
+      "integrated_planning": [
+        "ib9b5"
+      ],
+      "specialised_planning": [
+        "ib9b4",
+        "ib9b5"
+      ]
+    },
+    "common_sample_required_across_boundaries": true,
+    "focal_function": "production planning MOST-used method",
+    "max_branch": "SUSPENDED_UNTIL_PRODUCER_CODE_VERIFICATION",
+    "most_fields": [
+      "ib9b1",
+      "ib9b2",
+      "ib9b3",
+      "ib9b4",
+      "ib9b5"
+    ],
+    "unresolved_rule": "all five blank; exclude without imputation",
+    "valid_state_rule": "all five observed in {0,1} and row sum equals 1"
+  },
+  "status": "FROZEN_E2_OUTCOME_AND_SAMPLE_CONTRACT",
+  "weights_and_design": {
+    "explicit_psu_cluster_strata_fields": false,
+    "inference_status": "model-based associational; exact variance estimator frozen in E3",
+    "primary": "W_PRIMARY_SOURCE_MEAN1",
+    "sensitivities": [
+      "W_SENS_UNWEIGHTED",
+      "W_SENS_EQUAL_SOURCE",
+      "W_SENS_EQUAL_REPORTING_COUNTRY",
+      "W_SENS_RAW",
+      "W_SENS_SOURCE_MEAN1_CAP99"
+    ],
+    "source_fixed_effects": "mandatory"
+  },
+  "working_title": "Do Technology-Adoption Definitions Change Estimated Firm Performance? Evidence from the World Bank FAT Survey"
+}

@@ -1,0 +1,330 @@
+{
+  "adoption_boundaries": {
+    "common_sample_across_boundaries": true,
+    "digitally_enabled_planning": "one of ib9b2–ib9b5 == 1",
+    "focal_function": "Production planning — MOST-used method",
+    "integrated_planning": "ib9b5 == 1",
+    "specialised_planning": "ib9b4 == 1 or ib9b5 == 1",
+    "valid_state_rule": "ib9b1–ib9b5 are all observed in {0,1} and sum to one"
+  },
+  "amendment_policy": {
+    "after_any_outcome_by_adoption_result": "no confirmatory amendment; additions are labelled exploratory and cannot replace frozen results",
+    "before_any_e4_result": "only a versioned amendment with reason, changed fields, new protocol hash and repeated QA",
+    "max_activation": "requires producer-code verification and a separate versioned amendment; cannot overwrite MOST results"
+  },
+  "association_inference": {
+    "cross_boundary_covariance": "equation-stacked observation-level HC3 influence functions on the identical establishments",
+    "global_test": "Wald chi-square for R=[(1,-1,0),(0,1,-1)]",
+    "individual_ci": "Bonferroni simultaneous 98.333333% two-sided confidence intervals across three beta estimates",
+    "primary_covariance": "HC3 on the transformed weighted design",
+    "primary_estimator": "weighted least squares with W_PRIMARY_SOURCE_MEAN1",
+    "source_dependence_sensitivities": [
+      "CR1S-style source-cluster covariance with t(11) for individual coefficients",
+      "global source-cluster Wald result reported as a qualified sensitivity",
+      "leave-one-source-out coefficient ranges and sign stability"
+    ],
+    "survey_design_claim": "None. No verified PSU, cluster or stratum identifier is available in the pooled file."
+  },
+  "claim_ceiling": {
+    "permitted": [
+      "descriptive comparisons under the frozen sample and measurement contract",
+      "conditional associational comparisons across plausible MOST boundaries",
+      "out-of-sample predictive comparisons within observed source strata",
+      "diagnostic outcome-based classification comparisons"
+    ],
+    "prohibited": [
+      "causal effects of technology adoption",
+      "welfare effects",
+      "policy effectiveness",
+      "optimal treatment or resource allocation",
+      "observed resource misallocation",
+      "country or source league tables"
+    ]
+  },
+  "control_coding": {
+    "a3b": "0=DOMESTIC; 0<a3b<=100=ANY_FOREIGN; missing or outside [0,100]=UNKNOWN",
+    "a5a": "codes 1–11, 101 and 102 retained as categorical codes; any other or missing value set to UNKNOWN; no unsupported semantic relabelling",
+    "a6": "valid range 1800–2023; invalid/missing values replaced only for design coding by the source median; coded as decades from that median plus a separate missing/invalid indicator",
+    "a7a": "0–4, 5–9, 10–19, 20–29, 30+; missing, negative or >80 set to UNKNOWN",
+    "a7b": "codes 1 and 2; otherwise UNKNOWN",
+    "a7c": "codes 1–6; otherwise UNKNOWN",
+    "a7d": "codes 1 and 2; otherwise UNKNOWN",
+    "fixed_effect_reference_rule": "first lexicographically sorted observed level; coefficient inference is invariant to the reference level",
+    "ln_s7": "natural log of positive s7, centred by the unweighted arithmetic mean within source and analytical sample",
+    "missing_control_rule": "explicit categorical unknowns or frozen indicator/median coding; controls may not change the common sample silently",
+    "region_id": "categorical only in source-by-region fixed effects; never relabelled as PSU or cluster",
+    "s4": "codes 0 and 1 retained as categories; all other or missing values set to UNKNOWN"
+  },
+  "control_models": {
+    "M0": {
+      "role": "descriptive parsimonious sensitivity",
+      "terms": [
+        "intercept",
+        "source fixed effects",
+        "adoption boundary"
+      ]
+    },
+    "M1": {
+      "role": "FROZEN_PRIMARY",
+      "terms": [
+        "intercept",
+        "source fixed effects",
+        "a5a sector-code fixed effects",
+        "within-source-centred ln(s7)",
+        "s4 multi-establishment factor with explicit unknown",
+        "a3b foreign-ownership category: domestic, any foreign, unknown",
+        "a6 establishment-age proxy centred in decades on the source median plus missing/invalid indicator",
+        "one adoption boundary"
+      ]
+    },
+    "M1_NO_SIZE": {
+      "role": "mandatory mechanical-denominator sensitivity",
+      "terms": "M1 without within-source-centred ln(s7)"
+    },
+    "M2": {
+      "prohibition": "Do not include separate source and source-by-region fixed effects together.",
+      "role": "expanded capability/location sensitivity",
+      "terms": [
+        "intercept",
+        "source-by-region fixed effects, which subsume source fixed effects",
+        "all non-location M1 controls",
+        "a7a manager-experience bins",
+        "a7b manager-sex factor",
+        "a7c manager-education factor",
+        "a7d studied-abroad factor",
+        "one adoption boundary"
+      ]
+    }
+  },
+  "decision_rules": {
+    "association_definition_sensitivity": "H1_PRIMARY rejects and at least one gatekept pairwise contrast remains significant after Holm",
+    "decision_sensitivity_without_association_sensitivity": "H1_PRIMARY does not reject but frozen prediction or classification comparison meets its own criterion",
+    "definition_robustness": "no frozen association, prediction or classification comparison supports a material difference",
+    "novelty_guard": "positive individual adoption–performance associations alone are insufficient because the producer article already documents technology–productivity associations",
+    "null_or_mixed_results": "reported without reframing, outcome switching or selective robustness promotion"
+  },
+  "estimand": {
+    "definition_sensitivity": "Differences beta_integrated - beta_specialised, beta_specialised - beta_digital and beta_integrated - beta_digital on an identical outcome, sample, weight and control set.",
+    "not_a_survey_population_estimand": true,
+    "not_generalised_to_new_countries": true,
+    "primary": "For each boundary d, beta_d is the source-weight-normalised WLS coefficient on A_d in the frozen M1 conditional-association model, interpreted in outcome log points within the observed source mixture."
+  },
+  "exact_next_phase": "E4 — authorised execution",
+  "frozen_at_utc": "2026-08-28T11:26:12+00:00",
+  "heterogeneity": {
+    "foreign_owner": {
+      "levels": [
+        "DOMESTIC",
+        "ANY_FOREIGN"
+      ],
+      "reference": "DOMESTIC",
+      "sample": "primary rows with a3b in [0,100]"
+    },
+    "minimum_cell": 20,
+    "release_rule": "no category-specific result where either adoption cell is below 20",
+    "sector_pooled": {
+      "levels": "a5a codes with design-only pooling of codes 2 and 11 as SPARSE_2_11",
+      "pooling_basis": "adoption cell feasibility only, before outcomes",
+      "sample": "PRIMARY_S60_N200",
+      "semantic_claim": "none beyond documented codes"
+    },
+    "size_band": {
+      "levels": [
+        "5–19",
+        "20–99",
+        "100+"
+      ],
+      "reason_for_excluding_s7_lt_5": "nominal population sensitivity and sparse integrated/specialised adoption cells",
+      "reference": "5–19",
+      "sample": "PRIMARY_S7_GE5"
+    },
+    "source_specific_models": "PROHIBITED"
+  },
+  "hypotheses": {
+    "H1_PAIRWISE_GATEKEPT": {
+      "contrasts": [
+        "integrated-specialised",
+        "specialised-digital",
+        "integrated-digital"
+      ],
+      "gate": "confirmatory interpretation only if H1_PRIMARY rejects at 0.05",
+      "multiplicity": "Holm familywise adjustment across three contrasts"
+    },
+    "H1_PRIMARY": {
+      "alpha": 0.05,
+      "alternative": "at least one conditional association differs",
+      "null": "beta_integrated = beta_specialised = beta_digital",
+      "test": "two-degree-of-freedom equation-stacked HC3 Wald test",
+      "two_sided": true
+    },
+    "H2_INDIVIDUAL_ASSOCIATIONS_SECONDARY": {
+      "multiplicity": "Holm across three tests",
+      "nulls": [
+        "beta_integrated=0",
+        "beta_specialised=0",
+        "beta_digital=0"
+      ],
+      "status": "secondary and not a novelty claim by itself"
+    },
+    "H3_PREDICTION": {
+      "formal_null_test": null,
+      "question": "Does adding a frozen adoption boundary improve establishment-level prediction within observed sources relative to the same M1 model without adoption?",
+      "stability_gate": "better weighted RMSE than baseline in at least 16 of 20 repeated five-fold partitions"
+    },
+    "H4_OUTCOME_BASED_CLASSIFICATION": {
+      "multiplicity": "Holm across three pairwise BER differences",
+      "question": "Do non-adopter screens defined by alternative boundaries have different balanced error rates for identifying the source-specific weighted bottom 20% of observed performance?",
+      "status": "diagnostic, not policy effectiveness or optimal targeting"
+    },
+    "H5_HETEROGENEITY": {
+      "follow_up": "Holm-adjusted interaction contrasts within a moderator only if its BH gate opens",
+      "moderators": [
+        "size_band",
+        "foreign_owner",
+        "sector_pooled"
+      ],
+      "multiplicity": "Benjamini–Hochberg across three moderator tests at q=0.10",
+      "status": "secondary",
+      "test": "one joint equation-stacked HC3 interaction test per moderator across all three boundaries"
+    }
+  },
+  "immutable_e2_contract_sha256": "7a2ac874b1bd12fcebf102b602f81ff6d7471595f46dd68f2230ed9ed5073cb7",
+  "immutable_e2_elements": {
+    "max_branch": "SUSPENDED_UNTIL_PRODUCER_CODE_VERIFICATION",
+    "poland": "EXCLUDED_FROM_CARDINAL_OUTCOMES_NO_CARDINALISATION",
+    "primary_membership_sha256": "59d49ff980b98de612b32d721ed35dc80a92fb3175be2e1ddfcf8d36168c6f76",
+    "primary_outcome": "Y_PRIMARY_RAW = ln(e6a/s7)",
+    "primary_reporting_countries": 11,
+    "primary_rows": 14412,
+    "primary_sample": "PRIMARY_S60_N200",
+    "primary_source_strata": 12,
+    "primary_weight": "W_PRIMARY_SOURCE_MEAN1 = base_wt / unweighted mean(base_wt within source on the analytical sample)"
+  },
+  "multiplicity": {
+    "association_pairwise": "gatekept Holm family of three",
+    "classification_pairwise": "Holm family of three",
+    "heterogeneity": "BH q=0.10 across three omnibus moderator tests; gated Holm follow-ups",
+    "individual_associations": "Holm family of three, secondary",
+    "prediction": "no formal p-values",
+    "primary_global_equality": "single test at alpha 0.05",
+    "robustness": "complete reporting, not discovery testing"
+  },
+  "outcome_based_classification": {
+    "bootstrap_repetitions": 4999,
+    "claim_restriction": "diagnostic measurement consequence only; not policy effectiveness, treatment targeting or optimal allocation",
+    "pairwise_multiplicity": "Holm across three BER differences",
+    "primary_metric": "balanced error rate = 0.5 × (false-negative rate + false-positive rate), lower is better",
+    "screen_positive": "non-adopter under the relevant boundary",
+    "secondary_metrics": [
+      "target share",
+      "recall",
+      "specificity",
+      "PPV",
+      "NPV",
+      "weighted Jaccard"
+    ],
+    "seed": 20260828,
+    "truth": "Y_PRIMARY_RAW at or below the source-specific weighted 20th percentile",
+    "uncertainty": "source-stratified establishment bootstrap with source sizes fixed, thresholds and source-normalised weights recomputed in every replication",
+    "weighted_quantile": "smallest observed Y at which cumulative W_PRIMARY_SOURCE_MEAN1 reaches 20%; all threshold ties classified low performance"
+  },
+  "prediction_validation": {
+    "model_comparison": "M1 without adoption versus M1 plus each boundary; no tuning or feature selection",
+    "primary": "exact weighted leave-one-out PRESS using e_i/(1-h_i)",
+    "primary_metric": "weighted RMSE",
+    "scope": "within observed source strata; not prediction for a new country or source",
+    "secondary_metrics": [
+      "weighted MAE",
+      "weighted PRESS SSE",
+      "relative PRESS reduction versus baseline"
+    ],
+    "stability": {
+      "conclusion_gate": "at least 16 of 20 repetitions improve weighted RMSE versus baseline",
+      "fold_assignment": "outcome-blind deterministic shuffle within source × five-state MOST strata; identical partitions for all boundaries",
+      "folds": 5,
+      "formal_p_values": false,
+      "repetitions": 20,
+      "seed_base": 20260828
+    }
+  },
+  "project": "Paper E — empirical economics article",
+  "release_and_disclosure": {
+    "default_source_specific_coefficients": false,
+    "establishment_identifiers": false,
+    "generative_ai_disclosure": "transparent manuscript disclosure retained; hidden authoring metadata may be scrubbed without claims of defeating detection",
+    "minimum_cell": 20,
+    "public_repository": "data-free schema/synthetic mode only; no remote action authorised in E3",
+    "row_level_outputs": false,
+    "row_level_predictions_residuals_or_folds": false,
+    "source_or_country_performance_rankings": false
+  },
+  "result_blindness": {
+    "adoption_outcome_correlations_viewed": false,
+    "headline_coefficients_or_p_values_viewed_or_persisted": false,
+    "non_result_computational_incident": {
+      "description": "A design-matrix QA helper briefly solved weighted least-squares equations while returning only rank, condition-number and leverage diagnostics. No coefficient, standard error, p-value, outcome-by-boundary summary or residual was displayed, retained or used. All protocol choices had already been specified before the call. The final preflight was rerun with an X-only diagnostic routine.",
+      "incident_id": "E3-INC-001",
+      "material_effect_on_freeze": "NONE_IDENTIFIED",
+      "status": "DISCLOSED_AND_REMEDIATED_BEFORE_PROTOCOL_HASH"
+    },
+    "outcome_by_adoption_tables_viewed": false,
+    "real_data_model_outputs_available_to_protocol_decisions": false
+  },
+  "robustness": {
+    "controls": [
+      "M0",
+      "M1_NO_SIZE",
+      "M2"
+    ],
+    "denominators": [
+      "MATCHED_E1_DENOMINATOR",
+      "MATCHED_COMPONENT_DENOMINATOR"
+    ],
+    "influence": [
+      "leave-one-source-out"
+    ],
+    "outcomes": [
+      "Y_ROBUST_Z_SOURCE",
+      "Y_ROBUST_WINSOR_1_99"
+    ],
+    "principle": "one axis at a time; no full factorial and no selective omission",
+    "promotion_rule": "robustness results may not replace P0 because they are more favourable",
+    "samples": [
+      "STRICT_S80_N200",
+      "BROAD_AVAILABLE_N20",
+      "PRIMARY_S7_GE5"
+    ],
+    "weights": [
+      "W_SENS_UNWEIGHTED",
+      "W_SENS_EQUAL_SOURCE",
+      "W_SENS_EQUAL_REPORTING_COUNTRY",
+      "W_SENS_RAW",
+      "W_SENS_SOURCE_MEAN1_CAP99"
+    ]
+  },
+  "schema_version": "1.0",
+  "software_execution": {
+    "default_classification_bootstrap_repetitions": 4999,
+    "default_cv_repetitions": 20,
+    "real_data_guard_hash": "exact E3 protocol SHA-256 required",
+    "real_data_guard_token": "E4_AUTHORISED_AFTER_E3_FREEZE",
+    "runner": "12_CODE/run_e4_frozen_analysis.py",
+    "synthetic_self_test": "required before package release"
+  },
+  "sole_author": "Antonio Clim",
+  "source_identity": {
+    "analysis_unit": "establishment",
+    "columns": 723,
+    "container_sha256": "6d77d3ffb9dcef2ca4534e1c438ddd2e0b357eb852e6c5b48aa5fa6c3cbe2f0e",
+    "dataset_doi": "10.48529/assd-3j65",
+    "dataset_reference_id": "WLD_2019-2023_FAT_v01_M",
+    "pooled_member_sha256": "f61a2c6e09f4763818ae1d4db8b330e97bffd8bb0824c2d833b79d728152bd17",
+    "rows": 21055
+  },
+  "status": "FROZEN_E3_PREANALYSIS_PROTOCOL",
+  "upstream_packages": {
+    "E1_package_sha256": "002ca580e04345b26036f9e537996695216c4619fa230138f40e16497be60bd1",
+    "E2_package_sha256": "283b71699db3966e7a667c7d717c2a9f7a6f55a461787d65fce84b85bc9dac2b"
+  },
+  "working_title": "Do Technology-Adoption Definitions Change Estimated Firm Performance? Evidence from the World Bank FAT Survey"
+}

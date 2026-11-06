@@ -1,0 +1,25 @@
+﻿route,held_out_unit,selected_partition,selected_cuts,training_source_count,training_country_count
+excluded_primary,both_excluded_primary_sources,1|23|45,"[1,3]",12,11
+source_holdout,Bangladesh,1|23|45,"[1,3]",11,10
+source_holdout,Brazil,1|23|45,"[1,3]",11,10
+source_holdout,Croatia,1|2|345,"[1,2]",11,10
+source_holdout,Ethiopia,1|23|45,"[1,3]",11,10
+source_holdout,Georgia,1|23|45,"[1,3]",11,10
+source_holdout,Ghana,1|23|45,"[1,3]",11,10
+source_holdout,India,1|23|45,"[1,3]",11,11
+source_holdout,India_Wave2_New,1|23|45,"[1,3]",11,11
+source_holdout,Kenya,1|23|45,"[1,3]",11,10
+source_holdout,Korea,1|23|45,"[1,3]",11,10
+source_holdout,Senegal,1|23|45,"[1,3]",11,10
+source_holdout,Vietnam,1|23|45,"[1,3]",11,10
+country_holdout,Bangladesh,1|23|45,"[1,3]",11,10
+country_holdout,Brazil,1|23|45,"[1,3]",11,10
+country_holdout,Croatia,1|2|345,"[1,2]",11,10
+country_holdout,Ethiopia,1|23|45,"[1,3]",11,10
+country_holdout,Georgia,1|23|45,"[1,3]",11,10
+country_holdout,Ghana,1|23|45,"[1,3]",11,10
+country_holdout,India,1|23|45,"[1,3]",10,10
+country_holdout,Kenya,1|23|45,"[1,3]",11,10
+country_holdout,Republic of Korea,1|23|45,"[1,3]",11,10
+country_holdout,Senegal,1|23|45,"[1,3]",11,10
+country_holdout,Viet Nam,1|23|45,"[1,3]",11,10

@@ -1,0 +1,33 @@
+﻿route,source,country,quota,policy,partition,cuts,cases_per_100_expected_contacts,yield_delta_vs_five,yield_delta_vs_digital,composition_tv_vs_five_pp
+excluded_primary,BurkinaFaso,Burkina Faso,0.20,five_states,1|2|3|4|5,"[1,2,3,4]",15.538256188603613,0.0,0.0,0.0
+excluded_primary,BurkinaFaso,Burkina Faso,0.20,digital,1|2345,[1],15.538256188603613,0.0,0.0,0.0
+excluded_primary,BurkinaFaso,Burkina Faso,0.20,population_lottery,12345,[],20.70857839357834,5.170322204974727,5.170322204974727,38.34763376481395
+excluded_primary,BurkinaFaso,Burkina Faso,0.20,train_selected_three_block,1|23|45,"[1,3]",15.538256188603613,0.0,0.0,0.0
+excluded_primary,BurkinaFaso,Burkina Faso,0.35,five_states,1|2|3|4|5,"[1,2,3,4]",15.538256188603613,0.0,0.0,0.0
+excluded_primary,BurkinaFaso,Burkina Faso,0.35,digital,1|2345,[1],15.538256188603613,0.0,0.0,0.0
+excluded_primary,BurkinaFaso,Burkina Faso,0.35,population_lottery,12345,[],20.70857839357834,5.170322204974727,5.170322204974727,38.34763376481395
+excluded_primary,BurkinaFaso,Burkina Faso,0.35,train_selected_three_block,1|23|45,"[1,3]",15.538256188603613,0.0,0.0,0.0
+excluded_primary,BurkinaFaso,Burkina Faso,0.50,five_states,1|2|3|4|5,"[1,2,3,4]",15.538256188603613,0.0,0.0,0.0
+excluded_primary,BurkinaFaso,Burkina Faso,0.50,digital,1|2345,[1],15.538256188603613,0.0,0.0,0.0
+excluded_primary,BurkinaFaso,Burkina Faso,0.50,population_lottery,12345,[],20.70857839357834,5.170322204974727,5.170322204974727,38.34763376481395
+excluded_primary,BurkinaFaso,Burkina Faso,0.50,train_selected_three_block,1|23|45,"[1,3]",15.538256188603613,0.0,0.0,0.0
+excluded_primary,BurkinaFaso,Burkina Faso,0.75,five_states,1|2|3|4|5,"[1,2,3,4]",17.18773827033464,0.0,-0.7500251094674681,0.0
+excluded_primary,BurkinaFaso,Burkina Faso,0.75,digital,1|2345,[1],17.93776337980211,0.7500251094674681,0.0,2.7774501813649164
+excluded_primary,BurkinaFaso,Burkina Faso,0.75,population_lottery,12345,[],20.70857839357834,3.5208401232437,2.7708150137762315,20.550788745062018
+excluded_primary,BurkinaFaso,Burkina Faso,0.75,train_selected_three_block,1|23|45,"[1,3]",17.23250898136582,0.04477071103118235,-0.7052543984362858,0.05954078700717718
+excluded_primary,Cambodia,Cambodia,0.20,five_states,1|2|3|4|5,"[1,2,3,4]",26.273492854088754,0.0,0.0,0.0
+excluded_primary,Cambodia,Cambodia,0.20,digital,1|2345,[1],26.273492854088754,0.0,0.0,0.0
+excluded_primary,Cambodia,Cambodia,0.20,population_lottery,12345,[],20.355991304295443,-5.917501549793314,-5.917501549793314,61.688987880745
+excluded_primary,Cambodia,Cambodia,0.20,train_selected_three_block,1|23|45,"[1,3]",26.273492854088754,0.0,0.0,0.0
+excluded_primary,Cambodia,Cambodia,0.35,five_states,1|2|3|4|5,"[1,2,3,4]",26.273492854088754,0.0,0.0,0.0
+excluded_primary,Cambodia,Cambodia,0.35,digital,1|2345,[1],26.273492854088754,0.0,0.0,0.0
+excluded_primary,Cambodia,Cambodia,0.35,population_lottery,12345,[],20.355991304295443,-5.917501549793314,-5.917501549793314,61.688987880745
+excluded_primary,Cambodia,Cambodia,0.35,train_selected_three_block,1|23|45,"[1,3]",26.273492854088754,0.0,0.0,0.0
+excluded_primary,Cambodia,Cambodia,0.50,five_states,1|2|3|4|5,"[1,2,3,4]",24.615011231048374,0.0,0.5840451641891341,0.0
+excluded_primary,Cambodia,Cambodia,0.50,digital,1|2345,[1],24.03096606685924,-0.5840451641891341,0.0,4.935148905133945
+excluded_primary,Cambodia,Cambodia,0.50,population_lottery,12345,[],20.355991304295443,-4.259019926752932,-3.6749747625637976,38.311012119255
+excluded_primary,Cambodia,Cambodia,0.50,train_selected_three_block,1|23|45,"[1,3]",24.40949639403701,-0.2055148370113652,0.37853032717776897,1.8327284363981062
+excluded_primary,Cambodia,Cambodia,0.75,five_states,1|2|3|4|5,"[1,2,3,4]",22.803103299466414,0.0,1.2221204076497079,0.0
+excluded_primary,Cambodia,Cambodia,0.75,digital,1|2345,[1],21.580982891816706,-1.2221204076497079,0.0,10.326848952046365
+excluded_primary,Cambodia,Cambodia,0.75,population_lottery,12345,[],20.355991304295443,-2.4471119951709737,-1.224991587521266,13.022698975502575
+excluded_primary,Cambodia,Cambodia,0.75,train_selected_three_block,1|23|45,"[1,3]",22.373061426360422,-0.43004187310599373,0.7920785345437141,3.835002772280014

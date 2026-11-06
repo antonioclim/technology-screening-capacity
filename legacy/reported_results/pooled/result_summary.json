@@ -1,0 +1,33 @@
+{
+  "scope": "Retrospective exploratory point estimates on frozen weighted aggregates",
+  "input_sha256": {
+    "X04_LOW_PERFORMANCE_THRESHOLD_GRID.csv": "7069e707e0b380e19c2a71c5d70c486a0612763c349dda9e45d9502aebb0e21d",
+    "X06_TRANSITION_GROUP_DECOMPOSITION.csv": "b523df3653b407acbe6e56772b01605c5232530f484b776ac41fb631f232c83e",
+    "X07_ALL_MONOTONE_CUTPOINT_CLASSIFICATION.csv": "4fb38483aacf0d8b327634b8fc88c1dc18555c3e1e656e1d51c5bb442053af7d"
+  },
+  "unweighted_n": 14412,
+  "realised_prevalence": 0.20407880972669531,
+  "x07_numeric_parity_checks": 24,
+  "partitions": 16,
+  "coverage_grid_points": 111,
+  "largest_ordinal_minus_best_binary_cases_per_100_eligible": 0.4842221827938502,
+  "coverage_at_largest_gap": 0.7245721761027297,
+  "at_50_cases_per_100_contacts": {
+    "Five states": 24.588598935315655,
+    "Digital": 24.186649210574785,
+    "Platform or mobile": 21.844284338827503,
+    "Specialised": 21.728783135112142,
+    "Integrated": 21.02337254550256,
+    "Population lottery": 20.40788097266953
+  },
+  "three_block_upper_loss_per_100_contacts_by_event_quantile": {
+    "0.10": 0.16470826136661756,
+    "0.15": 0.24737115573506926,
+    "0.20": 0.13130110776488352,
+    "0.25": 0.4086529181017388,
+    "0.30": 0.4949511419238931
+  },
+  "microdata_accessed": false,
+  "confidence_intervals_computed": false,
+  "best_binary_is_retrospective": true
+}
