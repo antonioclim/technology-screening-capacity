@@ -1,7 +1,0 @@
-current_figure	calculation	input_directory	original_export
-Figure_1	H4 planning MOST added to B	inputs/main	Figure_1
-Figure_2	H4 MAX–MOST yield and sector-composition distance	inputs/main	Figure_2
-Figure_S1	H3 source-exclusion coarsening	inputs/transfer	Figure_S1
-Figure_S2	H3 original pooled yield curves	inputs/pooled	FIGURE_CAPACITY
-Figure_S3	H3 original pooled contact composition	inputs/pooled	FIGURE_LIST_COMPOSITION
-Figure_S4	H7 selective acquisition and sector-fixed allocation	inputs/acquisition	Figure_S4
