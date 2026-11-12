@@ -2,6 +2,8 @@
 
 Analysis software accompanying **Which Firms Make the List? Technology Measurement under Fixed Screening Capacity**, by Antonio Clim.
 
+**Version 1.1.0 is staged and unpublished.** It adds the separate capacity-derivative command and all seven native editable figures while preserving the existing flat analysis layout. No new DOI or release date has been assigned. The immutable v1.0.0 DOI continues to identify that earlier release only. See [CHANGELOG.md](CHANGELOG.md) and [RELEASE_STATE.json](RELEASE_STATE.json).
+
 This repository contains the screening calculations, protocols, reported aggregate results and Python plotting applications. The manuscript and submission documents are distributed separately.
 
 ## Start here
@@ -9,7 +11,8 @@ This repository contains the screening calculations, protocols, reported aggrega
 | Task | Entry point | Input |
 |---|---|---|
 | Run the five synthetic test suites | `reproduce.py --mode synthetic` | Supplied fixtures |
-| Regenerate all six figures | `reproduce.py --mode figures` | Eight supplied aggregate CSV files |
+| Regenerate the six original figures | `reproduce.py --mode figures` | Eight supplied aggregate CSV files |
+| Build Table 5 and Figure 3 | `h7_capacity/reproduce.py --output PATH` | Supplied pinned H7 aggregates |
 | Prepare the analytical cohorts | `reproduce.py --mode prepare` | Original FAT ZIP, obtained separately |
 | Rerun an empirical analysis | `pooled`, `transfer`, `conditional`, `followup` or `acquisition` mode | Original FAT ZIP |
 | Run the combined workflow | `reproduce.py --mode all` | Original FAT ZIP and supplied figure CSV files |
@@ -26,6 +29,16 @@ python -B reproduce.py --mode synthetic --output /absolute/new_synthetic
 python -B reproduce.py --mode figures --output /absolute/new_figures
 ```
 
+For the additional capacity derivative, install its complete 19-package lock in the same dedicated Python 3.12 environment, then run its separate entry point:
+
+```sh
+python -m pip install -r h7_capacity/requirements-complete-linux-py312.txt
+python -m pip check
+python -B h7_capacity/reproduce.py --output /absolute/new_capacity
+```
+
+This command locates the flat repository automatically. It checks the archived aggregates and independent synthetic primitives, then generates Table 5, Figure 3 in PNG/SVG/PDF/ODG and numerical reports. It performs no new model fits and accesses no microdata. The original `reproduce.py --mode all` remains unchanged and does not call this additional command.
+
 Every output directory must be new and outside the repository. The absolute paths above are examples: replace them with paths for your machine. Native Windows execution has not been tested.
 
 For empirical work, obtain `WLD_2019-2023_FAT_v01_M_CSV.zip` through the [World Bank Microdata Library](https://microdata.worldbank.org/catalog/8209). Then run:
@@ -38,7 +51,9 @@ python -B reproduce.py --mode all --microdata /absolute/WLD_2019-2023_FAT_v01_M_
 
 The other empirical modes select one analysis rather than the combined workflow. Each command records subprocesses, exit codes and local logs. A failed stage leaves a failure receipt. The `all` workflow regenerates figures from the supplied reference CSV files; it does not automatically substitute newly fitted results into the figure inputs. Compare new analytical outputs with the archived tables before using them to make figures.
 
-No command downloads data, contacts an external service or publishes results. Generated detailed analytical outputs belong outside the repository. GitHub Actions are not used.
+The seven editable ODG drawings and canonical vector PDFs are supplied in `figures/native_odg/` and `figures/vector_pdf/`. The [figure gallery](figures/README.md) provides all seven previews and sources, the separate Figure 3 reproduction command and font/editing guidance. ODG objects are editable but are not linked to live chart data.
+
+No analysis command downloads data, contacts an external service or publishes results. Generated detailed analytical outputs belong outside the repository. GitHub Actions are not used.
 
 ## Data and analytical comparisons
 
@@ -65,7 +80,8 @@ The original pooled comparison uses 14,412 establishments and a single pooled qu
 | `followup/` | Same-firm function comparison and fixed-tree follow-up |
 | `acquisition/` | Sector-fixed allocation, selective querying and capacity diagnostics |
 | `reported_results/` | Reported country or equal-country aggregate tables |
-| `figures/` | Gallery, eight CSV inputs, six SVG/PNG references and plotting source |
+| `figures/` | Seven-figure gallery, native ODG/vector PDF/SVG/PNG sources, eight original CSV inputs and plotting source |
+| `h7_capacity/` | Additional capacity tables, Figure 3 and aggregate/synthetic numerical checks |
 | `docs/` | Protocol projection and repository documentation |
 
 The public protocol copies retain the scientific specifications. Administrative publication text has been separated from those specifications; [protocol provenance](docs/PROTOCOL_PROJECTIONS.md) records the resulting identity changes. Historical locks remain historical evidence and are not reassigned to this repository revision.
@@ -76,4 +92,4 @@ Synthetic tests check software behaviour on fixtures. Figure generation reconstr
 
 ## Citation and rights
 
-Version **1.0.0** has archive identifier DOI [10.5281/zenodo.24000396](https://doi.org/10.5281/zenodo.24000396). Author and citation metadata are in [CITATION.cff](CITATION.cff). Original code by Antonio Clim is licensed under MIT; his original documentation and figures are licensed under CC BY 4.0. See the [component licence map](LICENSES.md) and [rights and provenance](RIGHTS_AND_PROVENANCE_EN.md) for inherited notices, aggregate outputs and data-source conditions. World Bank FAT data are not relicensed.
+Version **1.1.0 is staged, not released**, and has no assigned DOI or release date. The previous immutable version **1.0.0** has DOI [10.5281/zenodo.24000396](https://doi.org/10.5281/zenodo.24000396). This earlier DOI does not identify the added capacity command or complete seven-figure package. Current staged citation metadata are in [CITATION.cff](CITATION.cff); validation scope is recorded in [RELEASE_VALIDATION.json](RELEASE_VALIDATION.json). Original code by Antonio Clim is licensed under MIT; his original documentation and figures are licensed under CC BY 4.0. See the [component licence map](LICENSES.md) and [rights and provenance](RIGHTS_AND_PROVENANCE_EN.md) for inherited notices, aggregate outputs and data-source conditions. World Bank FAT data are not relicensed.

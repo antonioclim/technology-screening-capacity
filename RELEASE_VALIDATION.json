@@ -1,0 +1,287 @@
+{
+  "status": "PASS",
+  "planned_version": "1.1.0",
+  "publication_status": "staged_unpublished",
+  "prepared_on": "2026-11-12",
+  "scope": "Tests of the flat additive release working tree. No new empirical fitting or native Draw execution.",
+  "baseline": {
+    "version": "1.0.0",
+    "commit": "1ce158cb5c076de75257343ca5899c558849c518",
+    "file_count": 181,
+    "version_doi": "10.5281/zenodo.24000396",
+    "baseline_paths_preserved": true,
+    "numerical_code_and_inputs_unchanged": true,
+    "root_entrypoint_and_requirements_unchanged": true,
+    "six_original_svg_and_png_files_unchanged": true
+  },
+  "current_execution": {
+    "runtime": {
+      "python": "3.12.14",
+      "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+      "packages": {
+        "contourpy": "1.3.3",
+        "cycler": "0.12.1",
+        "fonttools": "4.61.1",
+        "joblib": "1.5.3",
+        "kiwisolver": "1.4.9",
+        "lxml": "6.1.1",
+        "matplotlib": "3.10.8",
+        "numpy": "2.3.5",
+        "packaging": "26.3",
+        "pandas": "2.2.3",
+        "pillow": "13.0.0",
+        "pyparsing": "3.3.2",
+        "python-dateutil": "3.0.0",
+        "pytz": "2026.6",
+        "scikit-learn": "1.8.0",
+        "scipy": "1.17.0",
+        "six": "1.17.0",
+        "threadpoolctl": "3.6.0",
+        "tzdata": "2026.6"
+      },
+      "dependency_lock_matched": true,
+      "environment": "Existing R4 venv inherits runtime site-packages with pinned python-dateutil and six installed locally; this is not a new clean environment."
+    },
+    "canonical_synthetic": {
+      "suite_count": 5,
+      "passed": 56,
+      "failed": 0,
+      "skipped": 0,
+      "suites": [
+        {
+          "suite_log": "synthetic_acquisition.stderr.txt",
+          "passed": 14,
+          "failed": 0,
+          "skipped": 0,
+          "log_sha256": "0fbb340df547ca00e6149300690089b1997c0281493ba5dba720af4487f78c7c"
+        },
+        {
+          "suite_log": "synthetic_conditional.stderr.txt",
+          "passed": 9,
+          "failed": 0,
+          "skipped": 0,
+          "log_sha256": "6216e5ee331190a8264a4583e2bcd27952d0dce0f174d1fa92a03216dfd89f4e"
+        },
+        {
+          "suite_log": "synthetic_followup.stderr.txt",
+          "passed": 7,
+          "failed": 0,
+          "skipped": 0,
+          "log_sha256": "12275cc886df29148fbd3fde6b6ae6f98d9e0163014d3418ce9b558d0cfb88ec"
+        },
+        {
+          "suite_log": "synthetic_legacy_raw_pooled.stderr.txt",
+          "passed": 4,
+          "failed": 0,
+          "skipped": 0,
+          "log_sha256": "932c48205ae98ab5cf7b0837eb259ce3248357b373765a6b246025d512be8705"
+        },
+        {
+          "suite_log": "synthetic_legacy_transfer.stderr.txt",
+          "passed": 22,
+          "failed": 0,
+          "skipped": 0,
+          "log_sha256": "562dcc77d9703c1b160c28ed61abce4f394eb5ee16a33494acf06548ce91036d"
+        }
+      ]
+    },
+    "h7": {
+      "status": "PASS",
+      "dependency_lock_matched": true,
+      "models_fitted": 0,
+      "microdata_accessed": false,
+      "empirical_reexecution": false,
+      "independent_scalar_comparisons": 1440,
+      "plateau_regression_trials": 10000,
+      "aggregate_numeric_comparisons": 4873,
+      "affine_upper_hull_comparisons": 16,
+      "plotted_coordinate_checks": 12,
+      "deterministic_rebuild_checks": [
+        {
+          "path": "derived/H7_capacity_secant_comparisons.csv",
+          "sha256": "4eec27a154f8efd686f240d5e4684a4d195252858059e519d44bc126859e3150",
+          "expected_sha256": "4eec27a154f8efd686f240d5e4684a4d195252858059e519d44bc126859e3150",
+          "byte_identical": true
+        },
+        {
+          "path": "derived/H7_capacity_policy_menu_q50.csv",
+          "sha256": "cd789796563fd4f15c051c01aff9041a45f57b4f62ac7d8d47bde9cd9c3b9dca",
+          "expected_sha256": "cd789796563fd4f15c051c01aff9041a45f57b4f62ac7d8d47bde9cd9c3b9dca",
+          "byte_identical": true
+        },
+        {
+          "path": "derived/Figure_3_capacity_q50.png",
+          "sha256": "f109f61dc9950a8dd7181c0d8e5d93729717b88757871a73198709d456bfc290",
+          "expected_sha256": "f109f61dc9950a8dd7181c0d8e5d93729717b88757871a73198709d456bfc290",
+          "byte_identical": true
+        }
+      ],
+      "module_file_sha256": {
+        "INTEGRATION_PROVENANCE.json": "29307d9de3861814831eaeae2fe106ca1208851bd9f4f25966799b0933030673",
+        "README.md": "ab2f95d96f96cb97b3aa8a38757c2b47d9205881b27e4ead2dee917c9a8f183b",
+        "build_h7_capacity.py": "c60a22162265f1e06060754a5ec6eb7a26f9430dbb9f6f02a3bf2af25bae7a7e",
+        "check_aggregate_contracts.py": "bd9d25bbcff56a405908466a149ed0e6ae5acf623310836588fc17f889d5a20f",
+        "reproduce.py": "b547bbdb2963252d1e8741a2abc25ad6b1e99cfd925b1cbf9bfa49fc1f403098",
+        "requirements-complete-linux-py312.txt": "06b6136c7e7088ac8a626e3c8229470145ee8ac54bcb64443ab5760d8915aa82",
+        "requirements.txt": "2a48c5f1196117bf5d337ae43ea3c37fa4121ebd87bea761570a115aa787c6de",
+        "svg_to_native_odg.py": "ab83eca6fae796510f4fee1e4a9a9594b3e8f2b462e936f5be33dc9bbb2eaf1c",
+        "verify_h7_capacity.py": "49eac637b4c707b320fa0cfbc348c6aaca7118fa69801dc8ca270c3c99534ab0"
+      }
+    },
+    "cli": {
+      "negative_checks": [
+        {
+          "case": "h7_inside_root",
+          "exit_code": 2,
+          "path_state_unchanged": true,
+          "error_category": "--output must be outside the software and H7 payloads"
+        },
+        {
+          "case": "h7_inside_module",
+          "exit_code": 2,
+          "path_state_unchanged": true,
+          "error_category": "--output must be outside the software and H7 payloads"
+        },
+        {
+          "case": "h7_existing_output",
+          "exit_code": 2,
+          "path_state_unchanged": true,
+          "error_category": "--output must be a new directory"
+        },
+        {
+          "case": "canonical_inside_root",
+          "exit_code": 2,
+          "path_state_unchanged": true,
+          "error_category": "--output must be outside the software payload"
+        },
+        {
+          "case": "wrong_source_identity",
+          "exit_code": 2,
+          "path_state_unchanged": true,
+          "error_category": "Original H7 checker identity differs: acquisition/independent/independent_h7.py"
+        }
+      ],
+      "canonical_help_passed": true,
+      "h7_help_passed": true,
+      "default_flat_source_discovery_executed": true
+    }
+  },
+  "prior_evidence": {
+    "R3": {
+      "record_sha256": "d31401c30e86582819ea3f5ccf757fa7303f58a1087638f1e08e3bd4865bf954",
+      "scope": "Previously completed unchanged baseline full raw-data pipeline: 14 stages, 22 reporting CSV comparisons and six PNG byte matches; independent same-input checks have their documented partial coverage.",
+      "empirical_execution_repeated_here": false
+    },
+    "R4": {
+      "record_sha256": "5e6ce567ece802ee09f69231fefb9c344defc812d94792686cc3fa0732c97c3d",
+      "scope": "Prior public-payload run: 77 tests passed and two private-reference skips across eight suites, six PNG matches and H7 derivative checks. The 56 canonical cases were repeated here; the 21 additional passing cases and two skips were not repeated.",
+      "native_figures": "Seven R3 native ODG edits/save/reopen/export tested. R4 copied figures and verified their provenance; current asset identity is checked below."
+    }
+  },
+  "artwork_copy_checks": [
+    {
+      "path": "figures/native_odg/Figure_1.odg",
+      "sha256": "1d7600f4892adf04ba7ef02f927aed332419e0b54b61bea01065b80c43d01a92",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/native_odg/Figure_2.odg",
+      "sha256": "4d86beee7c9f64f7fc34d4c87bf312fa2d99d6ce7a5e20b934bbcd77632cef95",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/native_odg/Figure_3.odg",
+      "sha256": "b130a6f699867dbb4f93594eea23e93e45ca9dffe0348ca1382d69ce38dd3475",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/native_odg/Figure_S1.odg",
+      "sha256": "3dc00606424191c3c1a00b36081d3015c9d464fe49fbd69d68fa970f0d84d0fe",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/native_odg/Figure_S2.odg",
+      "sha256": "9054b460c5083b5cb209c9a272c702d834871ce44516829d28f9413842a19466",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/native_odg/Figure_S3.odg",
+      "sha256": "a82c9b84bb38bf1dc62192d141a1e91c435494c609e9fa42d33ca32a9f18b242",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/native_odg/Figure_S4.odg",
+      "sha256": "35e8901c61355be2d8c4782b7725d223a3604bfff144aed5d6263341dad35a23",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/vector_pdf/Figure_1.pdf",
+      "sha256": "98c8043a5ae2410689630f7bec21fad87d7be0a83a151fc1755afa86793594a8",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/vector_pdf/Figure_2.pdf",
+      "sha256": "e9966841de5ed977dff2cc260a9d189ce822843144e50a53182fd50ebd7df43d",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/vector_pdf/Figure_3.pdf",
+      "sha256": "9b62b14dc16abec7f43b8142eb5735f93faf7fcda16c1a5606b29928b7ca43fe",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/vector_pdf/Figure_S1.pdf",
+      "sha256": "43b7fb3716d7716dadba958d19d909a0b5be22229b358d8aa46da52150e85bb4",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/vector_pdf/Figure_S2.pdf",
+      "sha256": "48f534d9535c90f2e50b81690f5438a635e79485845c748dcdd78e5f25d4333a",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/vector_pdf/Figure_S3.pdf",
+      "sha256": "0d6f97c6e3c40af39e1b85f05c356b0c05fce7aacde446a723d48a47056e4a01",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/vector_pdf/Figure_S4.pdf",
+      "sha256": "259e2675a7ddd1b3f913926a37deb64973f8749bc43500f3af4e80fbbca33b99",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/fonts/DejaVuSans-Bold.ttf",
+      "sha256": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/fonts/DejaVuSans.ttf",
+      "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/fonts/LICENSE_DEJAVU",
+      "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/editable_svg/Figure_3.svg",
+      "sha256": "84695aee6e047bf871448b180042a05e902419de93c6aaca73451508ce4d9795",
+      "unchanged_from_R4": true
+    },
+    {
+      "path": "figures/preview_png/Figure_3.png",
+      "sha256": "f109f61dc9950a8dd7181c0d8e5d93729717b88757871a73198709d456bfc290",
+      "unchanged_from_R4": true
+    }
+  ],
+  "limits": [
+    "The 56 current synthetic cases are not additional independent empirical observations.",
+    "H7 consumes archived aggregates and does not automatically use fresh empirical outputs.",
+    "The original root --mode all remains unchanged and excludes the separate H7 derivative command.",
+    "Six original figure engines were not rerun for this documentation/artwork-only addition; their code and inputs are unchanged, and their R4 PNG byte checks remain applicable.",
+    "Native ODG files are drawings with editable objects, not charts with live data links.",
+    "Native Windows and macOS execution is not certified.",
+    "No new DOI, public release or deposition is asserted by this record."
+  ]
+}

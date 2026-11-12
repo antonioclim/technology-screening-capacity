@@ -1,6 +1,7 @@
 current_figure	calculation	input_directory	original_export
 Figure_1	H4 planning MOST added to B	inputs/main	Figure_1
 Figure_2	H4 MAX–MOST yield and sector-composition distance	inputs/main	Figure_2
+Figure_3	H7 query share and anchored baseline-equivalent capacity	../reported_results/H7	Figure_3_capacity_q50
 Figure_S1	H3 source-exclusion coarsening	inputs/transfer	Figure_S1
 Figure_S2	H3 original pooled yield curves	inputs/pooled	FIGURE_CAPACITY
 Figure_S3	H3 original pooled contact composition	inputs/pooled	FIGURE_LIST_COMPOSITION
