@@ -2,7 +2,7 @@
 
 Analysis software accompanying **Which Firms Make the List? Technology Measurement under Fixed Screening Capacity**, by Antonio Clim.
 
-**Version 1.1.0 is staged and unpublished.** It adds the separate capacity-derivative command and all seven native editable figures while preserving the existing flat analysis layout. No new DOI or release date has been assigned. The immutable v1.0.0 DOI continues to identify that earlier release only. See [CHANGELOG.md](CHANGELOG.md) and [RELEASE_STATE.json](RELEASE_STATE.json).
+**Version 1.1.0** adds the separate capacity-derivative command and all seven native editable figures while preserving the existing flat analysis layout. Its software DOI is [10.5281/zenodo.24186153](https://doi.org/10.5281/zenodo.24186153). See [CHANGELOG.md](CHANGELOG.md) for the changes and [RELEASE_STATE.json](RELEASE_STATE.json) for the recorded DOI reservation and publication status at packaging.
 
 This repository contains the screening calculations, protocols, reported aggregate results and Python plotting applications. The manuscript and submission documents are distributed separately.
 
@@ -92,4 +92,4 @@ Synthetic tests check software behaviour on fixtures. Figure generation reconstr
 
 ## Citation and rights
 
-Version **1.1.0 is staged, not released**, and has no assigned DOI or release date. The previous immutable version **1.0.0** has DOI [10.5281/zenodo.24000396](https://doi.org/10.5281/zenodo.24000396). This earlier DOI does not identify the added capacity command or complete seven-figure package. Current staged citation metadata are in [CITATION.cff](CITATION.cff); validation scope is recorded in [RELEASE_VALIDATION.json](RELEASE_VALIDATION.json). Original code by Antonio Clim is licensed under MIT; his original documentation and figures are licensed under CC BY 4.0. See the [component licence map](LICENSES.md) and [rights and provenance](RIGHTS_AND_PROVENANCE_EN.md) for inherited notices, aggregate outputs and data-source conditions. World Bank FAT data are not relicensed.
+Cite version **1.1.0** using DOI [10.5281/zenodo.24186153](https://doi.org/10.5281/zenodo.24186153) and the metadata in [CITATION.cff](CITATION.cff). The DOI was reserved when this archive was prepared; [RELEASE_STATE.json](RELEASE_STATE.json) records that packaging-time status. The previous immutable version **1.0.0** has DOI [10.5281/zenodo.24000396](https://doi.org/10.5281/zenodo.24000396), which identifies only that earlier version. Validation dates and scope are recorded in [RELEASE_VALIDATION.json](RELEASE_VALIDATION.json). Original code by Antonio Clim is licensed under MIT; his original documentation and figures are licensed under CC BY 4.0. See the [component licence map](LICENSES.md) and [rights and provenance](RIGHTS_AND_PROVENANCE_EN.md) for inherited notices, aggregate outputs and data-source conditions. World Bank FAT data are not relicensed.

@@ -1,6 +1,6 @@
 # Reproduce the H7 capacity analysis
 
-This proposed addition builds Table 5, Figure 3 and their numerical checks from the archived H7 aggregate results. It is staged as part of the planned 1.1.0 update. It does not change the immutable published v1.0.0 release, publish a new release or assign a DOI.
+This component of software version 1.1.0 builds Table 5, Figure 3 and their numerical checks from the archived H7 aggregate results. The version DOI is [10.5281/zenodo.24186153](https://doi.org/10.5281/zenodo.24186153); the root `RELEASE_STATE.json` records its reservation and publication status at packaging. The component performs no publication or DOI-registration operation.
 
 Use a separate Python 3.12 environment. The original analysis requirements alone are insufficient for the native ODG export, which also needs `lxml==6.1.1`. The supplied complete Linux/Python 3.12 lock contains the original 16 pins, their two recorded timezone dependencies and lxml. From the flat repository root (the wrapper locates this repository automatically):
 

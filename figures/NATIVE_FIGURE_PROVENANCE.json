@@ -1,6 +1,6 @@
 {
   "prepared_on": "2026-11-12",
-  "scope": "Native figure sources and canonical exports added to staged software 1.1.0; no new numerical or native Draw execution in this preparation",
+  "scope": "Native figure sources and canonical exports added to software version 1.1.0; no new numerical or native Draw execution in this preparation",
   "source": "Paper E R4 final editable figure kit",
   "original_R3_archive_sha256": "d1b0dee1318a8af2fb8360e4b319f19adbefb7028b50c780594da67642729a95",
   "native_validation": "R3 native LibreOfficeDev 26.8.0.0.alpha0 Java UNO edit/save/reopen/export checks; 824 objects, including 278 text and 546 vector objects, across seven figures",
@@ -25,5 +25,9 @@
     "fonts/LICENSE_DEJAVU": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
   },
   "fonts": "Exact DejaVu Sans regular and bold 2.35, with existing licence notice",
-  "new_version_doi_assigned": false
+  "new_version_doi_assigned": true,
+  "software_doi": "10.5281/zenodo.24186153",
+  "doi_status_at_packaging": "reserved; not published",
+  "metadata_finalised_on": "2026-11-13",
+  "metadata_finalisation_scope": "Record the author-confirmed reserved version DOI. All native drawings, PDFs and font files remain unchanged; no new native Draw execution."
 }

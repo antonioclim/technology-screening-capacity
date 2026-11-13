@@ -1,5 +1,5 @@
 {
-  "scope": "Unpublished proposed software addition; existing public v1.0.0 remains unchanged",
+  "scope": "H7 capacity derivative in software version 1.1.0; the public v1.0.0 release remains unchanged",
   "source_bundle": "papere_r2_20261112/deliverable/02_Figuri_si_H7/Supplement_H7_Reproduction.zip",
   "source_bundle_sha256": "d31c11a99a8421753ada4fbdefa88ff1f0b67b62d08892703317e6dffe7d48a8",
   "source_scripts_unchanged": {
@@ -17,7 +17,7 @@
     "equal_country_policy_summaries.csv": "f3dcd98ad052d42281bf25ee8c992cf46abf213a48e8de5ccceda93fc4466f86",
     "country_policy_results.csv": "837bb28022c93bad2e4016c4550b1ba79f1cc3666917e046d00490c5bf579505"
   },
-  "new_version_or_DOI_assigned": false,
+  "new_version_or_DOI_assigned": true,
   "models_fitted": 0,
   "original_support_file_sha256": {
     "acquisition/independent/independent_h7.py": "9727d271f0177662458c717ae329e868546fc3a2268621eaf8b8c05dda86311d",
@@ -36,11 +36,20 @@
   },
   "flat_release_preparation": {
     "planned_version": "1.1.0",
-    "status": "staged_unpublished",
     "layout": "h7_capacity beside existing root reproduce.py; original v1.0.0 file paths preserved",
     "wrapper_changed_from_R4": false,
     "documentation_changes": "Adapt README and this provenance record to the flat placement.",
     "new_release_published": false,
-    "new_doi_assigned": false
+    "new_doi_assigned": true,
+    "status_at_packaging": "prepared_for_publication",
+    "doi_status_at_packaging": "reserved; not published",
+    "software_doi": "10.5281/zenodo.24186153"
+  },
+  "software_version": "1.1.0",
+  "software_doi": "10.5281/zenodo.24186153",
+  "doi_status_at_packaging": "reserved; not published",
+  "doi_metadata_finalisation": {
+    "prepared_on": "2026-11-13",
+    "scope": "Replace preparation-only wording and bind version 1.1.0 to the author-confirmed reserved DOI; no numerical source, dependency or input changed."
   }
 }
