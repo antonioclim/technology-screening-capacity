@@ -1,0 +1,55 @@
+{
+  "scope": "H7 capacity derivative in software version 1.1.0; the public v1.0.0 release remains unchanged",
+  "source_bundle": "papere_r2_20261112/deliverable/02_Figuri_si_H7/Supplement_H7_Reproduction.zip",
+  "source_bundle_sha256": "d31c11a99a8421753ada4fbdefa88ff1f0b67b62d08892703317e6dffe7d48a8",
+  "source_scripts_unchanged": {
+    "build_h7_capacity.py": "c60a22162265f1e06060754a5ec6eb7a26f9430dbb9f6f02a3bf2af25bae7a7e",
+    "verify_h7_capacity.py": "49eac637b4c707b320fa0cfbc348c6aaca7118fa69801dc8ca270c3c99534ab0",
+    "svg_to_native_odg.py": "ab83eca6fae796510f4fee1e4a9a9594b3e8f2b462e936f5be33dc9bbb2eaf1c",
+    "requirements.txt": "2a48c5f1196117bf5d337ae43ea3c37fa4121ebd87bea761570a115aa787c6de"
+  },
+  "expected_rebuild_hashes": {
+    "derived/H7_capacity_secant_comparisons.csv": "4eec27a154f8efd686f240d5e4684a4d195252858059e519d44bc126859e3150",
+    "derived/H7_capacity_policy_menu_q50.csv": "cd789796563fd4f15c051c01aff9041a45f57b4f62ac7d8d47bde9cd9c3b9dca",
+    "derived/Figure_3_capacity_q50.png": "f109f61dc9950a8dd7181c0d8e5d93729717b88757871a73198709d456bfc290"
+  },
+  "input_hashes": {
+    "equal_country_policy_summaries.csv": "f3dcd98ad052d42281bf25ee8c992cf46abf213a48e8de5ccceda93fc4466f86",
+    "country_policy_results.csv": "837bb28022c93bad2e4016c4550b1ba79f1cc3666917e046d00490c5bf579505"
+  },
+  "new_version_or_DOI_assigned": true,
+  "models_fitted": 0,
+  "original_support_file_sha256": {
+    "acquisition/independent/independent_h7.py": "9727d271f0177662458c717ae329e868546fc3a2268621eaf8b8c05dda86311d",
+    "acquisition/software/acquisition_primitives.py": "88af5e7151ceef63279f33d3a2a4e67279d647079f16ae2852742deb2eebffc0"
+  },
+  "r4_wrapper_revision": {
+    "prepared_on": "2026-11-12",
+    "scope": "Detect sibling frozen_v1.0.0 automatically and reject outputs inside combined candidate root; adapt documentation. No numerical algorithm changed.",
+    "changed_files": [
+      "reproduce.py",
+      "README.md",
+      "INTEGRATION_PROVENANCE.json"
+    ],
+    "original_r3_reproduce_sha256": "7d58b661a5c15556d85b313a5dd6591dbd04a8c55ecaf240872160c43dd62453",
+    "original_r3_readme_sha256": "11d4861302c676f8d58707d629eb8c9cdce73d2c4b0dfeab94994413fc6ee70f"
+  },
+  "flat_release_preparation": {
+    "planned_version": "1.1.0",
+    "layout": "h7_capacity beside existing root reproduce.py; original v1.0.0 file paths preserved",
+    "wrapper_changed_from_R4": false,
+    "documentation_changes": "Adapt README and this provenance record to the flat placement.",
+    "new_release_published": false,
+    "new_doi_assigned": true,
+    "status_at_packaging": "prepared_for_publication",
+    "doi_status_at_packaging": "reserved; not published",
+    "software_doi": "10.5281/zenodo.24186153"
+  },
+  "software_version": "1.1.0",
+  "software_doi": "10.5281/zenodo.24186153",
+  "doi_status_at_packaging": "reserved; not published",
+  "doi_metadata_finalisation": {
+    "prepared_on": "2026-11-13",
+    "scope": "Replace preparation-only wording and bind version 1.1.0 to the author-confirmed reserved DOI; no numerical source, dependency or input changed."
+  }
+}

@@ -1,10 +1,9 @@
 cff-version: 1.2.0
-message: "Please cite the accompanying study and this software version. Component-specific licence terms are set out in LICENSES.md."
+message: "Please cite the exact software version used. Component-specific licence terms are set out in LICENSES.md; RELEASE_STATE.json records DOI and publication status at packaging."
 title: "Which Firms Make the List? Technology Measurement under Fixed Screening Capacity — analysis software"
 type: software
-version: "1.0.0"
-date-released: "2026-11-06"
-doi: "10.5281/zenodo.24000396"
+version: "1.1.0"
+doi: "10.5281/zenodo.24186153"
 repository-code: "https://github.com/antonioclim/technology-screening-capacity"
 authors:
   - family-names: Clim

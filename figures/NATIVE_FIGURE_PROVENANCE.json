@@ -1,0 +1,33 @@
+{
+  "prepared_on": "2026-11-12",
+  "scope": "Native figure sources and canonical exports added to software version 1.1.0; no new numerical or native Draw execution in this preparation",
+  "source": "Paper E R4 final editable figure kit",
+  "original_R3_archive_sha256": "d1b0dee1318a8af2fb8360e4b319f19adbefb7028b50c780594da67642729a95",
+  "native_validation": "R3 native LibreOfficeDev 26.8.0.0.alpha0 Java UNO edit/save/reopen/export checks; 824 objects, including 278 text and 546 vector objects, across seven figures",
+  "native_scope_limit": "Fully editable native drawings; not spreadsheet-linked charts and not a fresh GUI test on every platform.",
+  "source_file_sha256": {
+    "native_odg/Figure_1.odg": "1d7600f4892adf04ba7ef02f927aed332419e0b54b61bea01065b80c43d01a92",
+    "native_odg/Figure_2.odg": "4d86beee7c9f64f7fc34d4c87bf312fa2d99d6ce7a5e20b934bbcd77632cef95",
+    "native_odg/Figure_3.odg": "b130a6f699867dbb4f93594eea23e93e45ca9dffe0348ca1382d69ce38dd3475",
+    "native_odg/Figure_S1.odg": "3dc00606424191c3c1a00b36081d3015c9d464fe49fbd69d68fa970f0d84d0fe",
+    "native_odg/Figure_S2.odg": "9054b460c5083b5cb209c9a272c702d834871ce44516829d28f9413842a19466",
+    "native_odg/Figure_S3.odg": "a82c9b84bb38bf1dc62192d141a1e91c435494c609e9fa42d33ca32a9f18b242",
+    "native_odg/Figure_S4.odg": "35e8901c61355be2d8c4782b7725d223a3604bfff144aed5d6263341dad35a23",
+    "vector_pdf/Figure_1.pdf": "98c8043a5ae2410689630f7bec21fad87d7be0a83a151fc1755afa86793594a8",
+    "vector_pdf/Figure_2.pdf": "e9966841de5ed977dff2cc260a9d189ce822843144e50a53182fd50ebd7df43d",
+    "vector_pdf/Figure_3.pdf": "9b62b14dc16abec7f43b8142eb5735f93faf7fcda16c1a5606b29928b7ca43fe",
+    "vector_pdf/Figure_S1.pdf": "43b7fb3716d7716dadba958d19d909a0b5be22229b358d8aa46da52150e85bb4",
+    "vector_pdf/Figure_S2.pdf": "48f534d9535c90f2e50b81690f5438a635e79485845c748dcdd78e5f25d4333a",
+    "vector_pdf/Figure_S3.pdf": "0d6f97c6e3c40af39e1b85f05c356b0c05fce7aacde446a723d48a47056e4a01",
+    "vector_pdf/Figure_S4.pdf": "259e2675a7ddd1b3f913926a37deb64973f8749bc43500f3af4e80fbbca33b99",
+    "fonts/DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167",
+    "fonts/DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+    "fonts/LICENSE_DEJAVU": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+  },
+  "fonts": "Exact DejaVu Sans regular and bold 2.35, with existing licence notice",
+  "new_version_doi_assigned": true,
+  "software_doi": "10.5281/zenodo.24186153",
+  "doi_status_at_packaging": "reserved; not published",
+  "metadata_finalised_on": "2026-11-13",
+  "metadata_finalisation_scope": "Record the author-confirmed reserved version DOI. All native drawings, PDFs and font files remain unchanged; no new native Draw execution."
+}

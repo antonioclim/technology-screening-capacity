@@ -8,6 +8,10 @@ At a separate 50% expected weighted quota in each source, dots show the increase
 
 Two aligned panels compare most-advanced adopted with most-used planning technology, holding the firm-characteristic baseline, eligible firms and 50% source quota fixed. Panel A shows country yield differences, with a large negative value in Brazil and both positive and negative values elsewhere. Panel B shows nonnegative total-variation distances in the sector shares of expected contacts. Country-average sector distance is 6.83 percentage points; India averages its two source distances.
 
+## Figure 3
+
+Two panels compare the mean proportion of eligible weighted mass queried with anchored baseline-equivalent contact capacity at a 50% contact quota. The left panel reports the fixed logistic model and the right panel the fixed tree. Each labelled point represents a query policy. Dashed segments connect the baseline with full querying as a descriptive comparison. The selected tree policy lies 0.010 percentage points below that segment, a difference smaller than its marker. Values are country averages after averaging the two India sources. The display does not show confidence intervals or a fitted optimal frontier.
+
 ## Figure S1
 
 Three panels show the original retrospective coding-transfer comparison at a 50% expected weighted quota within each source. Yield and original-state composition differences are compared with five states. The two sources outside the primary cohort are shaded. In the original Burkina Faso sample of 162 establishments, the three ordered policies yield 15.54 against 20.71 for the lottery. In Cambodia’s sample of 244 establishments, the selected three-group yield is 24.41. This differs from the later adoption-matched conditional cohorts used in main Figures 1 and 2.

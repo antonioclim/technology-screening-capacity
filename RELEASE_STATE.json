@@ -1,22 +1,41 @@
 {
   "project": "Paper E",
   "repository_url": "https://github.com/antonioclim/technology-screening-capacity",
-  "software_version": "1.0.0",
-  "git_release_tag": "v1.0.0",
-  "scientific_baseline": "H9 final, 2026-11-05",
-  "repository_baseline": "R1, 2026-11-06",
-  "package_prepared_on": "2026-11-06",
+  "software_version": "1.1.0",
+  "planned_git_release_tag": "v1.1.0",
+  "package_prepared_on": "2026-11-13",
+  "publication_date": null,
+  "software_doi": "10.5281/zenodo.24186153",
+  "new_doi_reserved": true,
   "publication_status_at_packaging": {
-    "zenodo": "draft; DOI reserved",
-    "github_release": "not yet published"
+    "zenodo": "saved draft; DOI reserved; not published, as confirmed by the author",
+    "github_release": "v1.1.0 not published"
   },
-  "software_doi": "10.5281/zenodo.24000396",
-  "publication_status_sources": {
-    "zenodo": "https://zenodo.org/records/24000396",
-    "github": "https://github.com/antonioclim/technology-screening-capacity/releases/tag/v1.0.0"
+  "baseline": {
+    "software_version": "1.0.0",
+    "git_release_tag": "v1.0.0",
+    "git_commit": "1ce158cb5c076de75257343ca5899c558849c518",
+    "software_doi": "10.5281/zenodo.24000396",
+    "concept_doi": "10.5281/zenodo.24000395",
+    "doi_scope": "The version DOI identifies the previous immutable v1.0.0 only.",
+    "baseline_file_count": 181
   },
+  "layout": "Flat additive update; existing file paths preserved",
+  "scientific_baseline": "H9 final, 2026-11-05; capacity derivative and native figures audited in R2-R4, 2026-11-12",
   "licence_map": "LICENSES.md",
   "raw_microdata_distributed": false,
   "manuscript_included": false,
-  "workflow_files_included": false
+  "workflow_files_included": false,
+  "status_at_packaging": "prepared_for_publication",
+  "doi_status_at_packaging": "reserved; publication not yet performed",
+  "zenodo_draft_url": "https://zenodo.org/uploads/24186153",
+  "concept_doi": "10.5281/zenodo.24000395",
+  "doi_reservation_evidence": {
+    "source": "author confirmation in the conversation",
+    "confirmed_on": "2026-11-13",
+    "draft_saved": true,
+    "published": false,
+    "independent_live_draft_inspection": false
+  },
+  "publication_date_note": "No actual release date was known at packaging. The optional date-released field is therefore omitted from CITATION.cff."
 }

@@ -1,8 +1,26 @@
 [
   {
+    "path": ".gitattributes",
+    "sha256": "1be0c770544edc86a04660426afb58cf7a693fb55164095826e818e747e890f4",
+    "bytes": 67,
+    "role": "documentation or configuration",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
     "path": ".gitignore",
     "sha256": "5bb071742cc934a749866bb34baa0963d49809a004dbb61ec053f19c96af0979",
     "bytes": 42,
+    "role": "documentation or configuration",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "5bb071742cc934a749866bb34baa0963d49809a004dbb61ec053f19c96af0979",
+    "change": "unchanged"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "sha256": "6a9f01e7e871979c9db7edab7c7ffc70e560b07cc4bef2c2395667086bb7c7da",
+    "bytes": 1762,
     "role": "documentation or configuration",
     "baseline": null,
     "baseline_sha256": null,
@@ -10,11 +28,11 @@
   },
   {
     "path": "CITATION.cff",
-    "sha256": "c70854c9f4c3c9077cc15012392cb450ff45dad7ad75f202f2f84eaa4643b12b",
-    "bytes": 686,
+    "sha256": "ec86e44078a78c40d1f01ca93d03d69b8cb6a4f9860cf29f4f0dbc24402d3e22",
+    "bytes": 709,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "53c1ccc0dd33e42f6c86271ec585fabe515e42da6d9788ca22c1f54671701b7b",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "c70854c9f4c3c9077cc15012392cb450ff45dad7ad75f202f2f84eaa4643b12b",
     "change": "revised"
   },
   {
@@ -22,50 +40,59 @@
     "sha256": "a1b4c569a68a65a829f238bc9172764ada375bf4c717720a79056746af9040df",
     "bytes": 1754,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "047469ec302f81cf560541b0f5bdb47867848207fbab5585235e4d729aa1ff2c",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "a1b4c569a68a65a829f238bc9172764ada375bf4c717720a79056746af9040df",
+    "change": "unchanged"
   },
   {
     "path": "INDEPENDENT_CHECKS_EN.md",
     "sha256": "98a165406104660aaab31137a68671979a35bc71b53d9c070ed4de06afa8dd93",
     "bytes": 4828,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "8617ea5a8a8667ee7fbe0b17bc01160bbd75af8ae08865e9ba9eab7050c366dc",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "98a165406104660aaab31137a68671979a35bc71b53d9c070ed4de06afa8dd93",
+    "change": "unchanged"
   },
   {
     "path": "LICENSE",
     "sha256": "2c27b30e1904206c71570ce75f9dba2919d5243e00c7a7f889f4478c5c25c686",
     "bytes": 1068,
     "role": "documentation or configuration",
-    "baseline": null,
-    "baseline_sha256": null,
-    "change": "added"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "2c27b30e1904206c71570ce75f9dba2919d5243e00c7a7f889f4478c5c25c686",
+    "change": "unchanged"
   },
   {
     "path": "LICENSES.md",
-    "sha256": "b4c71ab2972392746bb6312578538a98739a1a966260d7690eb7713665f6a14d",
-    "bytes": 2012,
+    "sha256": "acacf263b4ffdba30412062c46f7a21f65e13468a968a1c11a24fd71141c612f",
+    "bytes": 2369,
     "role": "documentation or configuration",
-    "baseline": null,
-    "baseline_sha256": null,
-    "change": "added"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "b4c71ab2972392746bb6312578538a98739a1a966260d7690eb7713665f6a14d",
+    "change": "revised"
   },
   {
     "path": "README.md",
-    "sha256": "9e1fcfca9af875c88b2207bed0571555dd71038f7d0af9589134115ae55c2fde",
-    "bytes": 6793,
+    "sha256": "841267251780a50eadb1b40a52be17349e01d91a30f6eb9443b1a6fbb12285a7",
+    "bytes": 8850,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "957700cca89698a0ec064b691b1213f36805584d7f141db78f3e0eb7ece8c1ed",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "9e1fcfca9af875c88b2207bed0571555dd71038f7d0af9589134115ae55c2fde",
     "change": "revised"
   },
   {
     "path": "RELEASE_STATE.json",
-    "sha256": "5d6eb9a849f49ec0aa06f2eff1901a8aa3dd38943408728ddd8de66f659ff748",
-    "bytes": 799,
+    "sha256": "d7d2d8c2bd44a66d0d373f816c7ea88a53200b207150283ec51bee1617d31333",
+    "bytes": 1779,
+    "role": "protocol or metadata",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "5d6eb9a849f49ec0aa06f2eff1901a8aa3dd38943408728ddd8de66f659ff748",
+    "change": "revised"
+  },
+  {
+    "path": "RELEASE_VALIDATION.json",
+    "sha256": "8009cef773fd411fc0703347bddc9d69e9794a7594b170fd7ad6ad402784b443",
+    "bytes": 19125,
     "role": "protocol or metadata",
     "baseline": null,
     "baseline_sha256": null,
@@ -73,11 +100,11 @@
   },
   {
     "path": "RIGHTS_AND_PROVENANCE_EN.md",
-    "sha256": "13823f9bcbabfd22b34a019e61e5cbb007e031683e2c47e7ec8888fabc8328df",
-    "bytes": 2645,
+    "sha256": "6a66f67d2bf504faf6cce97a50b6278aa91c368ab7802d9133f30b2c7fab0008",
+    "bytes": 3618,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "4b00d07f0aedf70a5d50f39767066d54388b8f3fd22ef4b260bbbfe25bc0ef35",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "13823f9bcbabfd22b34a019e61e5cbb007e031683e2c47e7ec8888fabc8328df",
     "change": "revised"
   },
   {
@@ -85,16 +112,16 @@
     "sha256": "1dc9dc46563cf33517f3cf3e8d7edf5dec3d4e073aa74a71a410a1f4e2ef6488",
     "bytes": 1485,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "5c39cefb31747636dfb96c721200e4e8ebe98873275f3ed894a5fa1095b98be7",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "1dc9dc46563cf33517f3cf3e8d7edf5dec3d4e073aa74a71a410a1f4e2ef6488",
+    "change": "unchanged"
   },
   {
     "path": "acquisition/independent/independent_h7.py",
     "sha256": "9727d271f0177662458c717ae329e868546fc3a2268621eaf8b8c05dda86311d",
     "bytes": 26483,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "9727d271f0177662458c717ae329e868546fc3a2268621eaf8b8c05dda86311d",
     "change": "unchanged"
   },
@@ -103,16 +130,16 @@
     "sha256": "f3d6536f0de1ccd09cb18f3e73a4a7071eeada16a3423cbfca0572285ae6fa72",
     "bytes": 5921,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "80c5d6d9d69cbb38901ee1f169acc9d912ac11a3d1fb1604aa46037c6f3418bb",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "f3d6536f0de1ccd09cb18f3e73a4a7071eeada16a3423cbfca0572285ae6fa72",
+    "change": "unchanged"
   },
   {
     "path": "acquisition/inputs/run_e4_frozen_analysis_v1.0.2.py",
     "sha256": "0ac2f1d60dbafcdc5edd763e682759732f326cceb66639cdf50647d34987a402",
     "bytes": 54656,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "0ac2f1d60dbafcdc5edd763e682759732f326cceb66639cdf50647d34987a402",
     "change": "unchanged"
   },
@@ -121,7 +148,7 @@
     "sha256": "a642133ea710cf15db06ae172df4d718d15f7388820b0324d86938a6c5388fd1",
     "bytes": 2357,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "a642133ea710cf15db06ae172df4d718d15f7388820b0324d86938a6c5388fd1",
     "change": "unchanged"
   },
@@ -130,16 +157,16 @@
     "sha256": "3a9eef6c9bdf42872422f54a20f216b266d28b47811d47a80ca672043db9ca99",
     "bytes": 11034,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "a62c851289541a00e387c68f8bcbc31c78677c18116c714f46c180af2858f777",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "3a9eef6c9bdf42872422f54a20f216b266d28b47811d47a80ca672043db9ca99",
+    "change": "unchanged"
   },
   {
     "path": "acquisition/protocol/H7_ADDENDUM_A01.json",
     "sha256": "9ebd34823e0bfa5bb2fcb71c8d4a6d145279b3a436da0577804d0442dfc163dd",
     "bytes": 608,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "9ebd34823e0bfa5bb2fcb71c8d4a6d145279b3a436da0577804d0442dfc163dd",
     "change": "unchanged"
   },
@@ -148,7 +175,7 @@
     "sha256": "33cec2766f470efd02791a013d7ae1d0382a8022c60dd9af5e145992d2cf30f1",
     "bytes": 87,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "33cec2766f470efd02791a013d7ae1d0382a8022c60dd9af5e145992d2cf30f1",
     "change": "unchanged"
   },
@@ -157,7 +184,7 @@
     "sha256": "a929627cd20b85b0323db7da2c33eebe956889ba186d30f5ec1abeea02a652d6",
     "bytes": 918,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "a929627cd20b85b0323db7da2c33eebe956889ba186d30f5ec1abeea02a652d6",
     "change": "unchanged"
   },
@@ -166,7 +193,7 @@
     "sha256": "341ef43d18ffaacc469fa93543571b38713f0e53bd8b0c4f790e45847776004b",
     "bytes": 87,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "341ef43d18ffaacc469fa93543571b38713f0e53bd8b0c4f790e45847776004b",
     "change": "unchanged"
   },
@@ -175,7 +202,7 @@
     "sha256": "cb11771a5bb234c97fe1bc0297972d64272e25ae67555a9e440de4dea09b7ea8",
     "bytes": 8347,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "cb11771a5bb234c97fe1bc0297972d64272e25ae67555a9e440de4dea09b7ea8",
     "change": "unchanged"
   },
@@ -184,7 +211,7 @@
     "sha256": "bc6784fb24277395ad08571d3a1508375b2192b0035b4faa827b1266500b23a3",
     "bytes": 83,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "bc6784fb24277395ad08571d3a1508375b2192b0035b4faa827b1266500b23a3",
     "change": "unchanged"
   },
@@ -193,7 +220,7 @@
     "sha256": "550796fe1306335a175c22bccadefe54b1c1f8ce76bacf5136923281f8504819",
     "bytes": 746,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "550796fe1306335a175c22bccadefe54b1c1f8ce76bacf5136923281f8504819",
     "change": "unchanged"
   },
@@ -202,7 +229,7 @@
     "sha256": "e455f475e6579980613ff661b434992a37941500db1c03216c5d05b68faf5093",
     "bytes": 1142,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "e455f475e6579980613ff661b434992a37941500db1c03216c5d05b68faf5093",
     "change": "unchanged"
   },
@@ -211,7 +238,7 @@
     "sha256": "88af5e7151ceef63279f33d3a2a4e67279d647079f16ae2852742deb2eebffc0",
     "bytes": 8397,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "88af5e7151ceef63279f33d3a2a4e67279d647079f16ae2852742deb2eebffc0",
     "change": "unchanged"
   },
@@ -220,16 +247,16 @@
     "sha256": "b5e13a799ede8719546430d8c4c4c0a3511b9adcb3b6d343ecd7e9323c81664f",
     "bytes": 4406,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "fec23189d82239ed244685852fea553ae44876de1e3f444dc83da217f1ee935c",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "b5e13a799ede8719546430d8c4c4c0a3511b9adcb3b6d343ecd7e9323c81664f",
+    "change": "unchanged"
   },
   {
     "path": "acquisition/software/pilot_primitives.py",
     "sha256": "f889a893cdb17be00db5832b32bc22ddccc0bedecb44b7f13b9cb0eed3449e2e",
     "bytes": 8297,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "f889a893cdb17be00db5832b32bc22ddccc0bedecb44b7f13b9cb0eed3449e2e",
     "change": "unchanged"
   },
@@ -238,34 +265,34 @@
     "sha256": "1d91147e92443377fe156680f23633bec421df68ba7a16bcd5b96bc3da8a9534",
     "bytes": 26848,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "675e26384354089f9fe38f5258f18924668c1cc65546c7bb7869607fb42c80d8",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "1d91147e92443377fe156680f23633bec421df68ba7a16bcd5b96bc3da8a9534",
+    "change": "unchanged"
   },
   {
     "path": "acquisition/software/run_h5_followup.py",
     "sha256": "2b5fe7acce8ffab9c9ea60df63fdd55f7d0046776c141e6588cd759ef8f658ed",
     "bytes": 17544,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "fca0bf50036d9693a7cb6c88ded9591088b4f0e6cdcdf5164e13e2b56fe31cf8",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "2b5fe7acce8ffab9c9ea60df63fdd55f7d0046776c141e6588cd759ef8f658ed",
+    "change": "unchanged"
   },
   {
     "path": "acquisition/software/run_h7.py",
     "sha256": "d11eab0dd6d06c2d09ba2346c1164dc3c3f5e2d0bfcf8ced9f6162ff191fac95",
     "bytes": 19438,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "c89112c303ec0a2fc53808c6801dd7dc68a81bac292ee0b02e331f8f6ad8b1ac",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "d11eab0dd6d06c2d09ba2346c1164dc3c3f5e2d0bfcf8ced9f6162ff191fac95",
+    "change": "unchanged"
   },
   {
     "path": "acquisition/software/test_h7_primitives.py",
     "sha256": "46ef1c420fcb275aff1f8fc11eaacd22a7b0d986f162dabcb778da6e459d2621",
     "bytes": 7582,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "46ef1c420fcb275aff1f8fc11eaacd22a7b0d986f162dabcb778da6e459d2621",
     "change": "unchanged"
   },
@@ -274,16 +301,16 @@
     "sha256": "de7cbf813f32d841c56bcada9bbe10a11ff3908131d2bdfad78d46e01853219b",
     "bytes": 4198,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "98f9bd3fcd11e84de9301f000a2d4de73d2ee1d4afc9eb731ca6e8952718e625",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "de7cbf813f32d841c56bcada9bbe10a11ff3908131d2bdfad78d46e01853219b",
+    "change": "unchanged"
   },
   {
     "path": "conditional/independent/compare_completed_h4.py",
     "sha256": "6913f5babb8c2a098420a201edd185a2402fcb4a475659359de28635a1bf3960",
     "bytes": 5077,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "6913f5babb8c2a098420a201edd185a2402fcb4a475659359de28635a1bf3960",
     "change": "unchanged"
   },
@@ -292,7 +319,7 @@
     "sha256": "fa1a16e094005b99865d3359140fcfbdbce39df25c22b399bf997e9891160f73",
     "bytes": 3159,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "fa1a16e094005b99865d3359140fcfbdbce39df25c22b399bf997e9891160f73",
     "change": "unchanged"
   },
@@ -301,7 +328,7 @@
     "sha256": "1c3d4ef4304bc16afc4e72b745c6f2334c013a85d8713ee6e373b0d91e6fb188",
     "bytes": 4989,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "1c3d4ef4304bc16afc4e72b745c6f2334c013a85d8713ee6e373b0d91e6fb188",
     "change": "unchanged"
   },
@@ -310,7 +337,7 @@
     "sha256": "f92aa7178a045729a1220191c5ccd51a9ab6b9799ad0c22ba8c1cf1140521df5",
     "bytes": 4574,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "f92aa7178a045729a1220191c5ccd51a9ab6b9799ad0c22ba8c1cf1140521df5",
     "change": "unchanged"
   },
@@ -319,25 +346,25 @@
     "sha256": "f19a3a5ae2e29bf486b389341b49b66c5d15d3554918b3b458046922eea8824b",
     "bytes": 20985,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "99fb6bf257f368e382680d1e5167bf019869d1aec07be14e8e6535f0d7b076fa",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "f19a3a5ae2e29bf486b389341b49b66c5d15d3554918b3b458046922eea8824b",
+    "change": "unchanged"
   },
   {
     "path": "conditional/inputs/H1_PROTOCOL.json",
     "sha256": "f3d6536f0de1ccd09cb18f3e73a4a7071eeada16a3423cbfca0572285ae6fa72",
     "bytes": 5921,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "80c5d6d9d69cbb38901ee1f169acc9d912ac11a3d1fb1604aa46037c6f3418bb",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "f3d6536f0de1ccd09cb18f3e73a4a7071eeada16a3423cbfca0572285ae6fa72",
+    "change": "unchanged"
   },
   {
     "path": "conditional/inputs/run_e4_frozen_analysis_v1.0.2.py",
     "sha256": "0ac2f1d60dbafcdc5edd763e682759732f326cceb66639cdf50647d34987a402",
     "bytes": 54656,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "0ac2f1d60dbafcdc5edd763e682759732f326cceb66639cdf50647d34987a402",
     "change": "unchanged"
   },
@@ -346,7 +373,7 @@
     "sha256": "a642133ea710cf15db06ae172df4d718d15f7388820b0324d86938a6c5388fd1",
     "bytes": 2357,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "a642133ea710cf15db06ae172df4d718d15f7388820b0324d86938a6c5388fd1",
     "change": "unchanged"
   },
@@ -355,34 +382,34 @@
     "sha256": "3a9eef6c9bdf42872422f54a20f216b266d28b47811d47a80ca672043db9ca99",
     "bytes": 11034,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "a62c851289541a00e387c68f8bcbc31c78677c18116c714f46c180af2858f777",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "3a9eef6c9bdf42872422f54a20f216b266d28b47811d47a80ca672043db9ca99",
+    "change": "unchanged"
   },
   {
     "path": "conditional/software/README_H4_ENGINE_EN.md",
     "sha256": "2d70c633f394be7cf43f1fe3d362916504c585925a47f35e5c415e8460547a4e",
     "bytes": 5709,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "b294cf7bf883f2e4c2fcc0095f0cc772907da50c951bd5bb1007378e83484e9f",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "2d70c633f394be7cf43f1fe3d362916504c585925a47f35e5c415e8460547a4e",
+    "change": "unchanged"
   },
   {
     "path": "conditional/software/pilot_data.py",
     "sha256": "b5e13a799ede8719546430d8c4c4c0a3511b9adcb3b6d343ecd7e9323c81664f",
     "bytes": 4406,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "fec23189d82239ed244685852fea553ae44876de1e3f444dc83da217f1ee935c",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "b5e13a799ede8719546430d8c4c4c0a3511b9adcb3b6d343ecd7e9323c81664f",
+    "change": "unchanged"
   },
   {
     "path": "conditional/software/pilot_primitives.py",
     "sha256": "f889a893cdb17be00db5832b32bc22ddccc0bedecb44b7f13b9cb0eed3449e2e",
     "bytes": 8297,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "f889a893cdb17be00db5832b32bc22ddccc0bedecb44b7f13b9cb0eed3449e2e",
     "change": "unchanged"
   },
@@ -391,7 +418,7 @@
     "sha256": "fdb12cc3bfd815d968935f403c167efcf299e4167abe2dbea32d0cced1186d4c",
     "bytes": 5858,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "fdb12cc3bfd815d968935f403c167efcf299e4167abe2dbea32d0cced1186d4c",
     "change": "unchanged"
   },
@@ -400,7 +427,7 @@
     "sha256": "16b4b5ff39167dd6ead96b6677ae26fc4c2f1e7228d6606a5818e19d5c9cfefe",
     "bytes": 96,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "16b4b5ff39167dd6ead96b6677ae26fc4c2f1e7228d6606a5818e19d5c9cfefe",
     "change": "unchanged"
   },
@@ -409,7 +436,7 @@
     "sha256": "bc4e233d5c03413be5741c17ab0b5c68e26b49d5c88a83a1712bdc4623514bf5",
     "bytes": 183,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "bc4e233d5c03413be5741c17ab0b5c68e26b49d5c88a83a1712bdc4623514bf5",
     "change": "unchanged"
   },
@@ -418,16 +445,16 @@
     "sha256": "1d91147e92443377fe156680f23633bec421df68ba7a16bcd5b96bc3da8a9534",
     "bytes": 26848,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "675e26384354089f9fe38f5258f18924668c1cc65546c7bb7869607fb42c80d8",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "1d91147e92443377fe156680f23633bec421df68ba7a16bcd5b96bc3da8a9534",
+    "change": "unchanged"
   },
   {
     "path": "conditional/software/summarise_h4.py",
     "sha256": "42735896177c9bb0c71047403ebbe605b8505f3444db4a4d01cc3dc8c743e336",
     "bytes": 8484,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "42735896177c9bb0c71047403ebbe605b8505f3444db4a4d01cc3dc8c743e336",
     "change": "unchanged"
   },
@@ -436,7 +463,7 @@
     "sha256": "826f19b47db13c6c3035f9ed766c9d9f72b59b7bbcdb07f0ec5817c24bd85515",
     "bytes": 4218,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "826f19b47db13c6c3035f9ed766c9d9f72b59b7bbcdb07f0ec5817c24bd85515",
     "change": "unchanged"
   },
@@ -445,7 +472,7 @@
     "sha256": "3c7ba52d45ec6c2091184c858e9ea8e5f7ee54d4b9a09ebf8588f2ea883e7f20",
     "bytes": 4171,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "3c7ba52d45ec6c2091184c858e9ea8e5f7ee54d4b9a09ebf8588f2ea883e7f20",
     "change": "unchanged"
   },
@@ -454,70 +481,79 @@
     "sha256": "cf424d737d5d40d3169f9af8cdb4a34e41e356f98ec3309335edd335d3c0057e",
     "bytes": 2900,
     "role": "documentation or configuration",
-    "baseline": null,
-    "baseline_sha256": null,
-    "change": "added"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "cf424d737d5d40d3169f9af8cdb4a34e41e356f98ec3309335edd335d3c0057e",
+    "change": "unchanged"
   },
   {
     "path": "docs/VALIDATION.md",
     "sha256": "c2db1531f9894b6034b6991b75196780becacfd0b4746a586824294d5745f2bc",
     "bytes": 2260,
     "role": "documentation or configuration",
-    "baseline": null,
-    "baseline_sha256": null,
-    "change": "added"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "c2db1531f9894b6034b6991b75196780becacfd0b4746a586824294d5745f2bc",
+    "change": "unchanged"
   },
   {
     "path": "figures/ALT_TEXT.md",
-    "sha256": "831af1126ee5093abceeca10e1eb89e4739fb24b6adf3689d56142f4ae9e1c8b",
-    "bytes": 3141,
+    "sha256": "ae9a65fb44738509f7b4405974ea8b428f50d25a0136eec392873e9f1ede47fb",
+    "bytes": 3775,
     "role": "documentation or configuration",
-    "baseline": null,
-    "baseline_sha256": null,
-    "change": "added"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "831af1126ee5093abceeca10e1eb89e4739fb24b6adf3689d56142f4ae9e1c8b",
+    "change": "revised"
   },
   {
     "path": "figures/CAPTIONS.md",
-    "sha256": "2e81861108630572d3a05bc668577cd0a4c08bb282d2800ead3ba5a5b75829ca",
-    "bytes": 3069,
+    "sha256": "06a34a4c4ecc4cb2c610c1909d81b432cb6fb60fe2ef56e9a4cf91b9c5128941",
+    "bytes": 3116,
     "role": "documentation or configuration",
-    "baseline": null,
-    "baseline_sha256": null,
-    "change": "added"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "2e81861108630572d3a05bc668577cd0a4c08bb282d2800ead3ba5a5b75829ca",
+    "change": "revised"
   },
   {
     "path": "figures/FIGURE_NUMBERING.tsv",
-    "sha256": "e25d984fe505db93d569aad8283d2180149f6ffcf05875e5494bbc3ec07b2826",
-    "bytes": 517,
+    "sha256": "c3684e77fe1d24147a80e12564d379b10cbfee2e4152ae10aa5489c3a3f74f45",
+    "bytes": 628,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "e25d984fe505db93d569aad8283d2180149f6ffcf05875e5494bbc3ec07b2826",
-    "change": "unchanged"
+    "change": "revised"
   },
   {
     "path": "figures/INPUT_IDENTITIES.json",
     "sha256": "2dd39716e846bb899454e51829d11da0d1651de8924c25e25df02faadb05fd4f",
     "bytes": 3724,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "2dd39716e846bb899454e51829d11da0d1651de8924c25e25df02faadb05fd4f",
     "change": "unchanged"
   },
   {
-    "path": "figures/README.md",
-    "sha256": "226a33c19de847d3770502d20595cce4e829c51b2fb1322a293f9022d7cc5332",
-    "bytes": 9054,
-    "role": "documentation or configuration",
+    "path": "figures/NATIVE_FIGURE_PROVENANCE.json",
+    "sha256": "29bfa9e43787f8ec829ae93cdd2705855658e5aa4e81b020320898f970455daf",
+    "bytes": 2811,
+    "role": "protocol or metadata",
     "baseline": null,
     "baseline_sha256": null,
     "change": "added"
+  },
+  {
+    "path": "figures/README.md",
+    "sha256": "832c00e85cd90deca290e6f6ea5fddd3d06a6d325ec9eb27fdbe4e90c88013ed",
+    "bytes": 12692,
+    "role": "documentation or configuration",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "226a33c19de847d3770502d20595cce4e829c51b2fb1322a293f9022d7cc5332",
+    "change": "revised"
   },
   {
     "path": "figures/editable_svg/Figure_1.svg",
     "sha256": "70d8f60213fdcd0e4ce2f49fb31fa8328167125c5fdd20bdecd648887835c99d",
     "bytes": 17643,
     "role": "figure reference",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "70d8f60213fdcd0e4ce2f49fb31fa8328167125c5fdd20bdecd648887835c99d",
     "change": "unchanged"
   },
@@ -526,16 +562,25 @@
     "sha256": "aedaa3b4c6d2d98d4fb4cfbaca9610464886ed5bafe00e968d8bc7fb5a297ca9",
     "bytes": 20383,
     "role": "figure reference",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "aedaa3b4c6d2d98d4fb4cfbaca9610464886ed5bafe00e968d8bc7fb5a297ca9",
     "change": "unchanged"
+  },
+  {
+    "path": "figures/editable_svg/Figure_3.svg",
+    "sha256": "84695aee6e047bf871448b180042a05e902419de93c6aaca73451508ce4d9795",
+    "bytes": 22446,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
   },
   {
     "path": "figures/editable_svg/Figure_S1.svg",
     "sha256": "1eebf755c67e37453bb9d43c72685e135a1ff3d3127aed4405f06b41c8dd41da",
     "bytes": 30514,
     "role": "figure reference",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "1eebf755c67e37453bb9d43c72685e135a1ff3d3127aed4405f06b41c8dd41da",
     "change": "unchanged"
   },
@@ -544,7 +589,7 @@
     "sha256": "41923bb4b27c80bac818d6ffff4d957aee3f097eefea158f1794df71075eafef",
     "bytes": 49629,
     "role": "figure reference",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "41923bb4b27c80bac818d6ffff4d957aee3f097eefea158f1794df71075eafef",
     "change": "unchanged"
   },
@@ -553,7 +598,7 @@
     "sha256": "62f2b3d550a17262234cd1338632fe435ac7d009c3b7bbdd42d7ef646e516391",
     "bytes": 182251,
     "role": "figure reference",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "62f2b3d550a17262234cd1338632fe435ac7d009c3b7bbdd42d7ef646e516391",
     "change": "unchanged"
   },
@@ -562,16 +607,43 @@
     "sha256": "9034c7cfaf3a35fd52b73ffdf9d91c9b652d6af691e7b52c4fe9524fd71210a6",
     "bytes": 32142,
     "role": "figure reference",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "9034c7cfaf3a35fd52b73ffdf9d91c9b652d6af691e7b52c4fe9524fd71210a6",
     "change": "unchanged"
+  },
+  {
+    "path": "figures/fonts/DejaVuSans-Bold.ttf",
+    "sha256": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167",
+    "bytes": 704128,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "figures/fonts/DejaVuSans.ttf",
+    "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+    "bytes": 756072,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "figures/fonts/LICENSE_DEJAVU",
+    "sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e",
+    "bytes": 4816,
+    "role": "documentation or configuration",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
   },
   {
     "path": "figures/generate_all_figures.py",
     "sha256": "a85a7dc17e508df4d427354cfc175a1fa53a84a40c4c9dd6e176f2a24caafbde",
     "bytes": 6163,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "a85a7dc17e508df4d427354cfc175a1fa53a84a40c4c9dd6e176f2a24caafbde",
     "change": "unchanged"
   },
@@ -580,7 +652,7 @@
     "sha256": "8ad7608aff990b154b4d695a775252b5a25714b6de7e72987a344a9eeff9f6a4",
     "bytes": 1481,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "8ad7608aff990b154b4d695a775252b5a25714b6de7e72987a344a9eeff9f6a4",
     "change": "unchanged"
   },
@@ -589,7 +661,7 @@
     "sha256": "044a3827d93b4bf9943ca22802dee66eca02dee13d5bdd88ef462a74ac3712dc",
     "bytes": 864,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "044a3827d93b4bf9943ca22802dee66eca02dee13d5bdd88ef462a74ac3712dc",
     "change": "unchanged"
   },
@@ -598,7 +670,7 @@
     "sha256": "02df196ce887c425f39cf0d42948c36ceaa04748cfc2acc17d729d5d676bd2e2",
     "bytes": 1471,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "02df196ce887c425f39cf0d42948c36ceaa04748cfc2acc17d729d5d676bd2e2",
     "change": "unchanged"
   },
@@ -607,7 +679,7 @@
     "sha256": "75a1b3ceb1a889b8e290469697c7ba6f6a2c6a5bf5c40f159be18a068f42bbc5",
     "bytes": 391,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "75a1b3ceb1a889b8e290469697c7ba6f6a2c6a5bf5c40f159be18a068f42bbc5",
     "change": "unchanged"
   },
@@ -616,7 +688,7 @@
     "sha256": "3940521601db1d4ae351fa47f825ca8e0946ef8b4e6e6ee8e32144a11198c10c",
     "bytes": 1737,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "3940521601db1d4ae351fa47f825ca8e0946ef8b4e6e6ee8e32144a11198c10c",
     "change": "unchanged"
   },
@@ -625,7 +697,7 @@
     "sha256": "9c25e3c1501738180a7ebf625da35a2dbd8fde8e51bfa2220f16d689255ec69c",
     "bytes": 157586,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "9c25e3c1501738180a7ebf625da35a2dbd8fde8e51bfa2220f16d689255ec69c",
     "change": "unchanged"
   },
@@ -634,7 +706,7 @@
     "sha256": "623cbf124088d1eae80f3f64ab4f7e2726c8241b3e4ed59527bd6025c3dd9ed1",
     "bytes": 9239,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "623cbf124088d1eae80f3f64ab4f7e2726c8241b3e4ed59527bd6025c3dd9ed1",
     "change": "unchanged"
   },
@@ -643,16 +715,79 @@
     "sha256": "9d6d7eae2d5f9b217a9eaa95c57d57ec33956949425518c1a33bbd87c3c9cd49",
     "bytes": 4909,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "9d6d7eae2d5f9b217a9eaa95c57d57ec33956949425518c1a33bbd87c3c9cd49",
     "change": "unchanged"
+  },
+  {
+    "path": "figures/native_odg/Figure_1.odg",
+    "sha256": "1d7600f4892adf04ba7ef02f927aed332419e0b54b61bea01065b80c43d01a92",
+    "bytes": 20848,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "figures/native_odg/Figure_2.odg",
+    "sha256": "4d86beee7c9f64f7fc34d4c87bf312fa2d99d6ce7a5e20b934bbcd77632cef95",
+    "bytes": 21843,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "figures/native_odg/Figure_3.odg",
+    "sha256": "b130a6f699867dbb4f93594eea23e93e45ca9dffe0348ca1382d69ce38dd3475",
+    "bytes": 22817,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "figures/native_odg/Figure_S1.odg",
+    "sha256": "3dc00606424191c3c1a00b36081d3015c9d464fe49fbd69d68fa970f0d84d0fe",
+    "bytes": 33533,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "figures/native_odg/Figure_S2.odg",
+    "sha256": "9054b460c5083b5cb209c9a272c702d834871ce44516829d28f9413842a19466",
+    "bytes": 35396,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "figures/native_odg/Figure_S3.odg",
+    "sha256": "a82c9b84bb38bf1dc62192d141a1e91c435494c609e9fa42d33ca32a9f18b242",
+    "bytes": 40991,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "figures/native_odg/Figure_S4.odg",
+    "sha256": "35e8901c61355be2d8c4782b7725d223a3604bfff144aed5d6263341dad35a23",
+    "bytes": 32856,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
   },
   {
     "path": "figures/preview_png/Figure_1.png",
     "sha256": "e55c23f63b053ea1d62b922a2598e200df332b8e08cc00002924a994b6196ce5",
     "bytes": 107765,
     "role": "figure reference",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "e55c23f63b053ea1d62b922a2598e200df332b8e08cc00002924a994b6196ce5",
     "change": "unchanged"
   },
@@ -661,16 +796,25 @@
     "sha256": "c396717ff5530abcd81ece3887458f1e774cbe256ae93d4c1e78b627f94ea0b3",
     "bytes": 105066,
     "role": "figure reference",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "c396717ff5530abcd81ece3887458f1e774cbe256ae93d4c1e78b627f94ea0b3",
     "change": "unchanged"
+  },
+  {
+    "path": "figures/preview_png/Figure_3.png",
+    "sha256": "f109f61dc9950a8dd7181c0d8e5d93729717b88757871a73198709d456bfc290",
+    "bytes": 182825,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
   },
   {
     "path": "figures/preview_png/Figure_S1.png",
     "sha256": "5b873742bf176602bb5e2d96a7c74421c9a13e1ee37524dc22101c76604107ba",
     "bytes": 247694,
     "role": "figure reference",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "5b873742bf176602bb5e2d96a7c74421c9a13e1ee37524dc22101c76604107ba",
     "change": "unchanged"
   },
@@ -679,7 +823,7 @@
     "sha256": "6efb463a0b8b1b24b61fd4ddcc3104f3c8355c27dda165fe244f0e3bd358abdf",
     "bytes": 344739,
     "role": "figure reference",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "6efb463a0b8b1b24b61fd4ddcc3104f3c8355c27dda165fe244f0e3bd358abdf",
     "change": "unchanged"
   },
@@ -688,7 +832,7 @@
     "sha256": "bf15e25857e3e615f919a5ec520c3157b5e81d95bfdaa8fbc45d3305a9b3036f",
     "bytes": 295861,
     "role": "figure reference",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "bf15e25857e3e615f919a5ec520c3157b5e81d95bfdaa8fbc45d3305a9b3036f",
     "change": "unchanged"
   },
@@ -697,7 +841,7 @@
     "sha256": "cf7836c95a0b547955063e894fcbf448dfa311cd2de444b899cf1a8ee62e3090",
     "bytes": 198943,
     "role": "figure reference",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "cf7836c95a0b547955063e894fcbf448dfa311cd2de444b899cf1a8ee62e3090",
     "change": "unchanged"
   },
@@ -706,7 +850,7 @@
     "sha256": "d23d16accfd99ae65502089470d57036ac485a76d1af1bfd67db87f2b602a19b",
     "bytes": 197,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "d23d16accfd99ae65502089470d57036ac485a76d1af1bfd67db87f2b602a19b",
     "change": "unchanged"
   },
@@ -715,16 +859,16 @@
     "sha256": "56af281b3dea0bd140678f101b9e1e7d63106145695b8d006995842f9b0dd749",
     "bytes": 8010,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "83dcf37cbf564a9010ce0305ce5a56b2f6c8ddbe131dbf2c0bf7a0c3ba7de908",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "56af281b3dea0bd140678f101b9e1e7d63106145695b8d006995842f9b0dd749",
+    "change": "unchanged"
   },
   {
     "path": "figures/sources/historical/postprocess_transfer.py",
     "sha256": "ce18d64f8584e459c455877d2be79adf0f0dded3ce59f4be32018efe04039057",
     "bytes": 12887,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "ce18d64f8584e459c455877d2be79adf0f0dded3ce59f4be32018efe04039057",
     "change": "unchanged"
   },
@@ -733,25 +877,25 @@
     "sha256": "cfe5d5d9abe64941573c9bee007a55e6e37e1431cd289ca9d18db2cc03b9b29f",
     "bytes": 7120,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "c82fcf6bac5ffdb544beac695b0dfb796f251a465d5ab7e11b4158af6d55646f",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "cfe5d5d9abe64941573c9bee007a55e6e37e1431cd289ca9d18db2cc03b9b29f",
+    "change": "unchanged"
   },
   {
     "path": "figures/sources/plot_main_figures.py",
     "sha256": "1fdc73847e87c5a712e7ab7ad0f7f54f41ee7faee4f5794e9f968050d915b48c",
     "bytes": 9682,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "64a4cf8653c4cd523cd8676ef7369c7e29ddb3409fe9f997c089f7007e2446b5",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "1fdc73847e87c5a712e7ab7ad0f7f54f41ee7faee4f5794e9f968050d915b48c",
+    "change": "unchanged"
   },
   {
     "path": "figures/sources/plot_pooled.py",
     "sha256": "77eb835b5f6574b713c4c94831e62ef763dfae33787e3e36ad6e1f87c66648d2",
     "bytes": 16598,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "77eb835b5f6574b713c4c94831e62ef763dfae33787e3e36ad6e1f87c66648d2",
     "change": "unchanged"
   },
@@ -760,34 +904,97 @@
     "sha256": "b6e1aabd180c5a4993511e9668949499b1bd481dce38163297b705d5a1359eb8",
     "bytes": 9187,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "8ab253a7ad8e84a5350e0eac2e791961df1a82c409da26044c9e5eae084391b9",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "b6e1aabd180c5a4993511e9668949499b1bd481dce38163297b705d5a1359eb8",
+    "change": "unchanged"
   },
   {
     "path": "figures/sources/plot_transfer.py",
     "sha256": "01be6afee16c1691288a8ec1bdf4a18985bc3a95091d1588e56edb2471c5d49e",
     "bytes": 676,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "01be6afee16c1691288a8ec1bdf4a18985bc3a95091d1588e56edb2471c5d49e",
     "change": "unchanged"
+  },
+  {
+    "path": "figures/vector_pdf/Figure_1.pdf",
+    "sha256": "98c8043a5ae2410689630f7bec21fad87d7be0a83a151fc1755afa86793594a8",
+    "bytes": 18033,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "figures/vector_pdf/Figure_2.pdf",
+    "sha256": "e9966841de5ed977dff2cc260a9d189ce822843144e50a53182fd50ebd7df43d",
+    "bytes": 16018,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "figures/vector_pdf/Figure_3.pdf",
+    "sha256": "9b62b14dc16abec7f43b8142eb5735f93faf7fcda16c1a5606b29928b7ca43fe",
+    "bytes": 23058,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "figures/vector_pdf/Figure_S1.pdf",
+    "sha256": "43b7fb3716d7716dadba958d19d909a0b5be22229b358d8aa46da52150e85bb4",
+    "bytes": 27899,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "figures/vector_pdf/Figure_S2.pdf",
+    "sha256": "48f534d9535c90f2e50b81690f5438a635e79485845c748dcdd78e5f25d4333a",
+    "bytes": 29844,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "figures/vector_pdf/Figure_S3.pdf",
+    "sha256": "0d6f97c6e3c40af39e1b85f05c356b0c05fce7aacde446a723d48a47056e4a01",
+    "bytes": 53177,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "figures/vector_pdf/Figure_S4.pdf",
+    "sha256": "259e2675a7ddd1b3f913926a37deb64973f8749bc43500f3af4e80fbbca33b99",
+    "bytes": 21937,
+    "role": "figure or font asset",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
   },
   {
     "path": "followup/independent/README_INDEPENDENT_EN.md",
     "sha256": "e27d40997c022c5f824b20e5c634a4c310472cc83a7a3439b4a353ad1e634165",
     "bytes": 2052,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "8b028c1517c7615ac3ba2e3a1338a59937d93cfca5f786cf1115a0ee815c7182",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "e27d40997c022c5f824b20e5c634a4c310472cc83a7a3439b4a353ad1e634165",
+    "change": "unchanged"
   },
   {
     "path": "followup/independent/compare_h5.py",
     "sha256": "5be7f4753e74aa57dac51e7fb61c18cf045f0c03e847a22a9cf3125e09f5eb41",
     "bytes": 5708,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "5be7f4753e74aa57dac51e7fb61c18cf045f0c03e847a22a9cf3125e09f5eb41",
     "change": "unchanged"
   },
@@ -796,7 +1003,7 @@
     "sha256": "2a80fb2127ad95890e6bfdc2d7c5c0c3a08dbcb871a43d330d4841353209f5f6",
     "bytes": 2134,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "2a80fb2127ad95890e6bfdc2d7c5c0c3a08dbcb871a43d330d4841353209f5f6",
     "change": "unchanged"
   },
@@ -805,7 +1012,7 @@
     "sha256": "e47641dbcbda43866441e55b09657dc05e27f8fd941108d7fe42c317f5c9b0ac",
     "bytes": 15185,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "e47641dbcbda43866441e55b09657dc05e27f8fd941108d7fe42c317f5c9b0ac",
     "change": "unchanged"
   },
@@ -814,16 +1021,16 @@
     "sha256": "f3d6536f0de1ccd09cb18f3e73a4a7071eeada16a3423cbfca0572285ae6fa72",
     "bytes": 5921,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "80c5d6d9d69cbb38901ee1f169acc9d912ac11a3d1fb1604aa46037c6f3418bb",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "f3d6536f0de1ccd09cb18f3e73a4a7071eeada16a3423cbfca0572285ae6fa72",
+    "change": "unchanged"
   },
   {
     "path": "followup/inputs/run_e4_frozen_analysis_v1.0.2.py",
     "sha256": "0ac2f1d60dbafcdc5edd763e682759732f326cceb66639cdf50647d34987a402",
     "bytes": 54656,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "0ac2f1d60dbafcdc5edd763e682759732f326cceb66639cdf50647d34987a402",
     "change": "unchanged"
   },
@@ -832,16 +1039,16 @@
     "sha256": "3a9eef6c9bdf42872422f54a20f216b266d28b47811d47a80ca672043db9ca99",
     "bytes": 11034,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "a62c851289541a00e387c68f8bcbc31c78677c18116c714f46c180af2858f777",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "3a9eef6c9bdf42872422f54a20f216b266d28b47811d47a80ca672043db9ca99",
+    "change": "unchanged"
   },
   {
     "path": "followup/protocol/H5_LOCK_RECEIPT.json",
     "sha256": "22f49e665cdcd0a3b59717784d6f133862322e1a76af0e260dea8cd4ffcec343",
     "bytes": 213,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "22f49e665cdcd0a3b59717784d6f133862322e1a76af0e260dea8cd4ffcec343",
     "change": "unchanged"
   },
@@ -850,7 +1057,7 @@
     "sha256": "6a2fe9d4fcc2ff83d960681c10881ea78060614b43383f857733558e96c73874",
     "bytes": 5457,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "6a2fe9d4fcc2ff83d960681c10881ea78060614b43383f857733558e96c73874",
     "change": "unchanged"
   },
@@ -859,7 +1066,7 @@
     "sha256": "16b4b5ff39167dd6ead96b6677ae26fc4c2f1e7228d6606a5818e19d5c9cfefe",
     "bytes": 96,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "16b4b5ff39167dd6ead96b6677ae26fc4c2f1e7228d6606a5818e19d5c9cfefe",
     "change": "unchanged"
   },
@@ -868,16 +1075,16 @@
     "sha256": "b5e13a799ede8719546430d8c4c4c0a3511b9adcb3b6d343ecd7e9323c81664f",
     "bytes": 4406,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "fec23189d82239ed244685852fea553ae44876de1e3f444dc83da217f1ee935c",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "b5e13a799ede8719546430d8c4c4c0a3511b9adcb3b6d343ecd7e9323c81664f",
+    "change": "unchanged"
   },
   {
     "path": "followup/software/pilot_primitives.py",
     "sha256": "f889a893cdb17be00db5832b32bc22ddccc0bedecb44b7f13b9cb0eed3449e2e",
     "bytes": 8297,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "f889a893cdb17be00db5832b32bc22ddccc0bedecb44b7f13b9cb0eed3449e2e",
     "change": "unchanged"
   },
@@ -886,25 +1093,25 @@
     "sha256": "1d91147e92443377fe156680f23633bec421df68ba7a16bcd5b96bc3da8a9534",
     "bytes": 26848,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "675e26384354089f9fe38f5258f18924668c1cc65546c7bb7869607fb42c80d8",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "1d91147e92443377fe156680f23633bec421df68ba7a16bcd5b96bc3da8a9534",
+    "change": "unchanged"
   },
   {
     "path": "followup/software/run_h5_followup.py",
     "sha256": "2b5fe7acce8ffab9c9ea60df63fdd55f7d0046776c141e6588cd759ef8f658ed",
     "bytes": 17544,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "fca0bf50036d9693a7cb6c88ded9591088b4f0e6cdcdf5164e13e2b56fe31cf8",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "2b5fe7acce8ffab9c9ea60df63fdd55f7d0046776c141e6588cd759ef8f658ed",
+    "change": "unchanged"
   },
   {
     "path": "followup/software/test_h5_followup.py",
     "sha256": "bc183d87810be4c6f9c5aeb40ba1824d589211cc6481ed0476a887a3af44c88f",
     "bytes": 3280,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "bc183d87810be4c6f9c5aeb40ba1824d589211cc6481ed0476a887a3af44c88f",
     "change": "unchanged"
   },
@@ -913,16 +1120,97 @@
     "sha256": "31bb37b0947fb6fccf3a774be957613bc989051250cabe89e4ab5cb5b67dae7b",
     "bytes": 4354,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "31bb37b0947fb6fccf3a774be957613bc989051250cabe89e4ab5cb5b67dae7b",
     "change": "unchanged"
+  },
+  {
+    "path": "h7_capacity/INTEGRATION_PROVENANCE.json",
+    "sha256": "a116b62abd08dd2d5b2fc42944b3b9cbf4e77fcf013596c6e5daac844f092075",
+    "bytes": 3104,
+    "role": "protocol or metadata",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "h7_capacity/README.md",
+    "sha256": "bbdae9b2e8442418ef77111f192f353163b7cce203dccced5abc53c96fa34645",
+    "bytes": 4196,
+    "role": "documentation or configuration",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "h7_capacity/build_h7_capacity.py",
+    "sha256": "c60a22162265f1e06060754a5ec6eb7a26f9430dbb9f6f02a3bf2af25bae7a7e",
+    "bytes": 14256,
+    "role": "source",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "h7_capacity/check_aggregate_contracts.py",
+    "sha256": "bd9d25bbcff56a405908466a149ed0e6ae5acf623310836588fc17f889d5a20f",
+    "bytes": 7992,
+    "role": "source",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "h7_capacity/reproduce.py",
+    "sha256": "b547bbdb2963252d1e8741a2abc25ad6b1e99cfd925b1cbf9bfa49fc1f403098",
+    "bytes": 7350,
+    "role": "source",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "h7_capacity/requirements-complete-linux-py312.txt",
+    "sha256": "06b6136c7e7088ac8a626e3c8229470145ee8ac54bcb64443ab5760d8915aa82",
+    "bytes": 306,
+    "role": "documentation or configuration",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "h7_capacity/requirements.txt",
+    "sha256": "2a48c5f1196117bf5d337ae43ea3c37fa4121ebd87bea761570a115aa787c6de",
+    "bytes": 77,
+    "role": "documentation or configuration",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "h7_capacity/svg_to_native_odg.py",
+    "sha256": "ab83eca6fae796510f4fee1e4a9a9594b3e8f2b462e936f5be33dc9bbb2eaf1c",
+    "bytes": 18027,
+    "role": "source",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
+  },
+  {
+    "path": "h7_capacity/verify_h7_capacity.py",
+    "sha256": "49eac637b4c707b320fa0cfbc348c6aaca7118fa69801dc8ca270c3c99534ab0",
+    "bytes": 12447,
+    "role": "source",
+    "baseline": null,
+    "baseline_sha256": null,
+    "change": "added"
   },
   {
     "path": "legacy/.gitignore",
     "sha256": "67acc1acb66aed0aa155b0b28ae45770bc6eb9cbb5da2f42bccb5f578ca9ffcd",
     "bytes": 166,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "67acc1acb66aed0aa155b0b28ae45770bc6eb9cbb5da2f42bccb5f578ca9ffcd",
     "change": "unchanged"
   },
@@ -931,7 +1219,7 @@
     "sha256": "6cec4d1ceb37a8d2c1fde50e9b70a14297292e134f1922089f5ce28bdc8bec92",
     "bytes": 472,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "6cec4d1ceb37a8d2c1fde50e9b70a14297292e134f1922089f5ce28bdc8bec92",
     "change": "unchanged"
   },
@@ -940,7 +1228,7 @@
     "sha256": "91d922326d0bdcdaeec6b87bae8df83a4229bea35f336fa9a9647924f87b724e",
     "bytes": 321,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "91d922326d0bdcdaeec6b87bae8df83a4229bea35f336fa9a9647924f87b724e",
     "change": "unchanged"
   },
@@ -949,7 +1237,7 @@
     "sha256": "98d44fab4d3b335a952fde4891c3a1a7008d7acb0065e5e558da6ea4f39f9338",
     "bytes": 543,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "98d44fab4d3b335a952fde4891c3a1a7008d7acb0065e5e558da6ea4f39f9338",
     "change": "unchanged"
   },
@@ -958,43 +1246,43 @@
     "sha256": "f9e1db69db35f6aa7555f9404bbca6f087b8c5a9276fef208a18d2fad84e0428",
     "bytes": 1907,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "19803e07b2f1855378f2ef7f879384d4d4b5e8d510761e482344ab9b331f8c0a",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "f9e1db69db35f6aa7555f9404bbca6f087b8c5a9276fef208a18d2fad84e0428",
+    "change": "unchanged"
   },
   {
     "path": "legacy/RAW_POOLED_README_EN.md",
     "sha256": "4d623f6affe995511c5229103e8a83ad1d34d78cdff6d857aa4ac667ef1a652a",
     "bytes": 3826,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "aac0b14ca6fec6e02045db89b6710679b04a65f3b90de9a429d4debc1cb46997",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "4d623f6affe995511c5229103e8a83ad1d34d78cdff6d857aa4ac667ef1a652a",
+    "change": "unchanged"
   },
   {
     "path": "legacy/README.md",
     "sha256": "88e45ec488ac5b0d2867de226a6b1cbb5e2297e4c9e57c34b273e0b541c31ffe",
     "bytes": 7886,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "01609045abd506ac894847f7ad35ad4a217eaea8ec923046fc85b4e6cdfdd8cf",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "88e45ec488ac5b0d2867de226a6b1cbb5e2297e4c9e57c34b273e0b541c31ffe",
+    "change": "unchanged"
   },
   {
     "path": "legacy/RIGHTS_AND_PROVENANCE_EN.md",
     "sha256": "3962abfb8d2a2effb06eb7a3fd9254e4a42bc3d4a410eabdd847f7fe0125d4a6",
     "bytes": 1197,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "1c477623de2163387e40dad1ecc865f728ef95ef2b08423cc2e0804adc3f41e2",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "3962abfb8d2a2effb06eb7a3fd9254e4a42bc3d4a410eabdd847f7fe0125d4a6",
+    "change": "unchanged"
   },
   {
     "path": "legacy/historical/README.md",
     "sha256": "841ce58f3571bc39e02e02f804a3a4e5703ec632d1a3ae1cf8eb4ca31c3e531b",
     "bytes": 365,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "841ce58f3571bc39e02e02f804a3a4e5703ec632d1a3ae1cf8eb4ca31c3e531b",
     "change": "unchanged"
   },
@@ -1003,7 +1291,7 @@
     "sha256": "7f4b9b1432b2bec5c65a89a1a1a54a6dd361e8ea60c8ffefc4d25328c68aa562",
     "bytes": 8206,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "7f4b9b1432b2bec5c65a89a1a1a54a6dd361e8ea60c8ffefc4d25328c68aa562",
     "change": "unchanged"
   },
@@ -1012,7 +1300,7 @@
     "sha256": "38c697a7e003fa9b203d3c240f843d709f74e630ecf5909a0eabc85e7cce17ff",
     "bytes": 3997,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "38c697a7e003fa9b203d3c240f843d709f74e630ecf5909a0eabc85e7cce17ff",
     "change": "unchanged"
   },
@@ -1021,7 +1309,7 @@
     "sha256": "290bce008d24b7d3aaa5dc0d25105d7d149562c3c86b2f3ddcbe4474518f5112",
     "bytes": 11352,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "290bce008d24b7d3aaa5dc0d25105d7d149562c3c86b2f3ddcbe4474518f5112",
     "change": "unchanged"
   },
@@ -1030,7 +1318,7 @@
     "sha256": "77eb835b5f6574b713c4c94831e62ef763dfae33787e3e36ad6e1f87c66648d2",
     "bytes": 16598,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "77eb835b5f6574b713c4c94831e62ef763dfae33787e3e36ad6e1f87c66648d2",
     "change": "unchanged"
   },
@@ -1039,7 +1327,7 @@
     "sha256": "7ad96d55f166a43283e12a178ac4b4c68672d4e993b57eed4e3b0c88442a0f77",
     "bytes": 11701,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "7ad96d55f166a43283e12a178ac4b4c68672d4e993b57eed4e3b0c88442a0f77",
     "change": "unchanged"
   },
@@ -1048,7 +1336,7 @@
     "sha256": "c7e6a2a09936c0b5e621c4c8f31cc9be4e816a5ca708368021ca994a49a632a8",
     "bytes": 2053,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "c7e6a2a09936c0b5e621c4c8f31cc9be4e816a5ca708368021ca994a49a632a8",
     "change": "unchanged"
   },
@@ -1057,7 +1345,7 @@
     "sha256": "cc2ead83ab14d619e026b613f41fe747dcd848855d3705c6b2b4526481a807ca",
     "bytes": 6732,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "cc2ead83ab14d619e026b613f41fe747dcd848855d3705c6b2b4526481a807ca",
     "change": "unchanged"
   },
@@ -1066,7 +1354,7 @@
     "sha256": "f50aeb8e09f2f3650f4f527c20cd8d7f4a8ae3c434201ffa29e5d7b894e3261e",
     "bytes": 1701,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "f50aeb8e09f2f3650f4f527c20cd8d7f4a8ae3c434201ffa29e5d7b894e3261e",
     "change": "unchanged"
   },
@@ -1075,7 +1363,7 @@
     "sha256": "6e1d8b48a9526bb69b8286165854fdb3d1c473d261f6200bdaa23af5fac0af2b",
     "bytes": 1040,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "6e1d8b48a9526bb69b8286165854fdb3d1c473d261f6200bdaa23af5fac0af2b",
     "change": "unchanged"
   },
@@ -1084,7 +1372,7 @@
     "sha256": "670e4b1255804e839dc046ac2d6b80c3716517d4c751b7baf7e839038643525b",
     "bytes": 327,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "670e4b1255804e839dc046ac2d6b80c3716517d4c751b7baf7e839038643525b",
     "change": "unchanged"
   },
@@ -1093,7 +1381,7 @@
     "sha256": "f6e129b72ccbf285a9d463999b6d480ff99cc1cdd734690c836db6ae914fad0e",
     "bytes": 204,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "f6e129b72ccbf285a9d463999b6d480ff99cc1cdd734690c836db6ae914fad0e",
     "change": "unchanged"
   },
@@ -1102,7 +1390,7 @@
     "sha256": "9c25e3c1501738180a7ebf625da35a2dbd8fde8e51bfa2220f16d689255ec69c",
     "bytes": 157586,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "9c25e3c1501738180a7ebf625da35a2dbd8fde8e51bfa2220f16d689255ec69c",
     "change": "unchanged"
   },
@@ -1111,7 +1399,7 @@
     "sha256": "4b81335058dff1dfabdd5b8b1773709978561e5062bfe0e9b422fa6a634d4383",
     "bytes": 536,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "4b81335058dff1dfabdd5b8b1773709978561e5062bfe0e9b422fa6a634d4383",
     "change": "unchanged"
   },
@@ -1120,7 +1408,7 @@
     "sha256": "ac7e20788cb19334fc6641a24c03465851af4735404f07f1b3953936f855c12c",
     "bytes": 2319,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "ac7e20788cb19334fc6641a24c03465851af4735404f07f1b3953936f855c12c",
     "change": "unchanged"
   },
@@ -1129,7 +1417,7 @@
     "sha256": "623cbf124088d1eae80f3f64ab4f7e2726c8241b3e4ed59527bd6025c3dd9ed1",
     "bytes": 9239,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "623cbf124088d1eae80f3f64ab4f7e2726c8241b3e4ed59527bd6025c3dd9ed1",
     "change": "unchanged"
   },
@@ -1138,7 +1426,7 @@
     "sha256": "19c1133a031ed85b9679e5afafb97bbae224aa7055c5330aa8b3a4c088c0291c",
     "bytes": 1109,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "19c1133a031ed85b9679e5afafb97bbae224aa7055c5330aa8b3a4c088c0291c",
     "change": "unchanged"
   },
@@ -1147,7 +1435,7 @@
     "sha256": "b1b1becf15b2a3f5db49f92d28e73f3fd7d66be25f7119f42ddffe5f79fdd3fb",
     "bytes": 85603,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "b1b1becf15b2a3f5db49f92d28e73f3fd7d66be25f7119f42ddffe5f79fdd3fb",
     "change": "unchanged"
   },
@@ -1156,7 +1444,7 @@
     "sha256": "207c9615519037f89c744fabb74b209489efbd6a8c665770fb9a0d0e3afa347e",
     "bytes": 1375,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "207c9615519037f89c744fabb74b209489efbd6a8c665770fb9a0d0e3afa347e",
     "change": "unchanged"
   },
@@ -1165,7 +1453,7 @@
     "sha256": "5f31b6ad2475a51a340743b113ab181db4aa9da2bca825700980e7ab8fa19cab",
     "bytes": 611,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "5f31b6ad2475a51a340743b113ab181db4aa9da2bca825700980e7ab8fa19cab",
     "change": "unchanged"
   },
@@ -1174,7 +1462,7 @@
     "sha256": "e3b2ae0932bb720b4c6b412660e9fd7a32cb8790a468e2a5bab422c2b6535c69",
     "bytes": 4139,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "e3b2ae0932bb720b4c6b412660e9fd7a32cb8790a468e2a5bab422c2b6535c69",
     "change": "unchanged"
   },
@@ -1183,7 +1471,7 @@
     "sha256": "8f13a5474e531bd0c48586a291f34142211e6300d016323d8be4478f7e1a473d",
     "bytes": 1227,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "8f13a5474e531bd0c48586a291f34142211e6300d016323d8be4478f7e1a473d",
     "change": "unchanged"
   },
@@ -1192,7 +1480,7 @@
     "sha256": "0dcdec68a3f7535ef7a770daba7595fa866ffa9eaec1589e17f76028f05620ea",
     "bytes": 33156,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "0dcdec68a3f7535ef7a770daba7595fa866ffa9eaec1589e17f76028f05620ea",
     "change": "unchanged"
   },
@@ -1201,7 +1489,7 @@
     "sha256": "9d6d7eae2d5f9b217a9eaa95c57d57ec33956949425518c1a33bbd87c3c9cd49",
     "bytes": 4909,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "9d6d7eae2d5f9b217a9eaa95c57d57ec33956949425518c1a33bbd87c3c9cd49",
     "change": "unchanged"
   },
@@ -1210,7 +1498,7 @@
     "sha256": "65b97f7db87e4cdcb0f4157240cfece5b48363b3e6a18fdccf72d6528ebcbf85",
     "bytes": 41,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "65b97f7db87e4cdcb0f4157240cfece5b48363b3e6a18fdccf72d6528ebcbf85",
     "change": "unchanged"
   },
@@ -1219,7 +1507,7 @@
     "sha256": "bc4e233d5c03413be5741c17ab0b5c68e26b49d5c88a83a1712bdc4623514bf5",
     "bytes": 183,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "bc4e233d5c03413be5741c17ab0b5c68e26b49d5c88a83a1712bdc4623514bf5",
     "change": "unchanged"
   },
@@ -1228,7 +1516,7 @@
     "sha256": "202900ea1e24ce6cecf3a34ec5a6946009408a497af9964a4fba92cfecb991f4",
     "bytes": 29,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "202900ea1e24ce6cecf3a34ec5a6946009408a497af9964a4fba92cfecb991f4",
     "change": "unchanged"
   },
@@ -1237,7 +1525,7 @@
     "sha256": "d410464ef9ccff215fab0643193a13e678407b32592a99a6cb9a3fe000800dfe",
     "bytes": 14063,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "d410464ef9ccff215fab0643193a13e678407b32592a99a6cb9a3fe000800dfe",
     "change": "unchanged"
   },
@@ -1246,16 +1534,16 @@
     "sha256": "f21af5b9609f6aac00296d075f0942c25dc5cb5878fb7097220a5984b235946a",
     "bytes": 12343,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "aa475c395bc60a4b84f4a5024af69a0e9427bc501a3bfe95a593a2b2b555729a",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "f21af5b9609f6aac00296d075f0942c25dc5cb5878fb7097220a5984b235946a",
+    "change": "unchanged"
   },
   {
     "path": "legacy/test_raw_pooled.py",
     "sha256": "5b603d0848901df15062591e75d0812c359a64b75fcaaa6570bc332d3bab5e3a",
     "bytes": 2503,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "5b603d0848901df15062591e75d0812c359a64b75fcaaa6570bc332d3bab5e3a",
     "change": "unchanged"
   },
@@ -1264,7 +1552,7 @@
     "sha256": "c4414d99e3ca506aba79b369df64a9dfdf83abbba1649e154dd6b72b094b5bb3",
     "bytes": 3427,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "c4414d99e3ca506aba79b369df64a9dfdf83abbba1649e154dd6b72b094b5bb3",
     "change": "unchanged"
   },
@@ -1273,16 +1561,16 @@
     "sha256": "6537b298bbb45be176fbafed2089f2e71ece94d3e83387659ca969455b4bc8d6",
     "bytes": 5454,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "f6a53bff9fedc1a0a8655a7c2921dbe633ac8e7b3a29a84c097e6dad6f8434f3",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "6537b298bbb45be176fbafed2089f2e71ece94d3e83387659ca969455b4bc8d6",
+    "change": "unchanged"
   },
   {
     "path": "legacy/transfer/engine/demo_synthetic.py",
     "sha256": "c380a86c6d878cda2abbcf7424899ba81195dd9f754838388cb00f8aae52fb7e",
     "bytes": 2845,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "c380a86c6d878cda2abbcf7424899ba81195dd9f754838388cb00f8aae52fb7e",
     "change": "unchanged"
   },
@@ -1291,16 +1579,16 @@
     "sha256": "f2270ee33bea14dcfaac4610d09ab0ee431d4b38ae7f34b4e7701335384d5884",
     "bytes": 21813,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "2b280a2bb9d899f0d98ede052062e34eb6dd43a56d290915a33494b02b9f4ba9",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "f2270ee33bea14dcfaac4610d09ab0ee431d4b38ae7f34b4e7701335384d5884",
+    "change": "unchanged"
   },
   {
     "path": "legacy/transfer/engine/test_holdout_engine.py",
     "sha256": "ae6da3695362af0c4fe60951a5f4a4ddbc2d4d4bdea318e2e7019b1c43dd3694",
     "bytes": 9769,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "ae6da3695362af0c4fe60951a5f4a4ddbc2d4d4bdea318e2e7019b1c43dd3694",
     "change": "unchanged"
   },
@@ -1309,7 +1597,7 @@
     "sha256": "411f8e60eb271f2532143e725bc6d132acdbca176a8e40b5932f395676ab8f53",
     "bytes": 1994,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "411f8e60eb271f2532143e725bc6d132acdbca176a8e40b5932f395676ab8f53",
     "change": "unchanged"
   },
@@ -1318,16 +1606,16 @@
     "sha256": "24cc8a7144648a86b34982912a09de68a621eef0ab98ed490f314fac6e2a8b2b",
     "bytes": 979,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "35205a210542788e214c085343242fda852d01510fea4017467d2112b9dcdd3f",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "24cc8a7144648a86b34982912a09de68a621eef0ab98ed490f314fac6e2a8b2b",
+    "change": "unchanged"
   },
   {
     "path": "legacy/transfer/extractor/TEST_LOG.txt",
     "sha256": "f2ba0291b344e68b89b7d42d52c6ddd3aa2754ddd51f1ec5ca423b487a9c6a06",
     "bytes": 1639,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "f2ba0291b344e68b89b7d42d52c6ddd3aa2754ddd51f1ec5ca423b487a9c6a06",
     "change": "unchanged"
   },
@@ -1336,16 +1624,16 @@
     "sha256": "df5d033536bdda1c5da8fec7c4c5355239021367b3345904ae3120d85cc21664",
     "bytes": 14260,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "b9b938172aac31239a765c35aaa7a84d26bed71a1f4534e1df1b2f531f126237",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "df5d033536bdda1c5da8fec7c4c5355239021367b3345904ae3120d85cc21664",
+    "change": "unchanged"
   },
   {
     "path": "legacy/transfer/extractor/requirements.txt",
     "sha256": "65b97f7db87e4cdcb0f4157240cfece5b48363b3e6a18fdccf72d6528ebcbf85",
     "bytes": 41,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "65b97f7db87e4cdcb0f4157240cfece5b48363b3e6a18fdccf72d6528ebcbf85",
     "change": "unchanged"
   },
@@ -1354,16 +1642,16 @@
     "sha256": "e4377a1c2b24ce171ce7bbec1d2b8868a3bba1baad83beec4e6b6068f793947d",
     "bytes": 7749,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "6dcfa0c96e71d6d7588450d0de8b52b3234dfeca9b48b071df0ae8cbbff0f082",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "e4377a1c2b24ce171ce7bbec1d2b8868a3bba1baad83beec4e6b6068f793947d",
+    "change": "unchanged"
   },
   {
     "path": "legacy/transfer/extractor/vendor/protocols/E2_OUTCOME_AND_SAMPLE_CONTRACT.json",
     "sha256": "7a2ac874b1bd12fcebf102b602f81ff6d7471595f46dd68f2230ed9ed5073cb7",
     "bytes": 4739,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "7a2ac874b1bd12fcebf102b602f81ff6d7471595f46dd68f2230ed9ed5073cb7",
     "change": "unchanged"
   },
@@ -1372,16 +1660,16 @@
     "sha256": "f63fa3abf1adf0da613ed70cbcbd2fb56ea40710b0519fc29449ccb3611a0422",
     "bytes": 16200,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "9cc3214c4c126fcf5100e276e1f37bfc6c823740daf9f3d6e6c7852dcaad6b98",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "f63fa3abf1adf0da613ed70cbcbd2fb56ea40710b0519fc29449ccb3611a0422",
+    "change": "unchanged"
   },
   {
     "path": "legacy/transfer/extractor/vendor/provenance/legacy_licences/LICENSE_CODE.txt",
     "sha256": "2c27b30e1904206c71570ce75f9dba2919d5243e00c7a7f889f4478c5c25c686",
     "bytes": 1068,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "2c27b30e1904206c71570ce75f9dba2919d5243e00c7a7f889f4478c5c25c686",
     "change": "unchanged"
   },
@@ -1390,7 +1678,7 @@
     "sha256": "172a5eb6a316e8e4e2349cd8f48b7d1f2473f2c266a9398ea74bb5b56b270cda",
     "bytes": 457,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "172a5eb6a316e8e4e2349cd8f48b7d1f2473f2c266a9398ea74bb5b56b270cda",
     "change": "unchanged"
   },
@@ -1399,7 +1687,7 @@
     "sha256": "b6d59ffc583ddb05a453f581030e8da745bfcf368bf2989912a3927e750b1f79",
     "bytes": 396,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "b6d59ffc583ddb05a453f581030e8da745bfcf368bf2989912a3927e750b1f79",
     "change": "unchanged"
   },
@@ -1408,7 +1696,7 @@
     "sha256": "0ac2f1d60dbafcdc5edd763e682759732f326cceb66639cdf50647d34987a402",
     "bytes": 54656,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "0ac2f1d60dbafcdc5edd763e682759732f326cceb66639cdf50647d34987a402",
     "change": "unchanged"
   },
@@ -1417,16 +1705,16 @@
     "sha256": "b6e1aabd180c5a4993511e9668949499b1bd481dce38163297b705d5a1359eb8",
     "bytes": 9187,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "8ab253a7ad8e84a5350e0eac2e791961df1a82c409da26044c9e5eae084391b9",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "b6e1aabd180c5a4993511e9668949499b1bd481dce38163297b705d5a1359eb8",
+    "change": "unchanged"
   },
   {
     "path": "legacy/transfer/plot_transfer.py",
     "sha256": "01be6afee16c1691288a8ec1bdf4a18985bc3a95091d1588e56edb2471c5d49e",
     "bytes": 676,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "01be6afee16c1691288a8ec1bdf4a18985bc3a95091d1588e56edb2471c5d49e",
     "change": "unchanged"
   },
@@ -1435,7 +1723,7 @@
     "sha256": "ce18d64f8584e459c455877d2be79adf0f0dded3ce59f4be32018efe04039057",
     "bytes": 12887,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "ce18d64f8584e459c455877d2be79adf0f0dded3ce59f4be32018efe04039057",
     "change": "unchanged"
   },
@@ -1444,61 +1732,61 @@
     "sha256": "f3d6536f0de1ccd09cb18f3e73a4a7071eeada16a3423cbfca0572285ae6fa72",
     "bytes": 5921,
     "role": "protocol or metadata",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "80c5d6d9d69cbb38901ee1f169acc9d912ac11a3d1fb1604aa46037c6f3418bb",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "f3d6536f0de1ccd09cb18f3e73a4a7071eeada16a3423cbfca0572285ae6fa72",
+    "change": "unchanged"
   },
   {
     "path": "legacy/transfer/protocol/PROTOCOL_EN.md",
     "sha256": "cefd3a5700d89f6cbd87e4b1a4b805fd72b2732eddbc4afad6c3cd311089bf6c",
     "bytes": 9305,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "9ca3b90e1c92741dc4887c10a86c747c32837c9dca56f4213656a61837329a25",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "cefd3a5700d89f6cbd87e4b1a4b805fd72b2732eddbc4afad6c3cd311089bf6c",
+    "change": "unchanged"
   },
   {
     "path": "legacy/transfer/run_h1.py",
     "sha256": "e2a619301e839dfd2465a27c1e4e113fe90a786f0207d49d385efc445f5d99ac",
     "bytes": 5387,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "1d72fcbd831f1aca8e213d87a8361bca52350813de74aa8f02f775bd0d72f2d8",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "e2a619301e839dfd2465a27c1e4e113fe90a786f0207d49d385efc445f5d99ac",
+    "change": "unchanged"
   },
   {
     "path": "legacy/transfer/run_transfer_from_raw.py",
     "sha256": "f8cb60a19cb3171a62cd389f24abc3fe15bf8103b77f19e422df01fc5062a449",
     "bytes": 9032,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "543822b971cbced77fb612baea4af518481b8137778d029ec120568c252287bd",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "f8cb60a19cb3171a62cd389f24abc3fe15bf8103b77f19e422df01fc5062a449",
+    "change": "unchanged"
   },
   {
     "path": "legacy/transfer/verify_empirical_rows.py",
     "sha256": "5797299713cbad4a4e9b248498a94a583471d0a9e077bb6a7d30eebf4b39a0fd",
     "bytes": 16489,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "a5ae714efa6036d8467ca1f9627adf5a024fbb40f2417432269c7631b3bc707c",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "5797299713cbad4a4e9b248498a94a583471d0a9e077bb6a7d30eebf4b39a0fd",
+    "change": "unchanged"
   },
   {
     "path": "legacy/transfer/verify_h1.py",
     "sha256": "5ffb9768067c00bebdf97e1642405359c0f787ba2dabac0f77fa11bedbba65d5",
     "bytes": 5051,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "687ea1913905a38e73e2df10eb635b3bfc19a2bb6e40f1f57cbc375c98619571",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "5ffb9768067c00bebdf97e1642405359c0f787ba2dabac0f77fa11bedbba65d5",
+    "change": "unchanged"
   },
   {
     "path": "reported_results/H4/equal_country_contrast_summaries.csv",
     "sha256": "1abf6d9e49a7c02e5a63edad97403d47a93ebee442c4f15cac96eb2055098b61",
     "bytes": 77731,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "1abf6d9e49a7c02e5a63edad97403d47a93ebee442c4f15cac96eb2055098b61",
     "change": "unchanged"
   },
@@ -1507,7 +1795,7 @@
     "sha256": "516c695c3cc1f6a25ca77cd7101a2b4bd858628d86081fb35fbe83a71b76094c",
     "bytes": 200192,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "516c695c3cc1f6a25ca77cd7101a2b4bd858628d86081fb35fbe83a71b76094c",
     "change": "unchanged"
   },
@@ -1516,7 +1804,7 @@
     "sha256": "ad0e2f8641ef48ec5415f23b16c880883db5448f175ecafc903bcf3385af9a6e",
     "bytes": 23671,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "ad0e2f8641ef48ec5415f23b16c880883db5448f175ecafc903bcf3385af9a6e",
     "change": "unchanged"
   },
@@ -1525,7 +1813,7 @@
     "sha256": "624797437ee9f49867fa981b0b5e3b8fd6ba6df0a2a334c28f9e762d7ce08d0b",
     "bytes": 4123,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "624797437ee9f49867fa981b0b5e3b8fd6ba6df0a2a334c28f9e762d7ce08d0b",
     "change": "unchanged"
   },
@@ -1534,7 +1822,7 @@
     "sha256": "1ea6d21fad893861b0e9f124d0a400fb90db27a76d7821dfc6dcda19233d0cc8",
     "bytes": 13862,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "1ea6d21fad893861b0e9f124d0a400fb90db27a76d7821dfc6dcda19233d0cc8",
     "change": "unchanged"
   },
@@ -1543,7 +1831,7 @@
     "sha256": "837bb28022c93bad2e4016c4550b1ba79f1cc3666917e046d00490c5bf579505",
     "bytes": 226506,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "837bb28022c93bad2e4016c4550b1ba79f1cc3666917e046d00490c5bf579505",
     "change": "unchanged"
   },
@@ -1552,7 +1840,7 @@
     "sha256": "0c97ac174b41e89877add38e1fc311ab7feff09d5decb322161c29e0bcc8bfee",
     "bytes": 23300,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "0c97ac174b41e89877add38e1fc311ab7feff09d5decb322161c29e0bcc8bfee",
     "change": "unchanged"
   },
@@ -1561,7 +1849,7 @@
     "sha256": "f3dcd98ad052d42281bf25ee8c992cf46abf213a48e8de5ccceda93fc4466f86",
     "bytes": 61976,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "f3dcd98ad052d42281bf25ee8c992cf46abf213a48e8de5ccceda93fc4466f86",
     "change": "unchanged"
   },
@@ -1570,7 +1858,7 @@
     "sha256": "c53a261c2debf6375b0e8aca3488be50897f5ece3255d6824cdb4f8bb49e3367",
     "bytes": 3150,
     "role": "reported aggregate",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "c53a261c2debf6375b0e8aca3488be50897f5ece3255d6824cdb4f8bb49e3367",
     "change": "unchanged"
   },
@@ -1579,7 +1867,7 @@
     "sha256": "4f308c88532e95406b2e8fb81feac001e6eedab431bc9344fea0856fee266cdf",
     "bytes": 6652,
     "role": "source",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "4f308c88532e95406b2e8fb81feac001e6eedab431bc9344fea0856fee266cdf",
     "change": "unchanged"
   },
@@ -1588,7 +1876,7 @@
     "sha256": "16b4b5ff39167dd6ead96b6677ae26fc4c2f1e7228d6606a5818e19d5c9cfefe",
     "bytes": 96,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
     "baseline_sha256": "16b4b5ff39167dd6ead96b6677ae26fc4c2f1e7228d6606a5818e19d5c9cfefe",
     "change": "unchanged"
   },
@@ -1597,8 +1885,8 @@
     "sha256": "13aafcd38ebac148e032c3542436c2bf1b1ac5e109b847ac8e4635f3a4762da4",
     "bytes": 266,
     "role": "documentation or configuration",
-    "baseline": "H9 software, 2026-11-05",
-    "baseline_sha256": "33fbf57021c5e73b63f01c5e2536a492b92f2b1275b74f646bdd221790f48f7b",
-    "change": "revised"
+    "baseline": "Public software v1.0.0, commit 1ce158cb5c076de75257343ca5899c558849c518",
+    "baseline_sha256": "13aafcd38ebac148e032c3542436c2bf1b1ac5e109b847ac8e4635f3a4762da4",
+    "change": "unchanged"
   }
 ]
